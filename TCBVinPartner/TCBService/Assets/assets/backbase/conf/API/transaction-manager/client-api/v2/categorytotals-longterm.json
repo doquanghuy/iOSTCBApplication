@@ -1,0 +1,126 @@
+{
+  "total": {
+    "amount": "12729",
+    "currencyCode": "EUR"
+  },
+  "items":
+  [
+    {
+      "category": "Entertainment",
+      "totalAmount": {
+        "amount": "864",
+        "currencyCode": "EUR"
+      },
+      "trend": 12,
+      "portion": 4
+    },
+    {
+      "category": "Food & Dining",
+      "totalAmount": {
+        "amount": "184",
+        "currencyCode": "EUR"
+      },
+      "trend": -3,
+      "portion": 13
+    },
+    {
+      "category": "Shopping",
+      "totalAmount": {
+        "amount": "648",
+        "currencyCode": "EUR"
+      },
+      "trend": -28,
+      "portion": 15
+    },
+    {
+      "category": "Transfer",
+      "totalAmount": {
+        "amount": "507",
+        "currencyCode": "EUR"
+      },
+      "trend": -32,
+      "portion": 0.2
+    },
+    {
+      "category": "Home",
+      "totalAmount": {
+        "amount": "235",
+        "currencyCode": "EUR"
+      },
+      "trend": 15,
+      "portion": 17
+    },
+    {
+      "category": "Health & Fitness",
+      "totalAmount": {
+        "amount": "1446",
+        "currencyCode": "EUR"
+      },
+      "trend": 5,
+      "portion": 5
+    },
+    {
+      "category": "Travel",
+      "totalAmount": {
+        "amount": "1281",
+        "currencyCode": "EUR"
+      },
+      "trend": 0,
+      "portion": 9
+    },
+    {
+      "category": "Bills & Utilities",
+      "totalAmount": {
+        "amount": "1437",
+        "currencyCode": "EUR"
+      },
+      "trend": 0,
+      "portion": 0.5
+    },
+    {
+      "category": "Income",
+      "totalAmount": {
+        "amount": "1548",
+        "currencyCode": "EUR"
+      },
+      "trend": 120,
+      "portion": 13
+    },
+    {
+      "category": "Investments",
+      "totalAmount": {
+        "amount": "1834",
+        "currencyCode": "EUR"
+      },
+      "trend": -2,
+      "portion": 0.3
+    },
+    {
+      "category": "Financial",
+      "totalAmount": {
+        "amount": "152",
+        "currencyCode": "EUR"
+      },
+      "trend": 100,
+      "portion": 14
+    },
+    {
+      "category": "Kids",
+      "totalAmount": {
+        "amount": "1082",
+        "currencyCode": "EUR"
+      },
+      "trend": 160,
+      "portion": 0.3
+    },
+    {
+      "category": "Uncategorized",
+      "totalAmount": {
+        "amount": "1511",
+        "currencyCode": "EUR"
+      },
+      "trend": -4,
+      "portion": 0.7
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "deposit": {
+        "status":"Success",
+        "depositAmount": {
+            "amount":"289.00",
+            "currencyCode": "USD"
+        },
+        "referenceNumber":"2984-9898-455",
+        "createdAt":"2018-01-10T10:20:00.090Z",
+        "product": {
+            "id": "121",
+            "productRefId": "1cdb2224-8926-4b4d-a99f-1c9dfbbb4691",
+            "number": "67981092709289279",
+            "name":"Mr and Mrs J. Smith",
+            "productAvailableBalance": {
+                "amount": "2000.00",
+                "currencyCode": "USD"
+            },
+            "productBalance": {
+                "amount": "12689.00",
+                "currencyCode": "USD"
+            }
+        }
+    },
+    "validationErrors": []
+}
+

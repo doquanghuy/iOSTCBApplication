@@ -1,0 +1,6 @@
+framework module PaymentOrderClient {
+  umbrella header "PaymentOrderClient.h"
+
+  export *
+  module * { export * }
+}

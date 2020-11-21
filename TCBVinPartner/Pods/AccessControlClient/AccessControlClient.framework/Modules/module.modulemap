@@ -1,0 +1,6 @@
+framework module AccessControlClient {
+  umbrella header "AccessControlClient.h"
+
+  export *
+  module * { export * }
+}

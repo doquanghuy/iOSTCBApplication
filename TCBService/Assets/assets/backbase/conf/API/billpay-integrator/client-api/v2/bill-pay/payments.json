@@ -1,0 +1,235 @@
+{
+    "payments": [
+        {
+            "id": "8a48e22863b0cf930163b0cfb6a90017",
+            "payeeName": "Electric",
+            "payeeID": "0955e686-d31e-4216-b3dd-5d66161d536f",
+            "amount": {
+                "amount": "121.99",
+                "currencyCode": "USD"
+            },
+            "paymentDate": "2020-01-08",
+            "paymentMemo": "Here is some money",
+            "paymentAccount": {
+              "accountNumber":"123912941241",
+              "routingNumber":"031302997",
+              "accountType":"CHECKING_ACCOUNT",
+              "accountNickName": "Mrs. S. Williams"
+            },
+            "recurring": false,
+            "status": "INPROCESS"
+        },
+        {
+            "id": "8a48e22863b0cf930163b0d6194d00b5",
+            "payeeName": "Gas",
+            "payeeID": "0955e686-d31e-4216-b3dd-5d66161d536e",
+            "payeeAccountNumber": "04397260",
+            "amount": {
+                "amount": "56.23",
+                "currencyCode": "USD"
+            },
+            "paymentDate": "2020-01-06",
+            "paymentMemo": "test",
+            "paymentAccount": {
+              "accountNumber":"612318921212",
+              "routingNumber":"031302997",
+              "accountType":"CHECKING_ACCOUNT",
+              "accountNickName": "Shared Account"
+            },
+            "frequency": "MONTHLY",
+            "numberOfInstances": 12,
+            "recurring": true,
+            "status": "PENDING"
+        },
+        {
+            "id": "8a48e22863c0cf930162b0d6194d00b6",
+            "payeeName": "Backbase",
+            "payeeID": "d3fb77c0-2678-450f-add6-1d80b0d07ad9",
+            "payeeAccountNumber": "071904782",
+            "amount": {
+                "amount": "99.23",
+                "currencyCode": "USD"
+            },
+            "paymentDate": "2019-12-31",
+            "paymentMemo": "test",
+            "paymentAccount": {
+              "accountNumber":"612318921212",
+              "routingNumber":"031302997",
+              "accountType":"CHECKING_ACCOUNT",
+              "accountNickName": "Shared Account"
+            },
+            "recurring": false,
+            "status": "PENDING"
+        },
+        {
+            "id": "8a48e22863b0cf930163b0d6194d00b6",
+            "payeeName": "Bank of America",
+            "payeeID": "d3f24786-fbaa-4e5d-afd3-25f8bb0941de",
+            "payeeAccountNumber": "071904779",
+            "amount": {
+                "amount": "35.23",
+                "currencyCode": "USD"
+            },
+            "paymentDate": "2019-12-30",
+            "paymentMemo": "test",
+            "paymentAccount": {
+              "accountNumber":"612318921212",
+              "routingNumber":"031302997",
+              "accountType":"CHECKING_ACCOUNT",
+              "accountNickName": "Shared Account"
+            },
+            "recurring": false,
+            "status": "PENDING",
+            "payeeElectronic": false
+        },
+        {
+            "id": "7b48e22863b0cf930163b0d6194d00b6",
+            "payeeName": "Council Tax",
+            "payeeID": "9991",
+            "amount": {
+                "amount": "33.23",
+                "currencyCode": "USD"
+            },
+            "paymentDate": "2019-12-30",
+            "paymentMemo": "Payment with active e-bill",
+            "paymentAccount": {
+              "accountNumber":"612318921212",
+              "routingNumber":"031302997",
+              "accountType":"CHECKING_ACCOUNT",
+              "accountNickName": "Shared Account"
+            },
+            "recurring": false,
+            "status": "PENDING",
+            "payeeElectronic": true,
+            "ebillID": "20141219140239655590"
+        },
+        {
+            "id": "8a48e22863b0cf930163b0d5f40000b4",
+            "payeeName": "Backbase",
+            "payeeID": "d3fb77c0-2678-450f-add6-1d80b0d07ad9",
+            "payeeAccountNumber": "071904782",
+            "amount": {
+                "amount": "56.23",
+                "currencyCode": "USD"
+            },
+            "paymentDate": "2019-12-30",
+            "paymentMemo": "test",
+            "paymentAccount": {
+              "accountNumber":"612318921212",
+              "routingNumber":"031302997",
+              "accountType":"CHECKING_ACCOUNT",
+              "accountNickName": "Shared Account"
+            },
+            "recurring": false,
+            "status": "PROCESSED"
+        },
+        {
+            "id": "8a48e22863b0cf930163b0d5d61400b3",
+            "payeeName": "Netflix",
+            "payeeID": "8bc608c3-71a7-45af-9535-39fdf06cda26",
+            "payeeAccountNumber": "071904785",
+            "amount": {
+                "amount": "56.23",
+                "currencyCode": "USD"
+            },
+            "paymentDate": "2019-12-30",
+            "paymentMemo": "test",
+            "paymentAccount": {
+              "accountNumber":"612318921212",
+              "routingNumber":"031302997",
+              "accountType":"CHECKING_ACCOUNT",
+              "accountNickName": "Shared Account"
+            },
+            "recurring": false,
+            "status": "PROCESSED"
+        },
+        {
+            "id": "8a48e22863b0cf930163b0d447d900b1",
+            "payeeName": "Bank of America",
+            "payeeID": "d3f24786-fbaa-4e5d-afd3-25f8bb0941de",
+            "payeeAccountNumber": "071904779",
+            "amount": {
+                "amount": "1121.99",
+                "currencyCode": "USD"
+            },
+            "paymentDate": "2019-12-30",
+            "paymentAccount": {
+              "accountNumber":"123912941241",
+              "routingNumber":"031302997",
+              "accountType":"CHECKING_ACCOUNT"
+            },
+            "recurring": true,
+            "numberOfInstances": 30,
+            "frequency": "MONTHLY",
+            "paymentScheduledAlert": true,
+            "paymentSentAlert": true,
+            "modelExpirationAlert": true,
+            "status": "PROCESSED"
+        },
+        {
+            "id": "8a48e22863b0cf930163b0d4196200b0",
+            "payeeName": "Backbase",
+            "payeeID": "d3fb77c0-2678-450f-add6-1d80b0d07ad9",
+            "payeeAccountNumber": "071904782",
+            "amount": {
+                "amount": "25.19",
+                "currencyCode": "USD"
+            },
+            "paymentDate": "2019-12-30",
+            "paymentAccount": {
+              "accountNumber":"1234567810",
+              "routingNumber":"091000019",
+              "accountType":"SAVINGS_ACCOUNT",
+              "accountNickName": "Mrs. S. Williams Savings Account"
+            },
+            "recurring": true,
+            "numberOfInstances": 30,
+            "frequency": "MONTHLY",
+            "paymentScheduledAlert": true,
+            "paymentSentAlert": true,
+            "modelExpirationAlert": true,
+            "status": "PROCESSED"
+        },
+        {
+            "id": "8a48e22863b0cf930163b0d4f87a00b2",
+            "payeeName": "T-Mobile",
+            "payeeID": "74e3c90d-8647-4b2f-92c9-e2da6754b9c4",
+            "payeeAccountNumber": "071904780",
+            "amount": {
+                "amount": "56.23",
+                "currencyCode": "USD"
+            },
+            "paymentDate": "2019-12-30",
+            "paymentMemo": "test",
+            "paymentAccount": {
+              "accountNumber":"123912941241",
+              "routingNumber":"031302997",
+              "accountType":"CHECKING_ACCOUNT",
+              "accountNickName": "Mrs. S. Williams"
+            },
+            "recurring": false,
+            "status": "PROCESSED"
+        },
+        {
+            "id": "8a48e22863b0cf930163b0d3eb1400af",
+            "payeeName": "Netflix",
+            "payeeID": "8bc608c3-71a7-45af-9535-39fdf06cda26",
+            "payeeAccountNumber": "071904785",
+            "amount": {
+                "amount": "56.23",
+                "currencyCode": "USD"
+            },
+            "paymentDate": "2019-12-30",
+            "paymentMemo": "test",
+            "paymentAccount": {
+              "accountNumber":"123912941241",
+              "routingNumber":"031302997",
+              "accountType":"CHECKING_ACCOUNT",
+              "accountNickName": "Mrs. S. Williams"
+            },
+            "recurring": false,
+            "status": "PROCESSED"
+        }
+    ],
+    "totalCount": 8
+}

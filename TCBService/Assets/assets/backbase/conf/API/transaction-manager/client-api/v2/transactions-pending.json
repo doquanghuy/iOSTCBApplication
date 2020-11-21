@@ -1,0 +1,104 @@
+[
+  {
+    "id": "0c9ec6fd-a99c-4cee-a73e-51f84b11c371",
+    "arrangementId": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+    "externalId": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+    "externalArrangementId": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+    "productId": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+    "reference": "7e8f5718-946c-4a86-a8bb-d903a1a20db8",
+    "description": "www.starbucks.com",
+    "typeGroup": "Payment",
+    "type": "Card Payment",
+    "bookingDate": "2019-01-29",
+    "valueDate": "2017-01-15",
+    "billingStatus": "PENDING",
+    "amount": -7.5,
+    "currency": "EUR",
+    "transactionAmountCurrency": {
+      "amount": "7.5",
+      "currencyCode": "EUR"
+    },
+    "creditDebitIndicator": "DBIT",
+    "instructedAmount": 75.80226900860237,
+    "instructedCurrency": "AED",
+    "currencyExchangeRate": 5.00147031910348,
+    "counterPartyName": "Starbucks",
+    "location": {
+        "latitude": 52.3667,
+        "longitude": 4.8945
+    },
+    "counterPartyAccountNumber": "AL47212110090000000235698741",
+    "imageType": "star_bucks",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/transactions-avatars/starbucks.png"
+    }
+  },
+  {
+    "id": "1c9ec6fd-a99c-4cee-a73e-51f84b11c372",
+    "arrangementId": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+    "externalId": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+    "externalArrangementId": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+    "productId": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+    "reference": "7e8f5718-946c-4a86-a8bb-d903a1a20db8",
+    "description": "www.medimarket.com",
+    "typeGroup": "Payment",
+    "type": "Card Payment",
+    "bookingDate": "2019-01-29",
+    "valueDate": "2017-08-15",
+    "billingStatus": "PENDING",
+    "amount": -320.95,
+    "currency": "EUR",
+    "transactionAmountCurrency": {
+      "amount": "320.95",
+      "currencyCode": "EUR"
+    },
+    "creditDebitIndicator": "DBIT",
+    "instructedAmount": 75.80226900860237,
+    "instructedCurrency": "AED",
+    "currencyExchangeRate": 5.00147031910348,
+    "counterPartyName": "MediaMarkt",
+    "location": {
+        "latitude": 52.3667,
+        "longitude": 4.8945
+    },
+    "counterPartyAccountNumber": "AD1200012030200359100100",
+    "imageType": "media_market",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/transactions-avatars/media-markt.png"
+    }
+  },
+  {
+    "id": "2c9ec6fd-a99c-4cee-a73e-51f84b11c373",
+    "arrangementId": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+    "externalId": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+    "externalArrangementId": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+    "productId": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+    "reference": "7e8f5718-946c-4a86-a8bb-d903a1a20db8",
+    "description": "albertheijn.nl",
+    "typeGroup": "Payment",
+    "type": "Card Payment",
+    "bookingDate": "2019-01-28",
+    "valueDate": "2017-08-15",
+    "billingStatus": "PENDING",
+    "amount": -919.95,
+    "currency": "EUR",
+    "transactionAmountCurrency": {
+      "amount": "919.95",
+      "currencyCode": "EUR"
+    },
+    "creditDebitIndicator": "DBIT",
+    "instructedAmount": 75.80226900860237,
+    "instructedCurrency": "AED",
+    "currencyExchangeRate": 5.00147031910348,
+    "counterPartyName": "Albert Heijn",
+    "location": {
+        "latitude": 52.3667,
+        "longitude": 4.8945
+    },
+    "counterPartyAccountNumber": "BE68539007547034",
+    "imageType": "albert",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/transactions-avatars/albert-heijn.png"
+    }
+  }
+]

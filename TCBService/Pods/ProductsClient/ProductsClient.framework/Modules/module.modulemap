@@ -1,0 +1,6 @@
+framework module ProductsClient {
+  umbrella header "ProductsClient.h"
+
+  export *
+  module * { export * }
+}

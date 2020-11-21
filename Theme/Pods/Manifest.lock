@@ -1,0 +1,16 @@
+PODS:
+  - ThemeEngine (1.3.0)
+
+DEPENDENCIES:
+  - ThemeEngine
+
+SPEC REPOS:
+  https://repo.backbase.com/api/pods/ios3:
+    - ThemeEngine
+
+SPEC CHECKSUMS:
+  ThemeEngine: ef64b4d0f36624b881b93bcc2b8cb879da889e53
+
+PODFILE CHECKSUM: f2f29d32bd8f4f55e048f70375ddbd0e489a5f62
+
+COCOAPODS: 1.9.3

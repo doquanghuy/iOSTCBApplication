@@ -1,0 +1,64 @@
+[
+  {
+    "id": "03b7c5c8-6b42-4afa-9b46-2fa9a34034d1",
+    "cardIds": [
+      "e0577dba-b684-11e8-96f8-529269fb1405",
+      "f0677dba-b684-11e8-96f8-529269fb1406"
+    ],
+    "departureDate": "2020-01-09",
+    "arrivalDate": "2020-01-18",
+    "destinations": [
+      {
+        "country": "MEX"
+      },
+      {
+        "country": "USA",
+        "region": "TX"
+      }
+    ]
+  },
+  {
+    "id": "4c63c658-5b68-49f6-8fba-fa1df5284682",
+    "cardIds": [
+      "a01b7dba-b684-11e8-96f8-529269fb1401",
+      "c0377dba-b684-11e8-96f8-529269fb1403"
+    ],
+    "departureDate": "2019-12-10",
+    "arrivalDate": "2019-12-23",
+    "destinations": [
+      {
+        "country": "JPN"
+      },
+      {
+        "country": "USA",
+        "region": "CA"
+      }
+    ],
+    "contact": {
+      "phoneNumber": "+1 646 432 3000"
+    }
+  },
+  {
+    "id": "25d2181a-2f1c-4cca-8544-e4be823d6074",
+    "cardIds": [
+      "b02fb40c-b685-11e8-96f8-529269fb1402",
+      "e0577dba-b684-11e8-96f8-529269fb1405"
+    ],
+    "departureDate": "2019-07-23",
+    "arrivalDate": "2019-08-11",
+    "destinations": [
+      {
+        "country": "KHM"
+      },
+      {
+        "country": "KOR"
+      },
+      {
+        "country": "IND"
+      }
+    ],
+    "contact": {
+      "phoneNumber": "+1 646 432 3000"
+    }
+  }
+]

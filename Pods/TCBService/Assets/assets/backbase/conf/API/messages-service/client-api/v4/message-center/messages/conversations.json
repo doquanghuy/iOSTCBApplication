@@ -1,0 +1,110 @@
+[
+  {
+    "id": "b7ac1da7-fd1d-469d-872d-cc2645aff113",
+    "sender": {
+      "name": "Karl Robel",
+      "id": "97234tyi23rfiy325r3i7r"
+    },
+    "topic": {
+      "id": "b0069a89-3dcb-4bdc-b7da-fc65643064a6",
+      "name": "Savings"
+    },
+    "body": "RGVhciBNcnMuIFNhcmEgXG5UaGUgZmlyc3Qgc3RlcCB0b3dhcmRzIGZhc3RlciBwYXltZW50IHRyYWZmaWMuCldlIHJlY2VudGx5IGluZm9ybWVkIHlvdSB0aGF0IHdlIGFyZSB3b3JraW5nIHN0ZXAtYnktc3RlcCBvbiBmYXN0ZXIgcGF5bWVudCB0cmFuc2FjdGlvbnMuIE5vdyB0aGVzZSBwYXltZW50IG9yZGVycyBhcmUgc3RpbGwgcmVzZXJ2ZWQgYXQgdGhlIHdlZWtlbmQgYW5kIHdpbGwgbm90IGJlIHByb2Nlc3NlZCB1bnRpbCBNb25kYXku",
+    "subject": "Report 365 days - Update",
+    "timestamp": "2019-10-30T10:20:04.465+0000",
+    "read-only": false,
+    "important": false,
+    "deletable": true,
+    "read": false
+  },
+  {
+    "id": "3ab4cb7e-9561-4ca0-8e5a-90617efe9d10",
+    "sender": {
+      "name": "Matt Kuhlman",
+      "id": "97234tei23rfiy335r3i8r"
+    },
+    "topic": {
+      "id": "a3569a83-3dcb-4bdc-b7da-fc25643064b0",
+      "name": "Loans"
+    },
+    "body": "RGVhciBNcnMuIFNhcmEgCk1vbnRobHkgUG9pbnRzIGNyZWRpdCBJbiBPY3RvYmVyIHlvdSBlYXJuZWQgUG9pbnRzIHdpdGggeW91ciBkYWlseSBiYW5raW5nIGFuZCAvIG9yIGEgb25lLXRpbWUgcHJvbW90aW9uLiBEb2luZyB3ZWxsISBUaGUgUG9pbnRzIGhhdmUgYmVlbiBhZGRlZCB0byB5b3VyIGJhbGFuY2Uu",
+    "subject": "You have earned (again) Points",
+    "timestamp": "2019-10-26T11:37:04.465+0000",
+    "read-only": false,
+    "important": false,
+    "deletable": true,
+    "read": false
+  },
+  {
+    "id": "a5797348-7a0f-43ce-b3aa-c9357f0b2428",
+    "sender": {
+      "name": "Karl Robel",
+      "id": "97231tyi23rfis325f3i7r"
+    },
+    "topic": {
+      "id": "c0034a67-3dcb-4bdc-b7da-fc23553064c9",
+      "name": "Mortgage application"
+    },
+    "body": "RGVhciBNcnMuIFNhcmEgCkFyZSB5b3Ugc3VyZSB5b3UgYXJlIHRyYW5zZmVycmluZyBtb25leSB0byB0aGUgcmlnaHQgcGVyc29uPyBUaGUgQWNjb3VudC1OYW1lIENoZWNrIGhlbHBzIHlvdSB3aXRoIHRoaXMuIEluIHRoZSBjb21pbmcgZGF5cyBhbHNvIGluIHRoZSBpT1MgTW9iaWxlIEJhbmtpbmcgQXBwLiBBbmRyb2lkIHdpbGwgZm9sbG93IGluIGEgbW9udGgu",
+    "subject": "Account name check now also in the app",
+    "timestamp": "2019-10-25T11:37:04.465+0000",
+    "read-only": false,
+    "important": true,
+    "deletable": true,
+    "read": true
+  },
+  {
+    "id": "a5797348-7a0f-43ce-b3aa-c9357f0b2428",
+    "sender": {
+      "name": "Robin Tim",
+      "id": "96234tyi44rfiy327r3i7z"
+    },
+    "topic": {
+      "id": "b0069a89-3dcb-4bdc-b7da-fc65643064a6",
+      "name": "Savings"
+    },
+    "body": "RGVhciBNcnMuIFNhcmEgClBsZWFzZSEgMiw1MDAgcG9pbnRzIGdpZnQuIFdobyB3aWxsIG5vdCBsZXQgeW91IGxpZSBkb3duPyBBIGdpZnQgZXNwZWNpYWxseSBmb3IgeW91LiBCZWNhdXNlIHdlIGhhdmUgc29tZXRoaW5nIG5ldy4gVGhlIGV4dHJhIHRoYXQgbWFrZXMgYmFua2luZyBldmVuIG1vcmUgZnVuLg==",
+    "subject": "Please! Here you have 2,500 Points",
+    "timestamp": "2019-08-25T11:37:04.465+0000",
+    "read-only": false,
+    "important": true,
+    "deletable": true,
+    "read": false
+  },
+  {
+    "id": "a5797348-7a0f-43ce-b3aa-c9357f0b2428",
+    "sender": {
+      "name": "Drew Thomas",
+      "id": "97232tyi23rffy325r3e5w"
+    },
+    "topic": {
+      "id": "c0034a67-3dcb-4bdc-b7da-fc23553064c9",
+      "name": "Mortgage application"
+    },
+    "body": "SSBkaWRuJ3QgZG8gYSBwYXltZW50IGFuZCBpdCB3YXMgY2hhcmdlZCBmcm9tIG15IGRlYml0IGFjY291bnQuXG4gQ291bGQgeW91IHBsZWFzZSB0YWtlIGEgbG9vayBmb3IgbWUgcGxlYXNlPw==",
+    "subject": "Problems with payment",
+    "timestamp": "2019-08-24T13:24:04.465+0000",
+    "read-only": false,
+    "important": true,
+    "deletable": true,
+    "read": true
+  },
+  {
+    "id": "a5797348-7a0f-43ce-b3aa-c9357f0b2428",
+    "sender": {
+      "name": "Priscilla Santos",
+      "id": "97214tgi23rriy326r3i3q"
+    },
+    "topic": {
+      "id": "a3569a83-3dcb-4bdc-b7da-fc25643064b0",
+      "name": "Loans"
+    },
+    "body": "a25vdyBtb3JlIGFib3V0IG91ciBuZXcgcmV3YXJkIHByb2dyYW0gYnkgY29udGFjdGluZyB1cy4gSXQgaXMgYW1hemluZyBhbmQgeW91IHdpbGwgZ29ubmEgbG92ZSBpdA==",
+    "subject": "New Reward Program ",
+    "timestamp": "2019-07-24T13:24:04.465+0000",
+    "read-only": false,
+    "important": true,
+    "deletable": true,
+    "read": true
+  }
+]

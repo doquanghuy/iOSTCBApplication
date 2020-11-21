@@ -1,0 +1,23 @@
+{
+  "id": "25d2181a-2f1c-4cca-8544-e4be823d6074",
+  "cardIds": [
+    "b02fb40c-b685-11e8-96f8-529269fb1402",
+    "e0577dba-b684-11e8-96f8-529269fb1405"
+  ],
+  "departureDate": "2019-07-23",
+  "arrivalDate": "2019-08-11",
+  "destinations": [
+    {
+      "country": "KHM"
+    },
+    {
+      "country": "KOR"
+    },
+    {
+      "country": "IND"
+    }
+  ],
+  "contact": {
+    "phoneNumber": "+1 646 432 3000"
+  }
+}

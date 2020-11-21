@@ -1,0 +1,86 @@
+{
+    "accounts": [
+        {
+            "externalAccountId": "31361591",
+            "routingNumber": "091000021",
+            "accountNumber": "12351",
+            "accountType": "Checking",
+            "accountNickName": "Connected Account 1",
+            "bankName": "US BANK NA",
+            "accountMask": "2351",
+            "maskedAccountNumber": "2351",
+            "status": "Active"
+        },
+        {
+            "externalAccountId": "31361592",
+            "routingNumber": "091000021",
+            "accountNumber": "999999",
+            "accountType": "Checking",
+            "accountNickName": "Connected Account 2",
+            "bankName": "US BANK NA",
+            "maskedAccountNumber": "2351",
+            "status": "Active"
+        },
+        {
+            "externalAccountId": "31361593",
+            "routingNumber": "091000022",
+            "accountNumber": "12352",
+            "accountType": "Savings",
+            "accountNickName": "NickName2",
+            "bankName": "ITALY BANK NA",
+            "accountMask": "2352",
+            "maskedAccountNumber": "2352",
+            "status": "PendingActivation"
+        },
+        {
+            "externalAccountId": "31361594",
+            "routingNumber": "091000023",
+            "accountNumber": "12353",
+            "accountType": "Savings",
+            "accountNickName": "NickName3",
+            "bankName": "ITALY BANK NA",
+            "maskedAccountNumber": "2352",
+            "status": "InProcess"
+        },
+        {
+            "externalAccountId": "31361595",
+            "routingNumber": "091000024",
+            "accountNumber": "12354",
+            "accountType": "Savings",
+            "accountNickName": "NickName2",
+            "bankName": "ITALY BANK NA",
+            "maskedAccountNumber": "2352",
+            "status": "FailedVerification"
+        },
+        {
+            "externalAccountId": "31361596",
+            "routingNumber": "091000025",
+            "accountNumber": "12355",
+            "accountType": "Checking",
+            "accountNickName": "NickName2",
+            "bankName": "ITALY BANK NA",
+            "maskedAccountNumber": "2352",
+            "status": "RejectedByExternalBank"
+        },
+        {
+            "externalAccountId": "31361597",
+            "routingNumber": "091000026",
+            "accountNumber": "12356",
+            "accountType": "Savings",
+            "accountNickName": "NickName2",
+            "bankName": "ITALY BANK NA",
+            "maskedAccountNumber": "2352",
+            "status": "DisabledForExcessiveReturns"
+        },
+        {
+            "externalAccountId": "31361598",
+            "routingNumber": "091000027",
+            "accountNumber": "12357",
+            "accountType": "Checking",
+            "accountNickName": "NickName2",
+            "bankName": "ITALY BANK NA",
+            "maskedAccountNumber": "2352",
+            "status": "DisabledForFraud"
+        }
+    ]
+}

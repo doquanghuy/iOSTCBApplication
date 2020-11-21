@@ -1,0 +1,124 @@
+{
+    "payees": [
+        {
+            "merchantID": "10000001",
+            "name": "Verizon Wireless ",
+            "zipRequired": false,
+            "address" : {
+                "address1": "PO Box 408",
+                "address2": "",
+                "city": "Newark",
+                "state": "NJ",
+                "postalCode": "07101-0408"
+            }
+        },
+        {
+            "merchantID": "10000002",
+            "name": "State Farm Insurance",
+            "zipRequired": true,
+            "address" : {
+                "address1": "1325 NC-66",
+                "address2": "",
+                "city": "Kernersville",
+                "state": "NC",
+                "postalCode": "27284"
+            }
+        },
+        {
+            "merchantID": "10000003",
+            "name": "Vodafone",
+            "zipRequired": false,
+            "address" : {
+                "address1": "154 West 14th Street",
+                "address2": "8th FL",
+                "city": "New York",
+                "state": "NY",
+                "postalCode": "10011"
+            }
+        },
+        {
+            "merchantID": "10000004",
+            "name": "Nashville Electric Service",
+            "zipRequired": false,
+            "address" : {
+                "address1": "1214 Church St",
+                "address2": "",
+                "city": "Nashville",
+                "state": "TN",
+                "postalCode": "37246"
+            }
+        },
+        {
+            "merchantID": "10000005",
+            "name": "Comcast",
+            "zipRequired": false,
+            "address" : {
+                "address1": "4700 North Point Pkwy",
+                "address2": "",
+                "city": "Alpharetta",
+                "state": "GA",
+                "postalCode": "30005"
+            }
+        },
+        {
+            "merchantID": "10000006",
+            "name": "Los Angeles Department Of Water and Power",
+            "zipRequired": false,
+            "address" : {
+                "address1": "4030 Crenshaw Blvd",
+                "address2": "",
+                "city": "Los Angeles",
+                "state": "CA",
+                "postalCode": "90008"
+            }
+        },
+        {
+            "merchantID": "10000007",
+            "name": "City of Atlanta Water Department",
+            "zipRequired": false,
+            "address" : {
+                "address1": "55 Trinity Ave SW # 1600",
+                "address2": "",
+                "city": "Atlanta",
+                "state": "GA",
+                "postalCode": "30303"
+            }
+        },
+        {
+            "merchantID": "10000008",
+            "name": "North Kansas City Water Department",
+            "zipRequired": false,
+            "address" : {
+                "address1": "1852 Burlington St",
+                "address2": "",
+                "city": "North Kansas City",
+                "state": "MO",
+                "postalCode": "64116"
+            }
+        },
+        {
+            "merchantID": "10000009",
+            "name": "Dallas Water Utilities Department",
+            "zipRequired": false,
+            "address" : {
+                "address1": "1500 Marilla St #4an",
+                "address2": "",
+                "city": "Dallas",
+                "state": "TX",
+                "postalCode": "75201"
+            }
+        },
+        {
+            "merchantID": "10000010",
+            "name": "Chicago City of Water Department",
+            "zipRequired": false,
+            "address" : {
+                "address1": "4925 S Western Blvd",
+                "address2": "",
+                "city": "Chicago",
+                "state": "IL",
+                "postalCode": "60609"
+            }
+        }
+    ]
+}

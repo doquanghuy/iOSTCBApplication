@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Normal card",
+    "id": "a01b7dba-b684-11e8-96f8-529269fb1401",
+    "brand": "mastercard",
+    "type": "Debit",
+    "subType": "ATM",
+    "status": "Active",
+    "lockStatus": "UNLOCKED",
+    "replacement": {
+      "status": "NotUnderReplacement"
+    },
+    "holder": {
+      "name": "Jack Reacher"
+    },
+    "expiryDate": {
+      "year": "2022",
+      "month": "12"
+    },
+    "limits": [
+      {
+        "id": "1",
+        "channel": "ATM",
+        "frequency": "MONTHLY",
+        "amount": 1000,
+        "maxAmount": 5000,
+        "minAmount": 0
+      },
+      {
+        "id": "2",
+        "channel": "ONLINE",
+        "frequency": "MONTHLY",
+        "amount": 2000,
+        "maxAmount": 3000,
+        "minAmount": 0
+      },
+      {
+        "id": "3",
+        "channel": "POS",
+        "frequency": "MONTHLY",
+        "amount": 1500,
+        "maxAmount": 3500,
+        "minAmount": 0
+      }
+    ],
+    "currency": "USD",
+    "maskedNumber": "6269"
+  },
+  {
+    "name": "Normal locked card",
+    "id": "b02fb40c-b685-11e8-96f8-529269fb1402",
+    "brand": "americanexpress",
+    "type": "Credit",
+    "subType": "ATM",
+    "status": "Active",
+    "lockStatus": "LOCKED",
+    "replacement": {
+      "status": "NotUnderReplacement"
+    },
+    "holder": {
+      "name": "Jack Reacher"
+    },
+    "expiryDate": {
+      "year": "2023",
+      "month": "01"
+    },
+    "limits": [
+      {
+        "id": "4",
+        "channel": "ATM",
+        "frequency": "MONTHLY",
+        "amount": 1000,
+        "maxAmount": 5000,
+        "minAmount": 0
+      },
+      {
+        "id": "5",
+        "channel": "ONLINE",
+        "frequency": "MONTHLY",
+        "amount": 2000,
+        "maxAmount": 3000,
+        "minAmount": 0
+      },
+      {
+        "id": "6",
+        "channel": "POS",
+        "frequency": "MONTHLY",
+        "amount": 1500,
+        "maxAmount": 3500,
+        "minAmount": 0
+      }
+    ],
+    "currency": "USD",
+    "maskedNumber": "4144"
+  },
+  {
+    "name": "Broken card",
+    "id": "c0377dba-b684-11e8-96f8-529269fb1403",
+    "brand": "maestro",
+    "type": "Debit",
+    "subType": "ATM",
+    "status": "Active",
+    "lockStatus": "UNLOCKED",
+    "replacement": {
+      "status": "ReplacementRequested",
+      "reason": "Damaged"
+    },
+    "delivery": {
+      "transitSteps": [
+        {
+          "name": "Ordered",
+          "status": "SUCCESS",
+          "stepDateTime": "2019-06-19T12:52:20.906+0000"
+        },
+        {
+          "name": "Processed",
+          "status": "PENDING"
+        },
+        {
+          "name": "In Transit",
+          "status": "PENDING"
+        },
+        {
+          "name": "Delivered",
+          "status": "PENDING"
+        }
+      ]
+    },
+    "holder": {
+      "name": "Jack Reacher"
+    },
+    "expiryDate": {
+      "year": "2022",
+      "month": "12"
+    },
+    "limits": [
+      {
+        "id": "7",
+        "channel": "ATM",
+        "frequency": "MONTHLY",
+        "amount": 1000,
+        "maxAmount": 5000,
+        "minAmount": 0
+      },
+      {
+        "id": "8",
+        "channel": "ONLINE",
+        "frequency": "MONTHLY",
+        "amount": 2000,
+        "maxAmount": 3000,
+        "minAmount": 0
+      },
+      {
+        "id": "9",
+        "channel": "POS",
+        "frequency": "MONTHLY",
+        "amount": 1500,
+        "maxAmount": 3500,
+        "minAmount": 0
+      }
+    ],
+    "currency": "USD",
+    "maskedNumber": "7859"
+  },
+  {
+    "name": "Lost card",
+    "id": "e0577dba-b684-11e8-96f8-529269fb1405",
+    "brand": "dinersclub",
+    "type": "Credit",
+    "subType": "ATM",
+    "status": "Cancelled",
+    "lockStatus": "LOCKED",
+    "replacement": {
+      "status": "UnderReplacement",
+      "reason": "Stolen"
+    },
+    "delivery": {
+      "transitSteps": [
+        {
+          "name": "Ordered",
+          "status": "SUCCESS",
+          "stepDateTime": "2019-01-28T16:41:41.090Z"
+        },
+        {
+          "name": "Processed",
+          "status": "SUCCESS",
+          "stepDateTime": "2019-01-30T00:00:00.000Z"
+        },
+        {
+          "name": "In Transit",
+          "status": "PENDING"
+        },
+        {
+          "name": "Delivered",
+          "status": "PENDING"
+        }
+      ]
+    },
+    "limits": [
+      {
+        "id": "10",
+        "channel": "ATM",
+        "frequency": "MONTHLY",
+        "amount": 1000,
+        "maxAmount": 5000,
+        "minAmount": 0
+      },
+      {
+        "id": "11",
+        "channel": "ONLINE",
+        "frequency": "MONTHLY",
+        "amount": 2000,
+        "maxAmount": 3000,
+        "minAmount": 0
+      },
+      {
+        "id": "12",
+        "channel": "POS",
+        "frequency": "MONTHLY",
+        "amount": 1500,
+        "maxAmount": 3500,
+        "minAmount": 0
+      }
+    ],
+    "holder": {
+      "name": "Jack Reacher"
+    },
+    "expiryDate": {
+      "year": "2022",
+      "month": "12"
+    },
+    "currency": "USD",
+    "maskedNumber": "1986"
+  },
+  {
+    "name": "Inactive card",
+    "id": "f0677dba-b684-11e8-96f8-529269fb1406",
+    "brand": "dinersclub",
+    "type": "Credit",
+    "subType": "ATM",
+    "status": "Inactive",
+    "lockStatus": "UNLOCKED",
+    "replacement": {
+      "status": "NotUnderReplacement"
+    },
+    "holder": {
+      "name": "Jack Reacher"
+    },
+    "expiryDate": {
+      "year": "2025",
+      "month": "12"
+    },
+    "limits": [
+      {
+        "id": "13",
+        "channel": "ATM",
+        "frequency": "MONTHLY",
+        "amount": 1000,
+        "maxAmount": 5000,
+        "minAmount": 0
+      },
+      {
+        "id": "14",
+        "channel": "ONLINE",
+        "frequency": "MONTHLY",
+        "amount": 2000,
+        "maxAmount": 3000,
+        "minAmount": 0
+      },
+      {
+        "id": "15",
+        "channel": "POS",
+        "frequency": "MONTHLY",
+        "amount": 1500,
+        "maxAmount": 3500,
+        "minAmount": 0
+      }
+    ],
+    "currency": "USD",
+    "maskedNumber": "1988"
+  }
+]

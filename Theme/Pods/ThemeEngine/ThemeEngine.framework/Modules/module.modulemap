@@ -1,0 +1,6 @@
+framework module ThemeEngine {
+  umbrella header "ThemeEngine.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,26 @@
+{
+    "menu": {
+        "showUserIcon": true
+    },
+    "component": {
+        "productSummary": {
+            "showBanner": true,
+            "colorByProductKindEnabled": true
+        },
+        "experience": {
+            "username": "admin",
+            "password": "admin"
+        },
+        "billPay": {
+            "form": {
+                "reviewStepEnabled": true
+            }
+        },
+        "moneyTransfer": {
+            "form": {
+                "reviewStepEnabled": true
+            }
+        }
+    },
+    "testBehaviour": []
+}

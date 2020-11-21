@@ -1,0 +1,123 @@
+{
+  "arrangementIds": [
+    "1110afc5-4f7e-46c0-b0db-927138aa46c2"
+  ],
+  "intervalDuration": "MONTH",
+  "avgCreditAmount": {
+    "amount": "82.10",
+    "currencyCode": "USD"
+  },
+  "avgDebitAmount": {
+    "amount": "382.10",
+    "currencyCode": "USD"
+  },
+  "turnovers": [
+    {
+      "intervalStartDate": "2019-08-01",
+      "creditAmount": {
+        "amount": "5500.00",
+        "currencyCode": "USD"
+      },
+      "debitAmount": {
+        "amount": "4100.00",
+        "currencyCode": "USD"
+      },
+      "balance": {
+        "amount": "1400.00",
+        "currencyCode": "USD"
+      }
+    },
+    {
+      "intervalStartDate": "2019-09-01",
+      "creditAmount": {
+        "amount": "6000.00",
+        "currencyCode": "USD"
+      },
+      "debitAmount": {
+        "amount": "4000.00",
+        "currencyCode": "USD"
+      },
+      "balance": {
+        "amount": "2000.00",
+        "currencyCode": "USD"
+      }
+    },
+    {
+      "intervalStartDate": "2019-10-01",
+      "creditAmount": {
+        "amount": "5700.00",
+        "currencyCode": "USD"
+      },
+      "debitAmount": {
+        "amount": "4300.00",
+        "currencyCode": "USD"
+      },
+      "balance": {
+        "amount": "1400.00",
+        "currencyCode": "USD"
+      }
+    },
+    {
+      "intervalStartDate": "2019-11-01",
+      "creditAmount": {
+        "amount": "5000.00",
+        "currencyCode": "USD"
+      },
+      "debitAmount": {
+        "amount": "4300.00",
+        "currencyCode": "USD"
+      },
+      "balance": {
+        "amount": "700.00",
+        "currencyCode": "USD"
+      }
+    },
+    {
+      "intervalStartDate": "2019-12-01",
+      "creditAmount": {
+        "amount": "6000.00",
+        "currencyCode": "USD"
+      },
+      "debitAmount": {
+        "amount": "7000.00",
+        "currencyCode": "USD"
+      },
+      "balance": {
+        "amount": "-1000.00",
+        "currencyCode": "USD"
+      }
+    },
+    {
+      "intervalStartDate": "2020-01-01",
+      "creditAmount": {
+        "amount": "5000.00",
+        "currencyCode": "USD"
+      },
+      "debitAmount": {
+        "amount": "6000.00",
+        "currencyCode": "USD"
+      },
+      "balance": {
+        "amount": "-1000.00",
+        "currencyCode": "USD"
+      }
+    }
+  ],
+  "forecast": [
+    {
+      "intervalStartDate": "2020-02-01",
+      "creditAmount": {
+        "amount": "5500.00",
+        "currencyCode": "USD"
+      },
+      "debitAmount": {
+        "amount": "4000.00",
+        "currencyCode": "USD"
+      },
+      "balance": {
+        "amount": "1500.00",
+        "currencyCode": "USD"
+      }
+    }
+  ]
+}

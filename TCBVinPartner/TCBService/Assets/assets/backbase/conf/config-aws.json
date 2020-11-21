@@ -1,0 +1,31 @@
+{
+	"backbase": {
+        "serverURL": "http://18.139.127.103:7777",
+        "version": "6.1.5",
+        "experience": "retail-banking-mobile-sepa",
+        "localModelPath": "$(contextRoot)/conf/offline-model.json",
+        "identity": {
+            "baseURL": "http://18.139.127.103:8180",
+            "realm": "backbase",
+            "clientId": "bb-web-client"
+        }
+	},
+    "security": {
+        "allowedDomains": [
+            "*"
+        ]
+    },
+    "development": {
+        "debugEnable": true
+    },
+    "custom": {
+        "dbs": {
+            "searchIBANURL": "http://18.139.127.103:8082",
+            "baseURL": "http://18.139.127.103:8086",
+            "gateway": "http://18.139.127.103:7777/api",
+            "legalEntityInternalId": "2c9f81ee75c07d680175c07eb2520000",
+            "serviceAgreementId": "2c9f81ee75c07d680175c07eb2960001",
+            "externalServiceAgreementId": "Techcombank_External"
+        }
+    }
+}

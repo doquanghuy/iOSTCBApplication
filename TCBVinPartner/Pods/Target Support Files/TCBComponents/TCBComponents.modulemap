@@ -1,0 +1,6 @@
+framework module TCBComponents {
+  umbrella header "TCBComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

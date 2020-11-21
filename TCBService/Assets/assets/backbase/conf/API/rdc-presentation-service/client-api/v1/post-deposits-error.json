@@ -1,0 +1,17 @@
+{
+    "deposit": null,
+    "validationErrors": [
+        {
+        "code":380,
+        "message": "Error reason 1"
+        },
+        {
+        "code":380,
+        "message": "Error reason 2"
+        },
+        {
+        "code":380,
+        "message": "Error reason 3"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "total": {
+        "amount": "3137",
+        "currencyCode": "EUR"
+    },
+    "items": [
+        {
+            "category": "Home",
+            "totalAmount": {
+                "amount": "1200",
+                "currencyCode": "EUR"
+            },
+            "trend": -50,
+            "portion": 29,
+            "totalPortion": 29
+        },
+        {
+            "category": "Food & Dining",
+            "totalAmount": {
+                "amount": "850",
+                "currencyCode": "EUR"
+            },
+            "trend": -187,
+            "portion": 28,
+            "totalPortion": 57
+        },
+        {
+            "category": "Travel",
+            "totalAmount": {
+                "amount": "280",
+                "currencyCode": "EUR"
+            },
+            "trend": 52,
+            "portion": 14,
+            "totalPortion": 71
+        },
+        {
+            "category": "Bills & Utilities",
+            "totalAmount": {
+                "amount": "312",
+                "currencyCode": "EUR"
+            },
+            "trend": -111,
+            "portion": 10,
+            "totalPortion": 81
+        },
+        {
+            "category": "Transfer",
+            "totalAmount": {
+                "amount": "300",
+                "currencyCode": "EUR"
+            },
+            "trend": -137,
+            "portion": 9,
+            "totalPortion": 90
+        },
+        {
+            "category": "Entertainment",
+            "totalAmount": {
+                "amount": "110",
+                "currencyCode": "EUR"
+            },
+            "trend": 0,
+            "portion": 1,
+            "totalPortion": 100
+        },
+        {
+            "category": "Health & Fitness",
+            "totalAmount": {
+                "amount": "85",
+                "currencyCode": "EUR"
+            },
+            "trend": 0,
+            "portion": 1,
+            "totalPortion": 100
+        }
+    ]
+}

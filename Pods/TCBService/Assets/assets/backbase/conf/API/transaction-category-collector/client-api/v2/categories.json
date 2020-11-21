@@ -1,0 +1,128 @@
+[
+    {
+        "categoryId": 10000100,
+        "categoryName": "Auto & Transport",
+        "categoryType": "EXPENSE",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000010,
+        "categoryName": "Bills & Utilities",
+        "categoryType": "EXPENSE",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000001,
+        "categoryName": "Business Services",
+        "categoryType": "EXPENSE",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000006,
+        "categoryName": "Education",
+        "categoryType": "EXPENSE",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000011,
+        "categoryName": "Entertainment",
+        "categoryType": "EXPENSE",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000025,
+        "categoryName": "Fees & Charges",
+        "categoryType": "EXPENSE",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000024,
+        "categoryName": "Financial",
+        "categoryType": "EXPENSE",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000023,
+        "categoryName": "Food & Dining",
+        "categoryType": "EXPENSE",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000022,
+        "categoryName": "Gifts & Donations",
+        "categoryType": "EXPENSE",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000021,
+        "categoryName": "Health & Fitness",
+        "categoryType": "EXPENSE",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000004,
+        "categoryName": "Home",
+        "categoryType": "EXPENSE",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000012,
+        "categoryName": "Income",
+        "categoryType": "INCOME",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000016,
+        "categoryName": "Investments",
+        "categoryType": "INCOME",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000015,
+        "categoryName": "Kids",
+        "categoryType": "INCOME",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000014,
+        "categoryName": "Personal Care",
+        "categoryType": "INCOME",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000013,
+        "categoryName": "Pets",
+        "categoryType": "INCOME",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000080,
+        "categoryName": "Shopping",
+        "categoryType": "EXPENSE",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000008,
+        "categoryName": "Taxes",
+        "categoryType": "EXPENSE",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000015,
+        "categoryName": "Transfer",
+        "categoryType": "TRANSFER",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000003,
+        "categoryName": "Travel",
+        "categoryType": "EXPENSE",
+        "subCategories": []
+    },
+    {
+        "categoryId": 10000017,
+        "categoryName": "Uncategorized",
+        "categoryType": "UNCATEGORIZED",
+        "subCategories": []
+    }
+]

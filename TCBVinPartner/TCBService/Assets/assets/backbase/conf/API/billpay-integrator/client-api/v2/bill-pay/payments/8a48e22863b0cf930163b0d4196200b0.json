@@ -1,0 +1,18 @@
+{
+  "payment": {
+    "payeeID" : "0955e686-d31e-4216-b3dd-5d66161d536f",
+    "paymentAccount": {
+      "accountNumber":"1234567810",
+      "routingNumber":"091000019",
+      "accountType":"SAVINGS_ACCOUNT",
+      "accountNickName": "Mrs. S. Williams Savings Account"
+    },
+    "amount": {
+        "amount": "25.19",
+        "currencyCode": "USD"
+    },
+    "paymentDate": "2019-12-30",
+    "paymentMemo" : "Here is some money",
+    "ebillID": "20141219140239655590"
+  }
+}

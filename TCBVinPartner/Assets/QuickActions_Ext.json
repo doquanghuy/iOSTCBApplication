@@ -1,0 +1,52 @@
+[
+     {
+       "type": 0,
+       "title": "Account",
+       "iconName": "widget_account"
+     },
+     {
+       "type": 1,
+       "title": "Transfer",
+       "iconName": "widget_transfer"
+     },
+     {
+       "type": 0,
+       "title": "Pay",
+       "iconName": "widget_pay"
+     },
+     {
+       "type": 0,
+       "title": "Topup",
+       "iconName": "widget_topup"
+     },
+     {
+       "type": 0,
+       "title": "Cardless",
+       "iconName": "widget_cardless"
+     },
+     {
+       "type": 0,
+       "title": "Account Ext",
+       "iconName": "widget_account"
+     },
+     {
+       "type": 1,
+       "title": "Transfer Ext",
+       "iconName": "widget_transfer"
+     },
+     {
+       "type": 0,
+       "title": "Pay Ext",
+       "iconName": "widget_pay"
+     },
+     {
+       "type": 0,
+       "title": "Topup Ext",
+       "iconName": "widget_topup"
+     },
+     {
+       "type": 0,
+       "title": "Cardless Ext",
+       "iconName": "widget_cardless"
+     }
+]

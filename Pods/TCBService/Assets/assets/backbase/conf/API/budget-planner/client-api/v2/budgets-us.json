@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1955e686-d31e-4216-b3dd-5d66161d536d",
+    "categoryName": "Food & Dining",
+    "budgetName": "Food & Dining",
+    "budgetIcon": "ic_fastfood",
+    "spendingLimit": {
+      "amount": "350.00",
+      "currencyCode": "USD"
+    },
+    "frequency": "MONTHLY",
+    "spent": {
+      "amount": "550.00",
+      "currencyCode": "USD"
+    },
+    "spentPercentage": 100,
+    "available": {
+      "amount": "-200.00",
+      "currencyCode": "USD"
+    },
+    "period": {
+      "startDate": "2017-06-01T16:41:41.090Z",
+      "endDate": "2017-06-17T16:41:41.090Z"
+    }
+  },
+  {
+    "id": "2955e686-d31e-4216-b3dd-5d66161d536d",
+    "categoryName": "Home",
+    "budgetName": "Home",
+    "budgetIcon": "ic_home",
+    "spendingLimit": {
+      "amount": "700.00",
+      "currencyCode": "USD"
+    },
+    "frequency": "MONTHLY",
+    "spent": {
+      "amount": "550.00",
+      "currencyCode": "USD"
+    },
+    "spentPercentage": 80,
+    "available": {
+      "amount": "150.00",
+      "currencyCode": "USD"
+    },
+    "period": {
+      "startDate": "2017-06-01T16:41:41.090Z"
+    }
+  },
+  {
+    "id": "4955e686-d31e-4216-b3dd-5d66161d536d",
+    "categoryName": "Shopping",
+    "budgetName": "Shopping",
+    "budgetIcon": "ic_shopping_cart",
+    "spendingLimit": {
+      "amount": "800.00",
+      "currencyCode": "USD"
+    },
+    "frequency": "MONTHLY",
+    "spent": {
+      "amount": "270.00",
+      "currencyCode": "USD"
+    },
+    "spentPercentage": 30,
+    "available": {
+      "amount": "530.00",
+      "currencyCode": "USD"
+    },
+    "period": {
+      "startDate": "2017-06-01T16:41:41.090Z"
+    }
+  }
+]

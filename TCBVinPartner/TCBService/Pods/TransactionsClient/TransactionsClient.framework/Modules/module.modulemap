@@ -1,0 +1,6 @@
+framework module TransactionsClient {
+  umbrella header "TransactionsClient.h"
+
+  export *
+  module * { export * }
+}

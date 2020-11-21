@@ -1,0 +1,37 @@
+{
+    "accounts": [
+        {
+            "id": "1cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+            "accountNumber": "123912941241",
+            "accountNickName": "Mrs. S. Williams",
+            "accountType": "CHECKING_ACCOUNT",
+            "routingNumber": "021000021",
+            "accountBalance": {
+                "amount": "1356.20",
+                "currencyCode": "USD"
+            }
+        },
+        {
+            "id": "6cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+            "accountNumber": "612318921212",
+            "accountNickName": "Shared Account",
+            "accountType": "CHECKING_ACCOUNT",
+            "routingNumber": "011401533",
+            "accountBalance": {
+                "amount": "512.33",
+                "currencyCode": "USD"
+            }
+        },
+        {
+            "id": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+            "accountNumber": "1234567810",
+            "accountNickName": "Mrs. S. Williams Savings Account",
+            "accountType": "SAVINGS_ACCOUNT",
+            "routingNumber": "091000019",
+            "accountBalance": {
+                "amount": "5165.22",
+                "currencyCode": "USD"
+            }
+        }
+    ]
+}

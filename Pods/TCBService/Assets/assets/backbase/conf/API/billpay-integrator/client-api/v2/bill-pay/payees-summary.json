@@ -1,0 +1,247 @@
+{
+    "payeeSummaries": [{
+        "id": "9991",
+        "name": "Council Tax",
+        "electronic": true,
+        "hasRecurringPayments": false,
+        "paymentServices": [{
+            "cutoffTime": "2019-12-18T14:00:39.830Z",
+            "earliestPaymentDate": "2019-12-23",
+            "nextPaymentDate": "2019-12-24",
+            "paymentServiceType": "REGULAR_PAYMENT"
+        }],
+        "ebill": {
+            "capable": true,
+            "enabled": true,
+            "status": "ACTIVE",
+            "latestBill": {
+                "id": "ef1da81f-9400-45f7-9550-a69e32a7a0f3",
+                "paymentDate": "2020-01-01",
+                "amount": {
+                    "amount": "145.22",
+                    "currencyCode": "USD"
+                },
+                "minAmountDue": {
+                    "amount": "45.22",
+                    "currencyCode": "USD"
+                },
+                "outstandingBalance": {
+                    "amount": "1164.56",
+                    "currencyCode": "USD"
+                },
+                "status": "UNPAID",
+                "url": "http://latestebill.com",
+                "statementAvailable": false
+            }
+        }
+    }, {
+        "id": "9992",
+        "name": "Gas",
+        "accountNumber": "60314820",
+        "electronic": true,
+        "hasRecurringPayments": false,
+        "paymentServices": [{
+            "cutoffTime": "2019-12-18T14:00:39.830Z",
+            "earliestPaymentDate": "2019-12-25",
+            "nextPaymentDate": "2019-12-26",
+            "paymentServiceType": "REGULAR_PAYMENT"
+        }, {
+            "cutoffTime": "2019-12-18T14:00:39.830Z",
+            "earliestPaymentDate": "2019-12-19",
+            "nextPaymentDate": "2019-12-20",
+            "paymentServiceType": "EXPEDITED_PAYMENT",
+            "deliveryDays": 3,
+            "fee": {
+                "amount": "9.99",
+                "currencyCode": "USD"
+            }
+        }],
+        "ebill": {
+            "capable": true,
+            "enabled": true,
+            "status": "ACTIVE",
+            "latestBill": {
+                "id": "a794a1f8-e4f4-4466-9252-117ee428a114",
+                "paymentDate": "2020-01-04",
+                "amount": {
+                    "amount": "50.00",
+                    "currencyCode": "USD"
+                },
+                "minAmountDue": {
+                    "amount": "15.00",
+                    "currencyCode": "USD"
+                },
+                "outstandingBalance": {
+                    "amount": "300.00",
+                    "currencyCode": "USD"
+                },
+                "status": "UNPAID",
+                "url": "http://latestebill.com",
+                "statementAvailable": false
+            }
+        }
+    }, {
+        "id": "0955e686-d31e-4216-b3dd-5d66161d536f",
+        "name": "Electric",
+        "electronic": true,
+        "hasRecurringPayments": true,
+        "paymentServices": [{
+            "cutoffTime": "2019-12-18T14:00:39.831Z",
+            "earliestPaymentDate": "2019-12-23",
+            "nextPaymentDate": "2019-12-24",
+            "paymentServiceType": "REGULAR_PAYMENT"
+        }],
+        "ebill": {
+            "capable": true,
+            "enabled": false
+        }
+    }, {
+        "id": "0955e686-d31e-4216-b3dd-5d66161d536e",
+        "name": "Water",
+        "accountNumber": "04397260",
+        "electronic": false,
+        "hasRecurringPayments": false,
+        "paymentServices": [{
+            "cutoffTime": "2019-12-18T14:00:39.831Z",
+            "earliestPaymentDate": "2019-12-25",
+            "nextPaymentDate": "2019-12-26",
+            "paymentServiceType": "REGULAR_PAYMENT"
+        }, {
+            "cutoffTime": "2019-12-18T14:00:39.831Z",
+            "earliestPaymentDate": "2019-12-19",
+            "nextPaymentDate": "2019-12-20",
+            "paymentServiceType": "EXPEDITED_PAYMENT",
+            "deliveryDays": 3,
+            "fee": {
+                "amount": "9.99",
+                "currencyCode": "USD"
+            }
+        }],
+        "ebill": {
+            "capable": false,
+            "enabled": false
+        }
+    }, {
+        "id": "d3fb77c0-2678-450f-add6-1d80b0d07ad9",
+        "name": "Backbase",
+        "accountNumber": "071904782",
+        "electronic": true,
+        "hasRecurringPayments": false,
+        "paymentServices": [{
+            "cutoffTime": "2019-12-18T14:00:39.834Z",
+            "earliestPaymentDate": "2019-12-25",
+            "nextPaymentDate": "2019-12-26",
+            "paymentServiceType": "REGULAR_PAYMENT"
+        }, {
+            "cutoffTime": "2019-12-18T14:00:39.834Z",
+            "earliestPaymentDate": "2019-12-19",
+            "nextPaymentDate": "2019-12-20",
+            "paymentServiceType": "EXPEDITED_PAYMENT",
+            "deliveryDays": 3,
+            "fee": {
+                "amount": "9.99",
+                "currencyCode": "USD"
+            }
+        }],
+        "ebill": {
+            "capable": true,
+            "enabled": false
+        }
+    }, {
+        "id": "8bc608c3-71a7-45af-9535-39fdf06cda26",
+        "nickName": "TV payments",
+        "name": "Netflix",
+        "accountNumber": "071904785",
+        "electronic": false,
+        "hasRecurringPayments": true,
+        "paymentServices": [{
+            "cutoffTime": "2019-12-18T14:00:39.835Z",
+            "earliestPaymentDate": "2019-12-23",
+            "nextPaymentDate": "2019-12-24",
+            "paymentServiceType": "REGULAR_PAYMENT"
+        }],
+        "ebill": {
+            "capable": false,
+            "enabled": false
+        }
+    }, {
+        "id": "2c5f94a3-2610-4c48-bbe4-593f4b2b5cae",
+        "name": "Backbase",
+        "accountNumber": "071904781",
+        "electronic": true,
+        "hasRecurringPayments": false,
+        "paymentServices": [{
+            "cutoffTime": "2019-12-18T14:00:39.835Z",
+            "earliestPaymentDate": "2019-12-25",
+            "nextPaymentDate": "2019-12-26",
+            "paymentServiceType": "REGULAR_PAYMENT"
+        }, {
+            "cutoffTime": "2019-12-18T14:00:39.835Z",
+            "earliestPaymentDate": "2019-12-19",
+            "nextPaymentDate": "2019-12-20",
+            "paymentServiceType": "EXPEDITED_PAYMENT",
+            "deliveryDays": 3,
+            "fee": {
+                "amount": "9.99",
+                "currencyCode": "USD"
+            }
+        }],
+        "ebill": {
+            "capable": true,
+            "enabled": false
+        }
+    }, {
+        "id": "d3f24786-fbaa-4e5d-afd3-25f8bb0941de",
+        "name": "Bank of America",
+        "accountNumber": "071904779",
+        "electronic": true,
+        "hasRecurringPayments": false,
+        "paymentServices": [{
+            "cutoffTime": "2019-12-18T14:00:39.836Z",
+            "earliestPaymentDate": "2019-12-25",
+            "nextPaymentDate": "2019-12-26",
+            "paymentServiceType": "REGULAR_PAYMENT"
+        }, {
+            "cutoffTime": "2019-12-18T14:00:39.836Z",
+            "earliestPaymentDate": "2019-12-19",
+            "nextPaymentDate": "2019-12-20",
+            "paymentServiceType": "EXPEDITED_PAYMENT",
+            "deliveryDays": 3,
+            "fee": {
+                "amount": "9.99",
+                "currencyCode": "USD"
+            }
+        }],
+        "ebill": {
+            "capable": true,
+            "enabled": false
+        }
+    }, {
+        "id": "74e3c90d-8647-4b2f-92c9-e2da6754b9c4",
+        "name": "T-Mobile",
+        "nickName": "My T-mobile",
+        "accountNumber": "071904780",
+        "electronic": true,
+        "hasRecurringPayments": false,
+        "paymentServices": [{
+            "cutoffTime": "2019-12-18T14:00:39.837Z",
+            "earliestPaymentDate": "2019-12-25",
+            "nextPaymentDate": "2019-12-26",
+            "paymentServiceType": "REGULAR_PAYMENT"
+        }, {
+            "cutoffTime": "2019-12-18T14:00:39.837Z",
+            "earliestPaymentDate": "2019-12-19",
+            "nextPaymentDate": "2019-12-20",
+            "paymentServiceType": "EXPEDITED_PAYMENT",
+            "deliveryDays": 3,
+            "fee": {
+                "amount": "9.99",
+                "currencyCode": "USD"
+            }
+        }],
+        "ebill": {
+            "capable": true,
+            "enabled": false
+        }
+    }]
+}

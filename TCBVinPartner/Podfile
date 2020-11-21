@@ -1,0 +1,45 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+
+inhibit_all_warnings!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+plugin 'cocoapods-art', sources: %w[
+  backbase-pods3
+  backbase-pods-retail3
+]
+
+use_frameworks!
+
+def tcb_service
+  pod 'TCBService', :path => 'TCBService'
+#  pod 'TCBService', :git => 'https://bitbucket.techcombank.com.vn/scm/toreombb/iostcbservices.git', :tag => '1.0.2'
+end
+
+def domain
+  pod 'Domain', :path => 'Domain'
+#  pod 'TCBDomain', :git => 'https://bitbucket.techcombank.com.vn/scm/toreombb/iostcbcore.git'
+end
+
+def tcb_components
+  pod 'TCBComponents', :path => 'TCBComponents'
+#  pod 'TCBComponents', :git => 'https://bitbucket.techcombank.com.vn/scm/toreombb/iostcbcomponents.git'
+end
+
+target 'TCBVinPartner' do
+  tcb_service
+  domain
+  tcb_components
+  
+  pod 'RxSwift', '~> 5.0'
+  pod 'RxCocoa', '5'
+  pod 'SnapKit', '5.0.0'
+
+  # Pods for TCBDashBoard
+
+  target 'TCBVinPartnerTests' do
+    # Pods for testing
+  end
+
+end

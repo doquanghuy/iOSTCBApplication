@@ -1,0 +1,912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04325CB0AC8ABC11598E8A76 /* Pods_TCBService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E38715FAC133B5963081C0 /* Pods_TCBService.framework */; };
+		4005C976255D332D003FDF2E /* TCBAPIIdentityClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005C975255D332D003FDF2E /* TCBAPIIdentityClient.swift */; };
+		40405BD6255932FD00F3F12E /* TCBProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40405BD5255932FD00F3F12E /* TCBProfileService.swift */; };
+		40405BDC2559338600F3F12E /* TCBProfileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40405BDB2559338600F3F12E /* TCBProfileClient.swift */; };
+		4054DC65254E4FBF007C27C7 /* TCBHttpIdentityConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4054DC64254E4FBF007C27C7 /* TCBHttpIdentityConfiguration.swift */; };
+		4054DD24254EC1B1007C27C7 /* TCBProfileUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4054DD23254EC1B1007C27C7 /* TCBProfileUseCase.swift */; };
+		4064FF0725625E9300236E74 /* TCBAuditUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064FF0625625E9300236E74 /* TCBAuditUseCase.swift */; };
+		40A3A17E254C028200E58CCD /* TCBValidateTokenClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3A17C254C028200E58CCD /* TCBValidateTokenClient.swift */; };
+		40A3A17F254C028200E58CCD /* TCBValidateTokenServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3A17D254C028200E58CCD /* TCBValidateTokenServices.swift */; };
+		40A3A1D8254D096200E58CCD /* TCBAuthService+TCBSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3A1D3254D096100E58CCD /* TCBAuthService+TCBSessionManager.swift */; };
+		40A3A1D9254D096200E58CCD /* TCBAuthService+Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3A1D4254D096100E58CCD /* TCBAuthService+Parameter.swift */; };
+		40A3A1DA254D096200E58CCD /* TCBAuthService+APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3A1D5254D096100E58CCD /* TCBAuthService+APIError.swift */; };
+		40A3A1DB254D096200E58CCD /* TCBAuthService+HTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3A1D6254D096200E58CCD /* TCBAuthService+HTTPHeader.swift */; };
+		40A3A1DC254D096200E58CCD /* TCBAuthService+HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3A1D7254D096200E58CCD /* TCBAuthService+HTTPStatusCode.swift */; };
+		40A3A1E0254D0B0F00E58CCD /* TCBRegisterUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3A1DF254D0B0F00E58CCD /* TCBRegisterUseCase.swift */; };
+		876CB2652553E00A0096DF28 /* TCBDBSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876CB2642553E00A0096DF28 /* TCBDBSClient.swift */; };
+		876CB26B2553E0200096DF28 /* TCBDBSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876CB26A2553E0200096DF28 /* TCBDBSService.swift */; };
+		876CB26F2553E22C0096DF28 /* TCBDBSUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876CB26E2553E22C0096DF28 /* TCBDBSUseCase.swift */; };
+		876EA8152552BAEC00DABE2D /* TCBConfigurationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EA8142552BAEC00DABE2D /* TCBConfigurationUseCase.swift */; };
+		876EA8272552C1EA00DABE2D /* TCBConfigurationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EA8262552C1EA00DABE2D /* TCBConfigurationClient.swift */; };
+		876EA82D2552C20700DABE2D /* TCBConfigurationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EA82C2552C20700DABE2D /* TCBConfigurationService.swift */; };
+		877569D3255BDCF700A0A9BE /* TCBDBSPaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877569D1255BDCF700A0A9BE /* TCBDBSPaymentService.swift */; };
+		877569D4255BDCF700A0A9BE /* TCBDBSProductSummaryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877569D2255BDCF700A0A9BE /* TCBDBSProductSummaryService.swift */; };
+		877569D9255BDDAD00A0A9BE /* TCBPaymentUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877569D7255BDDAD00A0A9BE /* TCBPaymentUseCase.swift */; };
+		877569DA255BDDAD00A0A9BE /* TCBProductSummaryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877569D8255BDDAD00A0A9BE /* TCBProductSummaryUseCase.swift */; };
+		877569E8255BDE9E00A0A9BE /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877569E4255BDE9E00A0A9BE /* Converter.swift */; };
+		877569E9255BDE9E00A0A9BE /* Transformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877569E5255BDE9E00A0A9BE /* Transformers.swift */; };
+		877569EA255BDE9E00A0A9BE /* DEAccountCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877569E6255BDE9E00A0A9BE /* DEAccountCheck.swift */; };
+		877569EB255BDE9E00A0A9BE /* DERules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877569E7255BDE9E00A0A9BE /* DERules.swift */; };
+		896389712536F19600580A6F /* TCBService.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 896389702536F19600580A6F /* TCBService.podspec */; };
+		896389B82536F2C400580A6F /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 896389B72536F2C400580A6F /* assets */; };
+		896389CA2536F4CA00580A6F /* TCBServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896389C92536F4CA00580A6F /* TCBServiceTests.swift */; };
+		896389CC2536F4CA00580A6F /* TCBService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896389572536F00100580A6F /* TCBService.framework */; };
+		89638A2B2536FC7300580A6F /* BackbaseWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89638A1A2536FC7300580A6F /* BackbaseWrapper.swift */; };
+		89638A2C2536FC7300580A6F /* String+BB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89638A1B2536FC7300580A6F /* String+BB.swift */; };
+		89638A2D2536FC7300580A6F /* TCBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89638A1C2536FC7300580A6F /* TCBService.swift */; };
+		89638A2E2536FC7300580A6F /* TCBProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89638A1F2536FC7300580A6F /* TCBProductModel.swift */; };
+		89638A2F2536FC7300580A6F /* TCBProductClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89638A202536FC7300580A6F /* TCBProductClient.swift */; };
+		89638A302536FC7300580A6F /* TCBProductDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89638A212536FC7300580A6F /* TCBProductDataProvider.swift */; };
+		89638A312536FC7300580A6F /* TCBServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89638A222536FC7300580A6F /* TCBServiceFactory.swift */; };
+		89638A322536FC7300580A6F /* TCBDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89638A232536FC7300580A6F /* TCBDataProvider.swift */; };
+		89638A332536FC7300580A6F /* AccountSummaryUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89638A262536FC7300580A6F /* AccountSummaryUtils.swift */; };
+		89638A342536FC7300580A6F /* ProductKindUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89638A272536FC7300580A6F /* ProductKindUtils.swift */; };
+		89638A352536FC7300580A6F /* ProductConverterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89638A282536FC7300580A6F /* ProductConverterExtensions.swift */; };
+		89638A362536FC7300580A6F /* ProductsFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89638A292536FC7300580A6F /* ProductsFormatter.swift */; };
+		89638A372536FC7300580A6F /* AmountUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89638A2A2536FC7300580A6F /* AmountUtils.swift */; };
+		8985F4C1253D310800BD7063 /* TCBNotificationsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985F4BE253D310800BD7063 /* TCBNotificationsClient.swift */; };
+		8985F4C2253D310800BD7063 /* TCBNotificationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985F4BF253D310800BD7063 /* TCBNotificationsService.swift */; };
+		8985F4C3253D310800BD7063 /* TCBNotificationsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985F4C0253D310800BD7063 /* TCBNotificationsDataProvider.swift */; };
+		8985F544253D4ADC00BD7063 /* TCBMessagesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985F543253D4ADC00BD7063 /* TCBMessagesUseCase.swift */; };
+		898DEC66253955130050C814 /* TCBTransactionsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DEC65253955130050C814 /* TCBTransactionsClient.swift */; };
+		898DED6625395B680050C814 /* TCBTransactionsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DED6525395B680050C814 /* TCBTransactionsDataProvider.swift */; };
+		898DED6C25395C8A0050C814 /* Date+BB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DED6B25395C8A0050C814 /* Date+BB.swift */; };
+		898DEEB12539A7FF0050C814 /* TCBCommunityAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DEEB02539A7FF0050C814 /* TCBCommunityAuthClient.swift */; };
+		898DEEB62539A83D0050C814 /* TCBUseCasesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DEEB52539A83D0050C814 /* TCBUseCasesProvider.swift */; };
+		898DEEEA2539A9680050C814 /* TCBLoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DEEE92539A9680050C814 /* TCBLoginUseCase.swift */; };
+		89A6B5DB254291DE0093D332 /* TCBIdentityAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6B5DA254291DE0093D332 /* TCBIdentityAuthClient.swift */; };
+		89AA8455253CA4DB008A58BB /* TCBCashflowUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA8454253CA4DB008A58BB /* TCBCashflowUseCase.swift */; };
+		89AA845B253CA503008A58BB /* TCBAccountUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA845A253CA503008A58BB /* TCBAccountUseCase.swift */; };
+		89AA845F253CA51C008A58BB /* TCBOfferingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA845E253CA51C008A58BB /* TCBOfferingUseCase.swift */; };
+		89AA8463253CA531008A58BB /* TCBRecentActivityUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA8462253CA531008A58BB /* TCBRecentActivityUseCase.swift */; };
+		89AA848B253CA935008A58BB /* TCBAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA848A253CA935008A58BB /* TCBAuthService.swift */; };
+		89C746B8253CB882004F1E23 /* TCBTransactionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C746B7253CB882004F1E23 /* TCBTransactionsService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		896389CD2536F4CA00580A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8963894E2536F00100580A6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 896389562536F00100580A6F;
+			remoteInfo = TCBService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D1513B92B741945C6906E4D /* Pods-TCBService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBService.debug.xcconfig"; path = "Target Support Files/Pods-TCBService/Pods-TCBService.debug.xcconfig"; sourceTree = "<group>"; };
+		4005C975255D332D003FDF2E /* TCBAPIIdentityClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBAPIIdentityClient.swift; sourceTree = "<group>"; };
+		40405BD5255932FD00F3F12E /* TCBProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBProfileService.swift; sourceTree = "<group>"; };
+		40405BDB2559338600F3F12E /* TCBProfileClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBProfileClient.swift; sourceTree = "<group>"; };
+		4054DC64254E4FBF007C27C7 /* TCBHttpIdentityConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBHttpIdentityConfiguration.swift; sourceTree = "<group>"; };
+		4054DD23254EC1B1007C27C7 /* TCBProfileUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBProfileUseCase.swift; sourceTree = "<group>"; };
+		4064FF0625625E9300236E74 /* TCBAuditUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBAuditUseCase.swift; sourceTree = "<group>"; };
+		40A3A17C254C028200E58CCD /* TCBValidateTokenClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBValidateTokenClient.swift; sourceTree = "<group>"; };
+		40A3A17D254C028200E58CCD /* TCBValidateTokenServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBValidateTokenServices.swift; sourceTree = "<group>"; };
+		40A3A1D3254D096100E58CCD /* TCBAuthService+TCBSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TCBAuthService+TCBSessionManager.swift"; sourceTree = "<group>"; };
+		40A3A1D4254D096100E58CCD /* TCBAuthService+Parameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TCBAuthService+Parameter.swift"; sourceTree = "<group>"; };
+		40A3A1D5254D096100E58CCD /* TCBAuthService+APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TCBAuthService+APIError.swift"; sourceTree = "<group>"; };
+		40A3A1D6254D096200E58CCD /* TCBAuthService+HTTPHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TCBAuthService+HTTPHeader.swift"; sourceTree = "<group>"; };
+		40A3A1D7254D096200E58CCD /* TCBAuthService+HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TCBAuthService+HTTPStatusCode.swift"; sourceTree = "<group>"; };
+		40A3A1DF254D0B0F00E58CCD /* TCBRegisterUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBRegisterUseCase.swift; sourceTree = "<group>"; };
+		84E38715FAC133B5963081C0 /* Pods_TCBService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCBService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		876CB2642553E00A0096DF28 /* TCBDBSClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBDBSClient.swift; sourceTree = "<group>"; };
+		876CB26A2553E0200096DF28 /* TCBDBSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBDBSService.swift; sourceTree = "<group>"; };
+		876CB26E2553E22C0096DF28 /* TCBDBSUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBDBSUseCase.swift; sourceTree = "<group>"; };
+		876EA8142552BAEC00DABE2D /* TCBConfigurationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBConfigurationUseCase.swift; sourceTree = "<group>"; };
+		876EA8262552C1EA00DABE2D /* TCBConfigurationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBConfigurationClient.swift; sourceTree = "<group>"; };
+		876EA82C2552C20700DABE2D /* TCBConfigurationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBConfigurationService.swift; sourceTree = "<group>"; };
+		877569D1255BDCF700A0A9BE /* TCBDBSPaymentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBDBSPaymentService.swift; sourceTree = "<group>"; };
+		877569D2255BDCF700A0A9BE /* TCBDBSProductSummaryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBDBSProductSummaryService.swift; sourceTree = "<group>"; };
+		877569D7255BDDAD00A0A9BE /* TCBPaymentUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBPaymentUseCase.swift; sourceTree = "<group>"; };
+		877569D8255BDDAD00A0A9BE /* TCBProductSummaryUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBProductSummaryUseCase.swift; sourceTree = "<group>"; };
+		877569E4255BDE9E00A0A9BE /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		877569E5255BDE9E00A0A9BE /* Transformers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transformers.swift; sourceTree = "<group>"; };
+		877569E6255BDE9E00A0A9BE /* DEAccountCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DEAccountCheck.swift; sourceTree = "<group>"; };
+		877569E7255BDE9E00A0A9BE /* DERules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DERules.swift; sourceTree = "<group>"; };
+		896389572536F00100580A6F /* TCBService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TCBService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8963895B2536F00100580A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896389702536F19600580A6F /* TCBService.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TCBService.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		896389B72536F2C400580A6F /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		896389C72536F4CA00580A6F /* TCBServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCBServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		896389C92536F4CA00580A6F /* TCBServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBServiceTests.swift; sourceTree = "<group>"; };
+		896389CB2536F4CA00580A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89638A1A2536FC7300580A6F /* BackbaseWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackbaseWrapper.swift; sourceTree = "<group>"; };
+		89638A1B2536FC7300580A6F /* String+BB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+BB.swift"; sourceTree = "<group>"; };
+		89638A1C2536FC7300580A6F /* TCBService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBService.swift; sourceTree = "<group>"; };
+		89638A1F2536FC7300580A6F /* TCBProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBProductModel.swift; sourceTree = "<group>"; };
+		89638A202536FC7300580A6F /* TCBProductClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBProductClient.swift; sourceTree = "<group>"; };
+		89638A212536FC7300580A6F /* TCBProductDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBProductDataProvider.swift; sourceTree = "<group>"; };
+		89638A222536FC7300580A6F /* TCBServiceFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBServiceFactory.swift; sourceTree = "<group>"; };
+		89638A232536FC7300580A6F /* TCBDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBDataProvider.swift; sourceTree = "<group>"; };
+		89638A262536FC7300580A6F /* AccountSummaryUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSummaryUtils.swift; sourceTree = "<group>"; };
+		89638A272536FC7300580A6F /* ProductKindUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductKindUtils.swift; sourceTree = "<group>"; };
+		89638A282536FC7300580A6F /* ProductConverterExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductConverterExtensions.swift; sourceTree = "<group>"; };
+		89638A292536FC7300580A6F /* ProductsFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsFormatter.swift; sourceTree = "<group>"; };
+		89638A2A2536FC7300580A6F /* AmountUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmountUtils.swift; sourceTree = "<group>"; };
+		8985F4BE253D310800BD7063 /* TCBNotificationsClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBNotificationsClient.swift; sourceTree = "<group>"; };
+		8985F4BF253D310800BD7063 /* TCBNotificationsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBNotificationsService.swift; sourceTree = "<group>"; };
+		8985F4C0253D310800BD7063 /* TCBNotificationsDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBNotificationsDataProvider.swift; sourceTree = "<group>"; };
+		8985F543253D4ADC00BD7063 /* TCBMessagesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBMessagesUseCase.swift; sourceTree = "<group>"; };
+		898DEC65253955130050C814 /* TCBTransactionsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBTransactionsClient.swift; sourceTree = "<group>"; };
+		898DED6525395B680050C814 /* TCBTransactionsDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBTransactionsDataProvider.swift; sourceTree = "<group>"; };
+		898DED6B25395C8A0050C814 /* Date+BB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+BB.swift"; sourceTree = "<group>"; };
+		898DEEB02539A7FF0050C814 /* TCBCommunityAuthClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCBCommunityAuthClient.swift; sourceTree = "<group>"; };
+		898DEEB52539A83D0050C814 /* TCBUseCasesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBUseCasesProvider.swift; sourceTree = "<group>"; };
+		898DEEE92539A9680050C814 /* TCBLoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBLoginUseCase.swift; sourceTree = "<group>"; };
+		89A6B5DA254291DE0093D332 /* TCBIdentityAuthClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBIdentityAuthClient.swift; sourceTree = "<group>"; };
+		89AA8454253CA4DB008A58BB /* TCBCashflowUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBCashflowUseCase.swift; sourceTree = "<group>"; };
+		89AA845A253CA503008A58BB /* TCBAccountUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBAccountUseCase.swift; sourceTree = "<group>"; };
+		89AA845E253CA51C008A58BB /* TCBOfferingUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBOfferingUseCase.swift; sourceTree = "<group>"; };
+		89AA8462253CA531008A58BB /* TCBRecentActivityUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBRecentActivityUseCase.swift; sourceTree = "<group>"; };
+		89AA848A253CA935008A58BB /* TCBAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBAuthService.swift; sourceTree = "<group>"; };
+		89C746B7253CB882004F1E23 /* TCBTransactionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBTransactionsService.swift; sourceTree = "<group>"; };
+		A002D498D1361A1B879A7B30 /* Pods-TCBService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCBService.release.xcconfig"; path = "Target Support Files/Pods-TCBService/Pods-TCBService.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		896389542536F00100580A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04325CB0AC8ABC11598E8A76 /* Pods_TCBService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896389C42536F4CA00580A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896389CC2536F4CA00580A6F /* TCBService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40405BD4255932CE00F3F12E /* ProfileClient */ = {
+			isa = PBXGroup;
+			children = (
+				40405BD5255932FD00F3F12E /* TCBProfileService.swift */,
+				40405BDB2559338600F3F12E /* TCBProfileClient.swift */,
+			);
+			path = ProfileClient;
+			sourceTree = "<group>";
+		};
+		40A3A17B254C028200E58CCD /* ValidateTokenClient */ = {
+			isa = PBXGroup;
+			children = (
+				40A3A17C254C028200E58CCD /* TCBValidateTokenClient.swift */,
+				40A3A17D254C028200E58CCD /* TCBValidateTokenServices.swift */,
+			);
+			path = ValidateTokenClient;
+			sourceTree = "<group>";
+		};
+		876CB2632553DFF10096DF28 /* DBSClient */ = {
+			isa = PBXGroup;
+			children = (
+				877569D1255BDCF700A0A9BE /* TCBDBSPaymentService.swift */,
+				877569D2255BDCF700A0A9BE /* TCBDBSProductSummaryService.swift */,
+				876CB2642553E00A0096DF28 /* TCBDBSClient.swift */,
+				876CB26A2553E0200096DF28 /* TCBDBSService.swift */,
+			);
+			path = DBSClient;
+			sourceTree = "<group>";
+		};
+		876EA8252552C0CD00DABE2D /* ConfigurationClient */ = {
+			isa = PBXGroup;
+			children = (
+				876EA8262552C1EA00DABE2D /* TCBConfigurationClient.swift */,
+				876EA82C2552C20700DABE2D /* TCBConfigurationService.swift */,
+			);
+			path = ConfigurationClient;
+			sourceTree = "<group>";
+		};
+		877569E3255BDE6B00A0A9BE /* IBANUtils */ = {
+			isa = PBXGroup;
+			children = (
+				877569E4255BDE9E00A0A9BE /* Converter.swift */,
+				877569E6255BDE9E00A0A9BE /* DEAccountCheck.swift */,
+				877569E7255BDE9E00A0A9BE /* DERules.swift */,
+				877569E5255BDE9E00A0A9BE /* Transformers.swift */,
+			);
+			path = IBANUtils;
+			sourceTree = "<group>";
+		};
+		8963894D2536F00100580A6F = {
+			isa = PBXGroup;
+			children = (
+				896389BD2536F3EA00580A6F /* Deployment */,
+				8963896A2536F04B00580A6F /* Source */,
+				896389C82536F4CA00580A6F /* Tests */,
+				8963896C2536F09C00580A6F /* Assets */,
+				8963896D2536F0A300580A6F /* Supporting Files */,
+				896389582536F00100580A6F /* Products */,
+				F98AED2E92F598D5869F765F /* Pods */,
+				CD63612387288D8ECF9D1D36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		896389582536F00100580A6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				896389572536F00100580A6F /* TCBService.framework */,
+				896389C72536F4CA00580A6F /* TCBServiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8963896A2536F04B00580A6F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4054DC64254E4FBF007C27C7 /* TCBHttpIdentityConfiguration.swift */,
+				89638A1C2536FC7300580A6F /* TCBService.swift */,
+				898DEEB42539A82A0050C814 /* UseCases */,
+				89638A1D2536FC7300580A6F /* Clients */,
+				89638A182536FC7300580A6F /* Extensions */,
+				89638A242536FC7300580A6F /* Utils */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8963896C2536F09C00580A6F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				896389B72536F2C400580A6F /* assets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8963896D2536F0A300580A6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8963895B2536F00100580A6F /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		896389BD2536F3EA00580A6F /* Deployment */ = {
+			isa = PBXGroup;
+			children = (
+				896389702536F19600580A6F /* TCBService.podspec */,
+			);
+			name = Deployment;
+			sourceTree = "<group>";
+		};
+		896389C82536F4CA00580A6F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				896389C92536F4CA00580A6F /* TCBServiceTests.swift */,
+				896389CB2536F4CA00580A6F /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		89638A182536FC7300580A6F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				89638A192536FC7300580A6F /* BackbaseWrapper */,
+				89638A1B2536FC7300580A6F /* String+BB.swift */,
+				898DED6B25395C8A0050C814 /* Date+BB.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		89638A192536FC7300580A6F /* BackbaseWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				89638A1A2536FC7300580A6F /* BackbaseWrapper.swift */,
+			);
+			path = BackbaseWrapper;
+			sourceTree = "<group>";
+		};
+		89638A1D2536FC7300580A6F /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				40405BD4255932CE00F3F12E /* ProfileClient */,
+				876CB2632553DFF10096DF28 /* DBSClient */,
+				876EA8252552C0CD00DABE2D /* ConfigurationClient */,
+				40A3A17B254C028200E58CCD /* ValidateTokenClient */,
+				89A4C82025382DAC00729586 /* AuthClient */,
+				898DEC64253950470050C814 /* TransactionsClient */,
+				8985F4BD253D310800BD7063 /* NotificationsClient */,
+				89638A1E2536FC7300580A6F /* ProductClient */,
+				89638A222536FC7300580A6F /* TCBServiceFactory.swift */,
+				89638A232536FC7300580A6F /* TCBDataProvider.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		89638A1E2536FC7300580A6F /* ProductClient */ = {
+			isa = PBXGroup;
+			children = (
+				89638A1F2536FC7300580A6F /* TCBProductModel.swift */,
+				89638A202536FC7300580A6F /* TCBProductClient.swift */,
+				89638A212536FC7300580A6F /* TCBProductDataProvider.swift */,
+			);
+			path = ProductClient;
+			sourceTree = "<group>";
+		};
+		89638A242536FC7300580A6F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				877569E3255BDE6B00A0A9BE /* IBANUtils */,
+				89638A252536FC7300580A6F /* Utilities */,
+				89638A2A2536FC7300580A6F /* AmountUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		89638A252536FC7300580A6F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				89638A262536FC7300580A6F /* AccountSummaryUtils.swift */,
+				89638A272536FC7300580A6F /* ProductKindUtils.swift */,
+				89638A282536FC7300580A6F /* ProductConverterExtensions.swift */,
+				89638A292536FC7300580A6F /* ProductsFormatter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8985F4BD253D310800BD7063 /* NotificationsClient */ = {
+			isa = PBXGroup;
+			children = (
+				8985F4BE253D310800BD7063 /* TCBNotificationsClient.swift */,
+				8985F4BF253D310800BD7063 /* TCBNotificationsService.swift */,
+				8985F4C0253D310800BD7063 /* TCBNotificationsDataProvider.swift */,
+			);
+			path = NotificationsClient;
+			sourceTree = "<group>";
+		};
+		898DEC64253950470050C814 /* TransactionsClient */ = {
+			isa = PBXGroup;
+			children = (
+				898DEC65253955130050C814 /* TCBTransactionsClient.swift */,
+				898DED6525395B680050C814 /* TCBTransactionsDataProvider.swift */,
+				89C746B7253CB882004F1E23 /* TCBTransactionsService.swift */,
+			);
+			path = TransactionsClient;
+			sourceTree = "<group>";
+		};
+		898DEEB42539A82A0050C814 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				877569D7255BDDAD00A0A9BE /* TCBPaymentUseCase.swift */,
+				877569D8255BDDAD00A0A9BE /* TCBProductSummaryUseCase.swift */,
+				4054DD23254EC1B1007C27C7 /* TCBProfileUseCase.swift */,
+				40A3A1DF254D0B0F00E58CCD /* TCBRegisterUseCase.swift */,
+				898DEEB52539A83D0050C814 /* TCBUseCasesProvider.swift */,
+				898DEEE92539A9680050C814 /* TCBLoginUseCase.swift */,
+				89AA8454253CA4DB008A58BB /* TCBCashflowUseCase.swift */,
+				89AA845A253CA503008A58BB /* TCBAccountUseCase.swift */,
+				89AA845E253CA51C008A58BB /* TCBOfferingUseCase.swift */,
+				89AA8462253CA531008A58BB /* TCBRecentActivityUseCase.swift */,
+				8985F543253D4ADC00BD7063 /* TCBMessagesUseCase.swift */,
+				876EA8142552BAEC00DABE2D /* TCBConfigurationUseCase.swift */,
+				876CB26E2553E22C0096DF28 /* TCBDBSUseCase.swift */,
+				4064FF0625625E9300236E74 /* TCBAuditUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		89A4C82025382DAC00729586 /* AuthClient */ = {
+			isa = PBXGroup;
+			children = (
+				4005C975255D332D003FDF2E /* TCBAPIIdentityClient.swift */,
+				40A3A1D5254D096100E58CCD /* TCBAuthService+APIError.swift */,
+				40A3A1D6254D096200E58CCD /* TCBAuthService+HTTPHeader.swift */,
+				40A3A1D7254D096200E58CCD /* TCBAuthService+HTTPStatusCode.swift */,
+				40A3A1D4254D096100E58CCD /* TCBAuthService+Parameter.swift */,
+				40A3A1D3254D096100E58CCD /* TCBAuthService+TCBSessionManager.swift */,
+				898DEEB02539A7FF0050C814 /* TCBCommunityAuthClient.swift */,
+				89AA848A253CA935008A58BB /* TCBAuthService.swift */,
+				89A6B5DA254291DE0093D332 /* TCBIdentityAuthClient.swift */,
+			);
+			path = AuthClient;
+			sourceTree = "<group>";
+		};
+		CD63612387288D8ECF9D1D36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E38715FAC133B5963081C0 /* Pods_TCBService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F98AED2E92F598D5869F765F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D1513B92B741945C6906E4D /* Pods-TCBService.debug.xcconfig */,
+				A002D498D1361A1B879A7B30 /* Pods-TCBService.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		896389522536F00100580A6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		896389562536F00100580A6F /* TCBService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8963895F2536F00100580A6F /* Build configuration list for PBXNativeTarget "TCBService" */;
+			buildPhases = (
+				2612E22AFFA0E32B45CAAB27 /* [CP] Check Pods Manifest.lock */,
+				896389522536F00100580A6F /* Headers */,
+				896389532536F00100580A6F /* Sources */,
+				896389542536F00100580A6F /* Frameworks */,
+				896389552536F00100580A6F /* Resources */,
+				1064BD6298D4363004821FFF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCBService;
+			productName = TCBService;
+			productReference = 896389572536F00100580A6F /* TCBService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		896389C62536F4CA00580A6F /* TCBServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896389D12536F4CA00580A6F /* Build configuration list for PBXNativeTarget "TCBServiceTests" */;
+			buildPhases = (
+				896389C32536F4CA00580A6F /* Sources */,
+				896389C42536F4CA00580A6F /* Frameworks */,
+				896389C52536F4CA00580A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				896389CE2536F4CA00580A6F /* PBXTargetDependency */,
+			);
+			name = TCBServiceTests;
+			productName = TCBServiceTests;
+			productReference = 896389C72536F4CA00580A6F /* TCBServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8963894E2536F00100580A6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					896389562536F00100580A6F = {
+						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
+					};
+					896389C62536F4CA00580A6F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 896389512536F00100580A6F /* Build configuration list for PBXProject "TCBService" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8963894D2536F00100580A6F;
+			productRefGroup = 896389582536F00100580A6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				896389562536F00100580A6F /* TCBService */,
+				896389C62536F4CA00580A6F /* TCBServiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		896389552536F00100580A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896389712536F19600580A6F /* TCBService.podspec in Resources */,
+				896389B82536F2C400580A6F /* assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896389C52536F4CA00580A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1064BD6298D4363004821FFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCBService/Pods-TCBService-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCBService/Pods-TCBService-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TCBService/Pods-TCBService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2612E22AFFA0E32B45CAAB27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCBService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		896389532536F00100580A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A3A1D9254D096200E58CCD /* TCBAuthService+Parameter.swift in Sources */,
+				89638A2C2536FC7300580A6F /* String+BB.swift in Sources */,
+				876EA82D2552C20700DABE2D /* TCBConfigurationService.swift in Sources */,
+				877569EB255BDE9E00A0A9BE /* DERules.swift in Sources */,
+				876CB2652553E00A0096DF28 /* TCBDBSClient.swift in Sources */,
+				877569E8255BDE9E00A0A9BE /* Converter.swift in Sources */,
+				89638A2F2536FC7300580A6F /* TCBProductClient.swift in Sources */,
+				877569DA255BDDAD00A0A9BE /* TCBProductSummaryUseCase.swift in Sources */,
+				40A3A1D8254D096200E58CCD /* TCBAuthService+TCBSessionManager.swift in Sources */,
+				89638A362536FC7300580A6F /* ProductsFormatter.swift in Sources */,
+				8985F4C1253D310800BD7063 /* TCBNotificationsClient.swift in Sources */,
+				89638A302536FC7300580A6F /* TCBProductDataProvider.swift in Sources */,
+				40A3A1DB254D096200E58CCD /* TCBAuthService+HTTPHeader.swift in Sources */,
+				876EA8272552C1EA00DABE2D /* TCBConfigurationClient.swift in Sources */,
+				4054DC65254E4FBF007C27C7 /* TCBHttpIdentityConfiguration.swift in Sources */,
+				898DEC66253955130050C814 /* TCBTransactionsClient.swift in Sources */,
+				89A6B5DB254291DE0093D332 /* TCBIdentityAuthClient.swift in Sources */,
+				40A3A1E0254D0B0F00E58CCD /* TCBRegisterUseCase.swift in Sources */,
+				8985F544253D4ADC00BD7063 /* TCBMessagesUseCase.swift in Sources */,
+				877569D4255BDCF700A0A9BE /* TCBDBSProductSummaryService.swift in Sources */,
+				8985F4C2253D310800BD7063 /* TCBNotificationsService.swift in Sources */,
+				89638A372536FC7300580A6F /* AmountUtils.swift in Sources */,
+				89638A312536FC7300580A6F /* TCBServiceFactory.swift in Sources */,
+				40A3A1DC254D096200E58CCD /* TCBAuthService+HTTPStatusCode.swift in Sources */,
+				898DED6625395B680050C814 /* TCBTransactionsDataProvider.swift in Sources */,
+				898DEEEA2539A9680050C814 /* TCBLoginUseCase.swift in Sources */,
+				89638A2D2536FC7300580A6F /* TCBService.swift in Sources */,
+				89638A2B2536FC7300580A6F /* BackbaseWrapper.swift in Sources */,
+				89AA845F253CA51C008A58BB /* TCBOfferingUseCase.swift in Sources */,
+				876CB26B2553E0200096DF28 /* TCBDBSService.swift in Sources */,
+				4005C976255D332D003FDF2E /* TCBAPIIdentityClient.swift in Sources */,
+				89638A322536FC7300580A6F /* TCBDataProvider.swift in Sources */,
+				89AA8463253CA531008A58BB /* TCBRecentActivityUseCase.swift in Sources */,
+				89638A332536FC7300580A6F /* AccountSummaryUtils.swift in Sources */,
+				40405BD6255932FD00F3F12E /* TCBProfileService.swift in Sources */,
+				89638A2E2536FC7300580A6F /* TCBProductModel.swift in Sources */,
+				89C746B8253CB882004F1E23 /* TCBTransactionsService.swift in Sources */,
+				877569EA255BDE9E00A0A9BE /* DEAccountCheck.swift in Sources */,
+				877569D3255BDCF700A0A9BE /* TCBDBSPaymentService.swift in Sources */,
+				89638A352536FC7300580A6F /* ProductConverterExtensions.swift in Sources */,
+				89638A342536FC7300580A6F /* ProductKindUtils.swift in Sources */,
+				4054DD24254EC1B1007C27C7 /* TCBProfileUseCase.swift in Sources */,
+				876EA8152552BAEC00DABE2D /* TCBConfigurationUseCase.swift in Sources */,
+				4064FF0725625E9300236E74 /* TCBAuditUseCase.swift in Sources */,
+				8985F4C3253D310800BD7063 /* TCBNotificationsDataProvider.swift in Sources */,
+				89AA8455253CA4DB008A58BB /* TCBCashflowUseCase.swift in Sources */,
+				876CB26F2553E22C0096DF28 /* TCBDBSUseCase.swift in Sources */,
+				40405BDC2559338600F3F12E /* TCBProfileClient.swift in Sources */,
+				89AA848B253CA935008A58BB /* TCBAuthService.swift in Sources */,
+				40A3A17E254C028200E58CCD /* TCBValidateTokenClient.swift in Sources */,
+				898DED6C25395C8A0050C814 /* Date+BB.swift in Sources */,
+				898DEEB62539A83D0050C814 /* TCBUseCasesProvider.swift in Sources */,
+				877569D9255BDDAD00A0A9BE /* TCBPaymentUseCase.swift in Sources */,
+				40A3A1DA254D096200E58CCD /* TCBAuthService+APIError.swift in Sources */,
+				89AA845B253CA503008A58BB /* TCBAccountUseCase.swift in Sources */,
+				40A3A17F254C028200E58CCD /* TCBValidateTokenServices.swift in Sources */,
+				877569E9255BDE9E00A0A9BE /* Transformers.swift in Sources */,
+				898DEEB12539A7FF0050C814 /* TCBCommunityAuthClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896389C32536F4CA00580A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896389CA2536F4CA00580A6F /* TCBServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		896389CE2536F4CA00580A6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 896389562536F00100580A6F /* TCBService */;
+			targetProxy = 896389CD2536F4CA00580A6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8963895D2536F00100580A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8963895E2536F00100580A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		896389602536F00100580A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1513B92B741945C6906E4D /* Pods-TCBService.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techcombank.TCBService;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		896389612536F00100580A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A002D498D1361A1B879A7B30 /* Pods-TCBService.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techcombank.TCBService;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		896389CF2536F4CA00580A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techcombank.TCBServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		896389D02536F4CA00580A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techcombank.TCBServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		896389512536F00100580A6F /* Build configuration list for PBXProject "TCBService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8963895D2536F00100580A6F /* Debug */,
+				8963895E2536F00100580A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8963895F2536F00100580A6F /* Build configuration list for PBXNativeTarget "TCBService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896389602536F00100580A6F /* Debug */,
+				896389612536F00100580A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		896389D12536F4CA00580A6F /* Build configuration list for PBXNativeTarget "TCBServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896389CF2536F4CA00580A6F /* Debug */,
+				896389D02536F4CA00580A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8963894E2536F00100580A6F /* Project object */;
+}

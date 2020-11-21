@@ -1,0 +1,12 @@
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/TCBService
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Domain" "${PODS_CONFIGURATION_BUILD_DIR}/RxSwift" "${PODS_ROOT}/AccessControlClient" "${PODS_ROOT}/Backbase" "${PODS_ROOT}/CommonUtils" "${PODS_ROOT}/ContactsClient" "${PODS_ROOT}/NotificationsClient" "${PODS_ROOT}/PaymentOrderClient" "${PODS_ROOT}/ProductsClient" "${PODS_ROOT}/TransactionsClient" "${PODS_ROOT}/UserProfileClient"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+OTHER_LDFLAGS = $(inherited) -framework "AccessControlClient" -framework "Backbase" -framework "CommonUtils" -framework "ContactsClient" -framework "NotificationsClient" -framework "PaymentOrderClient" -framework "ProductsClient" -framework "TransactionsClient" -framework "UserProfileClient"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -suppress-warnings
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/../TCBService
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

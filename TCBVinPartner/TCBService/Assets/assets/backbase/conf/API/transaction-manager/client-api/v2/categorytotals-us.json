@@ -1,0 +1,108 @@
+{
+  "total": {
+    "amount": "3996.66",
+    "currencyCode": "USD"
+  },
+  "items":
+  [
+    {
+      "category": "Entertainment",
+      "totalAmount": {
+        "amount": "34.04",
+        "currencyCode": "USD"
+      },
+      "trend": 12,
+      "portion": 1
+    },
+    {
+      "category": "Food & Dining",
+      "totalAmount": {
+        "amount": "20",
+        "currencyCode": "USD"
+      },
+      "trend": -3,
+      "portion": 1
+    },
+    {
+      "category": "Transfer",
+      "totalAmount": {
+        "amount": "720.42",
+        "currencyCode": "USD"
+      },
+      "trend": -32,
+      "portion": 18
+    },
+    {
+      "category": "Home",
+      "totalAmount": {
+        "amount": "862",
+        "currencyCode": "USD"
+      },
+      "trend": 15,
+      "portion": 22
+    },
+    {
+      "category": "Health & Fitness",
+      "totalAmount": {
+        "amount": "25.22",
+        "currencyCode": "USD"
+      },
+      "trend": 5,
+      "portion": 1
+    },
+    {
+      "category": "Travel",
+      "totalAmount": {
+        "amount": "246",
+        "currencyCode": "USD"
+      },
+      "trend": 0,
+      "portion": 6
+    },
+    {
+      "category": "Shopping",
+      "totalAmount": {
+        "amount": "523",
+        "currencyCode": "USD"
+      },
+      "trend": 20,
+      "portion": 13
+    },
+    {
+      "category": "Bills & Utilities",
+      "totalAmount": {
+        "amount": "160.98",
+        "currencyCode": "USD"
+      },
+      "trend": 0,
+      "portion": 4
+    },
+    {
+      "category": "Income",
+      "totalAmount": {
+        "amount": "1060",
+        "currencyCode": "USD"
+      },
+      "trend": 120,
+      "portion": 26
+    },
+    {
+      "category": "Investments",
+      "totalAmount": {
+        "amount": "4",
+        "currencyCode": "USD"
+      },
+      "trend": -2,
+      "portion": 1
+    },
+    {
+      "category": "Uncategorized",
+      "totalAmount": {
+        "amount": "341",
+        "currencyCode": "USD"
+      },
+      "trend": -4,
+      "portion": 7
+    }
+  ]
+}

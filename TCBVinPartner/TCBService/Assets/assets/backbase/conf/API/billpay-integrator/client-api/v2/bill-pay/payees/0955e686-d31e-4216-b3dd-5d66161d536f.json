@@ -1,0 +1,52 @@
+{
+    "payee": {
+        "ebill": {
+            "capable": true,
+            "enabled": true,
+            "latestBill": {
+                "amount": {
+                    "amount": "100.99",
+                    "currencyCode": "USD"
+                },
+                "paymentDate": "2018-06-27",
+                "url": "http://my.ebill.pdf"
+            }
+        },
+        "electronic": true,
+        "id": "0955e686-d31e-4216-b3dd-5d66161d536f",
+        "payeeID": "0955e686-d31e-4216-b3dd-5d66161d536f",
+        "name": "Citibank",
+        "nextPayment": {
+            "amount": {
+                "amount": "100.99",
+                "currencyCode": "USD"
+            },
+            "paymentDate": "2018-06-27",
+            "fee": {
+                "amount": "9.99",
+                "currencyCode": "USD"
+            },
+            "recurring": true
+        },
+        "nickName": "My Bank",
+        "paymentServices": [
+                            {
+                            "cutoffTime": "2018-07-15T15:00:00.000-04:00",
+                            "deliveryDays": 3,
+                            "earliestPaymentDate": "2018-07-16",
+                            "nextPaymentDate": "2018-07-17",
+                            "fee": {
+                                "amount": "9.99",
+                                "currencyCode": "USD"
+                            },
+                            "paymentServiceType": "EXPEDITED_PAYMENT"
+                            },
+                            {
+                            "cutoffTime": "2018-07-19T15:00:00.000-04:00",
+                            "earliestPaymentDate": "2018-07-26",
+                            "nextPaymentDate": "2018-07-27",
+                            "paymentServiceType": "REGULAR_PAYMENT"
+                            }
+                            ]
+    }
+}

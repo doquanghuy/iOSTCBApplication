@@ -1,0 +1,163 @@
+PODS:
+  - AccessControlClient (7.0.0):
+    - CommonUtils (~> 7.0)
+  - Alamofire (5.2.2)
+  - Backbase (7.1.0)
+  - CommonUtils (7.0.0):
+    - Backbase (>= 7.1)
+  - ContactsClient (7.0.0):
+    - CommonUtils (~> 7.0)
+  - Domain (0.0.1):
+    - RxSwift (~> 5.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - lottie-ios (3.1.8)
+  - NotificationsClient (7.0.0):
+    - CommonUtils (~> 7.0)
+  - Nuke (9.1.2)
+  - PaymentOrderClient (7.0.0):
+    - CommonUtils (~> 7.0)
+  - pop (1.0.10)
+  - ProductsClient (7.0.0):
+    - CommonUtils (~> 7.0)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - RxBlocking (5.1.1):
+    - RxSwift (~> 5)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SkeletonView (1.10.0)
+  - SnapKit (5.0.0)
+  - SwiftLint (0.40.1)
+  - SWRevealViewController (2.3.0)
+  - TCBComponents (0.0.1):
+    - RxCocoa (= 5)
+    - SnapKit (= 5.0.0)
+  - TCBService (0.0.1):
+    - AccessControlClient (= 7.0.0)
+    - Backbase (= 7.1)
+    - CommonUtils (= 7.0.0)
+    - ContactsClient (= 7.0.0)
+    - Domain
+    - NotificationsClient (= 7.0.0)
+    - PaymentOrderClient (= 7.0.0)
+    - ProductsClient (= 7.0.0)
+    - TransactionsClient (= 7.0.0)
+    - UserProfileClient (= 7.0.0)
+  - TCBVinPartner (1.0.0):
+    - RxSwift (~> 5.0)
+    - TCBComponents
+    - TCBService
+  - Theme (0.0.1)
+  - Toast-Swift (5.0.1)
+  - TransactionsClient (7.0.0):
+    - CommonUtils (~> 7.0)
+  - UserProfileClient (7.0.0):
+    - CommonUtils (~> 7.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - Domain (from `Domain`)
+  - IQKeyboardManagerSwift
+  - lottie-ios
+  - Nuke (~> 9.1.2)
+  - pop (= 1.0.10)
+  - PromiseKit (~> 6.8)
+  - RxBlocking (~> 5)
+  - RxCocoa (= 5)
+  - RxSwift (~> 5.0)
+  - SkeletonView (~> 1.10.0)
+  - SnapKit (= 5.0.0)
+  - SwiftLint (= 0.40.1)
+  - SWRevealViewController (~> 2.3)
+  - TCBComponents (from `TCBComponents`)
+  - TCBService (from `TCBService`)
+  - TCBVinPartner (from `TCBVinPartner`)
+  - Theme (from `Theme`)
+  - Toast-Swift (~> 5.0.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - Nuke
+    - pop
+    - PromiseKit
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SkeletonView
+    - SnapKit
+    - SwiftLint
+    - SWRevealViewController
+    - Toast-Swift
+  https://repo.backbase.com/api/pods/ios-retail3:
+    - AccessControlClient
+    - CommonUtils
+    - ContactsClient
+    - NotificationsClient
+    - PaymentOrderClient
+    - ProductsClient
+    - TransactionsClient
+    - UserProfileClient
+  https://repo.backbase.com/api/pods/ios3:
+    - Backbase
+
+EXTERNAL SOURCES:
+  Domain:
+    :path: Domain
+  TCBComponents:
+    :path: TCBComponents
+  TCBService:
+    :path: TCBService
+  TCBVinPartner:
+    :path: TCBVinPartner
+  Theme:
+    :path: Theme
+
+SPEC CHECKSUMS:
+  AccessControlClient: 4011ded668f05ab7b477b569053a6441c4aba72c
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  Backbase: ad50ec967c322d88273b2df92fe4473bbb8358b0
+  CommonUtils: 0d5a74c491962af44f442c4f00ec389e2064be44
+  ContactsClient: 74818b592ed3d2faff1d1ffaae729a67c88ee222
+  Domain: a677e339ab76739e1be1be54da1339122a464a2c
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  NotificationsClient: 946e3e2a77051f3f74581baa5e6edad3b384f561
+  Nuke: dd2e6be6a34c042a7861e190632781d11f253026
+  PaymentOrderClient: 1790279c53c2105963afc328cc08c8ba5778637e
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  ProductsClient: 79d712edc061937c53edf6a38835049ae3b2e241
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SkeletonView: 14fbe9702c7fb5c5f011b44ac3ae99fc73155726
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  SwiftLint: bbfed21bf4451dcbd0f5cdbee44a18e06cf91b12
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  TCBComponents: 8c2dc483b23a046abab946d92fa3cde27d93fb1a
+  TCBService: de515f852940dcbca67225ddd8bf845764767068
+  TCBVinPartner: 7ae280c0352293138720d811b8d44ab17533ea3a
+  Theme: 03b922e7ee5a44a0e985e2158b4f6855e6b0467c
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TransactionsClient: f477a33ecc4770b74aa8c957cfb00715c98d9fca
+  UserProfileClient: 8beb39a520797eda10b10a9d13fc88ef9fba6ab1
+
+PODFILE CHECKSUM: a700a6190e3707b7986f17e4222551860da9178a
+
+COCOAPODS: 1.9.3

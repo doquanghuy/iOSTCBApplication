@@ -1,0 +1,3765 @@
+{
+    "id": "9ecfca63-cf53-4212-b797-438c43a22d63",
+    "version": "3.4",
+    "pages": [
+        {
+            "id": "2fd79d08-3d1d-4eb0-97db-0c2eab30abbd",
+            "name": "page_1584712008784",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Amount range",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.transactions-filter-amount-range.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "d8c2a8bd-1eb6-467a-a149-863cb1fb119a",
+                    "name": "universal-native-widget6cdffdbc-fe8e-49e1-8433-27bff5f367a5",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionsFilterAmountRangeWidgetView",
+                        "native": "TransactionsFilterAmountRangeWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Amount range",
+                        "native.package": "com.backbase.model.view.widget.transactions.filter",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "e87ddb4b-2019-4b43-873c-4994aef18018",
+            "name": "page_1585306173508",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Date range",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.transactions-filter-date-range.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "00224e61-2be0-4eac-bf76-7300dd9afc31",
+                    "name": "universal-native-widgetfb9e30e5-99d3-4698-a7cb-47e958c9f0dd",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionsFilterDateRangeWidgetView",
+                        "native": "TransactionsFilterDateRangeWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Date range",
+                        "native.package": "com.backbase.model.view.widget.transactions.filter",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "9c8eebb8-597f-4f9e-93a0-878be1eaaf19",
+            "name": "page_1585908874808",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Transaction type",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.transactions-filter-by-type.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "de961853-478f-40c7-a546-0521ca657ef9",
+                    "name": "universal-native-widget26f5a34d-2b90-4f85-bcce-899a31e3b0b8",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionsFilterTypeWidgetView",
+                        "native": "TransactionsFilterTypeWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Transaction type",
+                        "native.package": "com.backbase.model.view.widget.transactions.filter",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "19b2ed43-dfe3-4de4-b5cc-28f30c1338a0",
+            "name": "page_1571822461522",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "section": "Manage",
+                "title": "Travel Notice",
+                "navigation.mode": "push",
+                "navigation": "bb.action.card-management.travel-notice.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.card",
+                "compatibility": "false",
+                "menu-icon": "ic_globe_destinations"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "020c7b0f-ec32-4804-8af4-1cfcf1133314",
+                    "name": "universal-native-widget4db32f11-d78f-4292-bc05-b65df1934437",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TravelNoticeListWidgetView",
+                        "native": "TravelNoticeListWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "619b6992-51aa-45a4-bd13-450ad814ce4f",
+            "name": "page_1580917024451",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Notes",
+                "navigation": "bb.action.transaction-add-note",
+                "collectors": "csc-tag-counter",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "1a4bc1e3-c6c6-44fe-a59e-92262f811987",
+                    "name": "universal-native-widgetcf06351f-2982-4fe4-b09f-0c43c58be345",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionNotesWidgetView",
+                        "native": "TransactionNotesWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "package com.backbase.model.view.widget.transactions.detail.notes",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "75aaa9fc-1a62-4146-bc21-5a0d0fe1a71c",
+            "name": "page_1572345949029",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "New Travel Notice Details",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.travel-notice.start-creation",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "5a0daefe-7c39-4cf9-a268-13fe4cc3aca4",
+                    "name": "universal-native-widgeteb159bea-cadf-4b0f-9431-2e6f1e93bbef",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TravelNoticeFormWidgetCreateDetailsView",
+                        "native": "TravelNoticeFormWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "b3bc0b2c-556a-4e28-ba93-3cb84dfd12c2",
+            "name": "page_1572346032890",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "New Travel Notice Card Selection",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.event.card-management.travel-notice.contact-provided",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "41b75cd5-4e4b-43ed-83ff-79dd8fe44aa2",
+                    "name": "universal-native-widget9815d550-ff71-41e2-b2e1-236bff3b7589",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TravelNoticeFormWidgetCreateCardsView",
+                        "native": "TravelNoticeFormWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "33fe8230-e9c1-4787-990a-0b5ea30d065f",
+            "name": "page_1572346091047",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "New Travel Notice Summary",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.event.card-management.travel-notice.cards-selected",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "cb762f34-e65b-492b-9fc5-0dc577c115d5",
+                    "name": "universal-native-widget1f665143-0d3a-4d79-b74f-22a163e35d69",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TravelNoticeFormWidgetCreateSummaryView",
+                        "native": "TravelNoticeFormWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "b2df7a76-4110-4a4d-b4ce-333d97c4c262",
+            "name": "page_1572345731217",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Edit Travel Notice Summary",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.travel-notice.start-editing",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "4e6f7807-8614-488a-8fd5-baf6eacf1a36",
+                    "name": "universal-native-widget3187a66f-964a-4b37-864d-6fbbd3f31166",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TravelNoticeFormWidgetEditSummaryView",
+                        "native": "TravelNoticeFormWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "4792e4c3-fdda-46e3-92b6-98758d6ba7e1",
+            "name": "page_1572345813374",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Edit Travel Notice Details",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.travel-notice.start-editing.departure-date",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "cfd6be8c-1418-43e5-8280-b360f3d9b61c",
+                    "name": "universal-native-widget7edb496e-d24c-48ec-a86c-2096066e4f79",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TravelNoticeFormWidgetEditDetailsView",
+                        "native": "TravelNoticeFormWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "b8195760-be5b-495c-a46b-774e200ab411",
+            "name": "page_1572345871235",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Edit Travel Notice Card Selection",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.travel-notice.start-editing.cards",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "320b423d-f7d4-47e3-a7ad-3913ed1bacca",
+                    "name": "universal-native-widget2aba1a41-3335-4667-b8f3-1b9a6f1279c5",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TravelNoticeFormWidgetEditCardsView",
+                        "native": "TravelNoticeFormWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "df34cbec-bfaf-4b9c-9eb7-a67f820bde0b",
+            "name": "page_1555330160689",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "section": "Manage",
+                "title": "Cards",
+                "navigation": "bb.action.cards.open,bb.action.card-management.pin-reset-confirmed,bb.action.card-management.pin-request-address-confirmed",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "title.type": "large",
+                "menu-icon": "ic_credit_card"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "1c955787-1333-49b7-bbb4-c31d47070359",
+                    "name": "universal-native-widget693b90aa-77ce-4e7d-8b45-f6717aa8c831",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "overview",
+                        "native.view": "CardManagementWidgetView",
+                        "native": "CardManagementWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Cards",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "f1a882cc-32e2-4969-842e-5ecf4eb3b4ad",
+            "name": "page_1566908010716",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Confirm",
+                "navigation.mode": "modal",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.start-pin-reset",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "839abd90-92aa-448c-98c9-f7fa2b3fcb49",
+                    "name": "universal-native-widgeted1c6bf9-0a7b-4e3f-bd7a-95b941cfb026",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "CardPinResetTokenValidationView",
+                        "native": "PinResetWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7c5a117d-fd2e-424c-a52e-543f49ab76bd",
+            "name": "page_1566908028458",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Set Pin",
+                "navigation.mode": "push",
+                "navigation": "bb.action.card-management.pin-reset-token-validated",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "e4d571ba-565d-421a-b3ee-8a881e9fd1ec",
+                    "name": "universal-native-widgetc5369bbd-a6df-42b8-b795-b4f94199a6e0",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "CardPinResetPinSelectView",
+                        "native": "PinResetWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6dfb9630-9c40-435b-a066-0f9b7936832f",
+            "name": "page_1566908041182",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Confirm Pin",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.pin-set",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "58aa6f93-2b0a-4876-9c4f-2374b35c0107",
+                    "name": "universal-native-widget09f281be-171f-47d9-9927-fbea7c0a870d",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "CardPinResetPinConfirmView",
+                        "native": "PinResetWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3ed95072-384a-43f2-b8dd-62d581199bc8",
+            "name": "page_1570008699586",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Confirm",
+                "navigation.mode": "modal",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.start-pin-request",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "4f114ac2-4598-4c14-820d-2e06a8c668ae",
+                    "name": "universal-native-widget33c74cbe-2fc2-4147-a5de-b4eaa48d0c7f",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "CardPinRequestTokenValidationView",
+                        "native": "PinRequestWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "b6a8c962-21d0-453d-9cfa-c3ce626ea08e",
+            "name": "page_1570008749700",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Request PIN",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.pin-request-token-validated",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "88d176e0-eb93-43c1-ba34-09670a66d111",
+                    "name": "universal-native-widget955c1f0d-2b4a-4c6a-9443-47cddc811f49",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "CardPinRequestAddressConfirmationView",
+                        "native": "PinRequestWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7283c551-6c47-4ad0-86d3-b56a250edd4d",
+            "name": "page_1566907718606",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Set limits",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.open-card-limits",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "05fb5a10-d7e2-4f5d-ae89-8be44df41d56",
+                    "name": "universal-native-widgetbf343419-619c-4fb4-aa2a-63d899c507a0",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "limitsList",
+                        "native.view": "LimitsListView",
+                        "native": "CardManagementWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "556031bf-31d2-405c-bde7-6115267e523e",
+            "name": "page_1566907764149",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Change limit",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.card-management.open-card-limits-update",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "5da20274-1a20-4256-8649-16e2b579282c",
+                    "name": "universal-native-widget4bded256-c063-409e-9275-42611516ebf4",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "limitUpdate",
+                        "native.view": "LimitUpdateView",
+                        "native": "CardManagementWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2e81002b-c17b-4f23-b3bc-019388c70a44",
+            "name": "page_1565255904772",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Activate card",
+                "navigation.mode": "modal",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.card-activation-requested",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "0470de22-8143-4852-b20c-8340d41183bb",
+                    "name": "universal-native-widget43d6e723-346e-4039-be5b-878509e0c0b9",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "tokenVerification",
+                        "native.view": "CardActivationView",
+                        "native": "CardManagementWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "a0804553-4f87-4e02-8f06-5467235c3982",
+            "name": "page_1559897203865",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Replace card",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.card-management.card-replacement-requested",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+                
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "e4fad3f2-2753-4d29-a047-0286ff6062c9",
+                    "name": "universal-native-widget40bf19d6-dc2e-483d-b947-6d37a125e0db",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "replacementReason",
+                        "native.view": "CardReplacementReasonSelectionView",
+                        "native": "CardManagementWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7b1ffdaf-896c-45e1-ae80-d5d6a4f31230",
+            "name": "page_1559897390155",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Confirm Card Replacement",
+                "navigation.mode": "push",
+                "navigation": "bb.action.card-management.card-replacement-reason-selected",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "d6394fca-00fd-4e59-b7a0-101c82b8984b",
+                    "name": "universal-native-widgetd934deca-9484-4713-9480-b3f38fb470a8",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "replacementConfirm",
+                        "native.view": "CardReplacementConfirmView",
+                        "native": "CardManagementWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "preferences": {
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.budgets.budget-selected",
+                "order": "-999.9992847442627",
+                "title": "Budget Detail",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/budgets-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Budgets Native Widget",
+                        "mode": "details",
+                        "native.view": "BudgetsWidgetDetailsView",
+                        "native.package": "com.backbase.model.view.widget.budgets.detail",
+                        "order": "0.0",
+                        "native": "BudgetsWidgetExtended"
+                    },
+                    "id": "439300ba-9f08-4125-959e-b679cd9016e8",
+                    "name": "budgets-native-widget-6208998"
+                },
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/transactions-native-widget/index.html",
+                        "search": "",
+                        "title": "Transactions Native Widget",
+                        "layout_area": "main",
+                        "area": "0",
+                        "searchDataSourcePackage": "com.backbase.model.view.widget.transactions",
+                        "native": "TransactionsWidgetExtended",
+                        "mode": "overview",
+                        "native.package": "com.backbase.model.view.widget.transactions.list",
+                        "size": "",
+                        "searchDataSourceClass": "LocalTransactionsSearchDataSource",
+                        "order": "1.0",
+                        "native.view": "TransactionsWidgetView"
+                    },
+                    "id": "392da4ec-2fb3-4f6e-96cc-b05e5018c11b",
+                    "name": "transactions-native-widget-7860233"
+                }
+            ],
+            "id": "dbabae2c-86b3-4f8d-818c-4a77ee90cc5a",
+            "name": "page_1543314887946"
+        },
+        {
+            "id": "976059bf-9592-4573-8cb8-bcbca8da8f46",
+            "name": "page_1572350375574",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "ios.layout.extend": "true",
+                "title": "Account details",
+                "navigation.mode": "push",
+                "navigation": "bb.action.products.show-product-details",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "546a7ca5-0167-4bea-8c42-e0fc30d89362",
+                    "name": "universal-native-widget8bfe9c8e-9ec0-4a86-89ab-f53fb6f17f09",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "ProductDetailsWidgetView",
+                        "native": "ProductDetailsWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Product Details Native Widget",
+                        "native.package": "com.backbase.model.view.widget.products.detail",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "preferences": {
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.budgets.create",
+                "order": "-999.9992847442627",
+                "title": "Set Budget",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/budgets-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Budgets Native Widget",
+                        "mode": "edit",
+                        "native.view": "BudgetsWidgetFormView",
+                        "native.package": "com.backbase.model.view.widget.budgets.new",
+                        "order": "0.0",
+                        "native": "BudgetsWidgetExtended"
+                    },
+                    "id": "cebf3dbd-7530-4dc7-b5b6-6b55143c1ad1",
+                    "name": "budgets-native-widget-3512922"
+                }
+            ],
+            "id": "d3a1b0ea-316e-4ccc-aa6c-7ff4aa38316a",
+            "name": "page_1544006555314"
+        },
+        {
+            "preferences": {
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.budgets.edit-budget",
+                "navigation.mode": "modal",
+                "order": "-999.9992847442627",
+                "title": "Edit",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/budgets-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Budgets Native Widget",
+                        "mode": "edit",
+                        "native.view": "BudgetsWidgetFormView",
+                        "native.package": "com.backbase.model.view.widget.budgets.new",
+                        "order": "0.0",
+                        "native": "BudgetsWidgetExtended"
+                    },
+                    "id": "cebf3dbd-7530-4dc7-b5b6-6b55143c1ad2",
+                    "name": "budgets-native-widget-3512922"
+                }
+            ],
+            "id": "d3a1b0ea-316e-4ccc-aa6c-7ff4aa38316b",
+            "name": "page_1544006555314"
+        },
+        {
+            "preferences": {
+                "layout_area": "bottomsheet",
+                "navigation.mode": "bottomsheet",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.bill-pay.payment-selected",
+                "order": "-921.875",
+                "title": "View Bill Payment",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/bill-pay-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Bill Pay Native Widget",
+                        "mode": "paymentDetails",
+                        "native.view": "BillPayWidgetDetailView",
+                        "native.package": "com.backbase.model.view.widget.billpay.detail",
+                        "order": "0.0",
+                        "native": "BillPayWidgetExtended"
+                    },
+                    "id": "d1efc377-c29d-4276-ae80-5f8007a846a7",
+                    "name": "bill-pay-native-widget-8252728"
+                }
+            ],
+            "id": "0e9f01d6-784c-4695-a059-ffd45675cc31",
+            "name": "page_1540904685976"
+        },
+        {
+            "preferences": {
+                "title": "Logout",
+                "section": "",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "menu-icon": "ic_exit_to_app",
+                "navigation": "bb.action.logout",
+                "order": "-503.7841796875"
+            },
+            "icons": [],
+            "children": [],
+            "id": "4929c5fc-ecbf-4a1b-ad54-8074400ab23a",
+            "name": "page_1542279923794"
+        },
+        {
+            "preferences": {
+                "menu-icon": "ic_navigations_payments",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.payments.open",
+                "order": "-375.0",
+                "title": "Move Money",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView",
+                "title.type": "large"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/more-menu-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "More Menu Native Widget",
+                        "native.view": "PaymentSelectorWidgetView",
+                        "native.package": "com.backbase.model.view.widget.menu",
+                        "order": "0.0",
+                        "native": "MenuWidget"
+                    },
+                    "id": "4618d7a8-536d-4805-8f10-63c60f17a2f6",
+                    "name": "more-menu-native-widget-1508795"
+                }
+            ],
+            "id": "6e8bdebc-011d-484d-8dca-148c61734cc9",
+            "name": "page_1540303208274"
+        },
+        {
+            "preferences": {
+                "title": "",
+                "ios.layout.extend": "false",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.enrollment.start",
+                "order": "25.0",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/welcome-native-widget/index.html",
+                        "title": "Welcome Native Widget",
+                        "layout_area": "main",
+                        "area": "0",
+                        "native.view": "WelcomeWidgetView",
+                        "native.package": "com.backbase.model.view.widget.welcome",
+                        "order": "0.0",
+                        "native": "WelcomeWidget"
+                    },
+                    "id": "07914b0f-9f0a-4938-ae23-57d2b59b2422",
+                    "name": "welcome-native-widget-3874794"
+                }
+            ],
+            "id": "e1f5823b-9f06-40a9-bf6a-373d3fc44237",
+            "name": "page_1540458333710"
+        },
+        {
+            "preferences": {
+                "title": "Budgets",
+                "section": "Insights",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "menu-icon": "ic_piechart",
+                "navigation": "bb.action.budgets.open",
+                "order": "250.0",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/budgets-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Budgets Native Widget",
+                        "mode": "overview",
+                        "native.view": "BudgetsWidgetListView",
+                        "native.package": "com.backbase.model.view.widget.budgets",
+                        "order": "0.0",
+                        "native": "BudgetsWidgetExtended"
+                    },
+                    "id": "60ee902b-2560-4e5a-a2b6-4c8e376f35fb",
+                    "name": "budgets-native-widget-1578529"
+                },
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/budgets-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Budgets Native Widget",
+                        "mode": "",
+                        "native.view": "",
+                        "native.package": "com.backbase.model.view.widget.budgets",
+                        "order": "1.0",
+                        "native": "BudgetsWidgetExtended"
+                    },
+                    "id": "b44d452f-b197-460b-8410-c92a6d5d8c6d",
+                    "name": "budgets-native-widget-6179976"
+                }
+            ],
+            "id": "4a13d96e-474e-4d94-838f-eaee9b2da9b3",
+            "name": "page_1542210136319"
+        },
+        {
+            "preferences": {
+                "navigation": "bb.event.welcome.getting-started",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "ios.layout.extend": "true",
+                "order": "268.75",
+                "title": "",
+                "ios.statusBar": "white",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/password-native-widget/index.html",
+                        "title": "Password Native Widget",
+                        "layout_area": "main",
+                        "area": "0",
+                        "native.view": "PasswordWidgetView",
+                        "native.package": "com.backbase.model.view.widget.password",
+                        "order": "0.0",
+                        "native": "PasswordWidget"
+                    },
+                    "id": "509bd95d-5f8d-4c78-ae8c-600da369542f",
+                    "name": "password-native-widget-6538058"
+                }
+            ],
+            "id": "a6288257-e106-4c6d-a650-e5f80ec46809",
+            "name": "page_1540458356185"
+        },
+        {
+            "preferences": {
+                "title": "Inbox",
+                "section": "Inbox",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "native.view": "InboxPageView",
+                "navigation": "bb.action.inbox.open",
+                "native.package": "com.backbase.model.view.page.inbox",
+                "order": "876.25",
+                "native": "UniformPageRenderer"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/message-center-native-widget/index.html",
+                        "search": "",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Messages",
+                        "mode": "",
+                        "native.view": "MessagesWidgetView",
+                        "native.package": "com.backbase.model.view.widget.messages.list",
+                        "native": "MessageCenterWidget",
+                        "order": "0.0",
+                        "size": ""
+                    },
+                    "id": "a3ad6435-0673-4d17-ae99-7ae2d522b01f",
+                    "name": "message-center-native-widget-7858086"
+                },
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/notifications-native-widget/index.html",
+                        "search": "",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Notifications",
+                        "mode": "",
+                        "native.view": "NotificationsWidgetView",
+                        "native.package": "com.backbase.model.view.widget.notifications.list",
+                        "native": "NotificationsWidgetExtended",
+                        "order": "0.0",
+                        "size": ""
+                    },
+                    "id": "709b6fde-1a66-4286-ae0b-9e2b570748cf",
+                    "name": "notifications-native-widget-9860897"
+                }
+            ],
+            "id": "27eea0bb-b52a-41df-ba4e-30bd190a1ac5",
+            "name": "page_1540302247564"
+        },
+        {
+            "preferences": {
+                "alternative-title": "View messages",
+                "title": "Messages",
+                "section": "Inbox",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "menu-icon": "ic_email",
+                "navigation": "bb.action.conversations.open",
+                "order": "500.0",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/message-center-native-widget/index.html",
+                        "search": "",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Message Center Native Widget",
+                        "mode": "",
+                        "native.view": "MessagesWidgetView",
+                        "native.package": "com.backbase.model.view.widget.messages.list",
+                        "native": "MessageCenterWidget",
+                        "order": "0.0",
+                        "size": ""
+                    },
+                    "id": "a3ad6435-0673-4d17-ae99-7ae2d522b01f",
+                    "name": "message-center-native-widget-7858086"
+                }
+            ],
+            "id": "44a9b6ee-dc2c-4fbd-8209-86ce44147f09",
+            "name": "page_1540302284728"
+        },
+        {
+            "preferences": {
+                "navigation.mode": "modal",
+                "alternative-title": "Send us a message",
+                "title": "New Message",
+                "section": "Contact us",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "menu-icon": "ic_message",
+                "navigation": "bb.action.message-center.new-conversation",
+                "order": "500.0",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/message-center-native-widget/index.html",
+                        "search": "",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Message Center Native Widget",
+                        "mode": "createconversation",
+                        "native.view": "NewMessageWidgetView",
+                        "native.package": "com.backbase.model.view.widget.messages.form",
+                        "native": "MessageCenterWidget",
+                        "order": "0.0",
+                        "size": ""
+                    },
+                    "id": "2239ea4f-050c-4584-90bd-a376df907ac0",
+                    "name": "message-center-native-widget-2889954"
+                }
+            ],
+            "id": "eff86263-80b8-4c14-9176-85e3f8df7101",
+            "name": "page_1540302445138"
+        },
+        {
+            "id": "1e26b748-fb58-4edf-a324-fc3238944ccf",
+            "name": "page_1565274142196",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "section": "Manage",
+                "title": "My profile",
+                "navigation": "bb.action.userprofile.open",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "menu-icon": "ic_profile"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "bf833a67-f930-48c1-99be-731af115d8cd",
+                    "name": "universal-native-widget04b134fa-d5d6-4d73-a64f-6b7a5bc36ea7",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "UserProfileOverviewWidgetView",
+                        "native": "UserProfileOverviewWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.userprofile.overview",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "5bcde135-4b5c-3230-e7ed-e2ff1b2a4600",
+            "name": "page_1551985171000",
+            "shortName": null,
+            "description": null,
+            "preferences": {
+                "navigation": "bb.action.otp-overview,bb.event.qr-data.received",
+                "navigation.mode": "push",
+                "menu-icon": "ic_security",
+                "title": "Two Step Verification",
+                "section": "Security",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView",
+                "menu-icon": "ic_security"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "e26054f3-7a66-453d-9b6e-72040ee41338-c101",
+                    "name": "OTP-overview-2889954",
+                    "preferences": {
+                        "native.view": "TotpGeneratorWidgetView",
+                        "mode": "overview",
+                        "native": "TOTPGeneratorWidget",
+                        "native.package": "com.backbase.model.view.widget.totp",
+                        "title": "OTP overview",
+                        "layout_area": "main",
+                        "order": "0",
+                        "area": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "29ca518d-031c-4138-b91f-4b6d7acd46e9",
+            "name": "page_1551985171888",
+            "shortName": null,
+            "description": null,
+            "preferences": {
+                "navigation": "bb.action.scan-qr",
+                "navigation.mode": "modal",
+                "title": "Scan QR",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "e26054f3-7a66-453d-9b6e-72040ee41338-c100",
+                    "name": "QR-scanner-2889954",
+                    "preferences": {
+                        "native.view": "TotpGeneratorWidgetScannerView",
+                        "mode": "scanner",
+                        "native": "TOTPGeneratorWidget",
+                        "native.package": "com.backbase.model.view.widget.totp",
+                        "title": "QR Scanner",
+                        "layout_area": "main",
+                        "order": "0",
+                        "area": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "preferences": {
+                "navigation": "bb.event.password.authenticated",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "ios.layout.extend": "true",
+                "order": "500.0",
+                "title": "",
+                "ios.statusBar": "white",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "digits": "5",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/passcode-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Passcode Native Widget",
+                        "mode": "setup",
+                        "native.view": "PasscodeWidgetSetupView",
+                        "native.package": "com.backbase.model.view.widget.passcode",
+                        "order": "0.0",
+                        "native": "PasscodeWidget"
+                    },
+                    "id": "1fed7580-03f5-4775-8646-7abca0625afc",
+                    "name": "passcode-native-widget-6371536"
+                }
+            ],
+            "id": "231a9de7-cf4c-4cce-ac3a-bc3c414f9d2c",
+            "name": "page_1540458367032"
+        },
+        {
+            "preferences": {
+                "alternative-title": "View notifications",
+                "title": "Notifications",
+                "section": "Inbox",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "menu-icon": "ic_notification",
+                "navigation": "bb.action.notifications.open",
+                "order": "500.0",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/notifications-native-widget/index.html",
+                        "search": "",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Notifications Native Widget",
+                        "mode": "",
+                        "native.view": "NotificationsWidgetView",
+                        "native.package": "com.backbase.model.view.widget.notifications.list",
+                        "native": "NotificationsWidgetExtended",
+                        "order": "0.0",
+                        "size": ""
+                    },
+                    "id": "709b6fde-1a66-4286-ae0b-9e2b570748cf",
+                    "name": "notifications-native-widget-9860897"
+                }
+            ],
+            "id": "eff02807-957e-4565-85e4-d9f0c76436a6",
+            "name": "page_1540302401478"
+        },
+        {
+            "preferences": {
+                "navigation": "bb.event.enrollment.setup-completed",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "ios.layout.extend": "true",
+                "order": "500.0",
+                "title": "",
+                "ios.statusBar": "white",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/setup-completed-native-widget/index.html",
+                        "title": "Setup Completed Native Widget",
+                        "layout_area": "main",
+                        "area": "0",
+                        "native.view": "SetupCompletedWidgetView",
+                        "native.package": "com.backbase.model.view.widget.setupcompleted",
+                        "order": "0.0",
+                        "native": "SetupCompletedWidget"
+                    },
+                    "id": "1d95999f-1107-41c4-a839-4e37ee682b41",
+                    "name": "setup-completed-native-widget-1367771"
+                }
+            ],
+            "id": "7c223978-b609-4412-ab48-16245d7772e8",
+            "name": "page_1540458523508"
+        },
+        {
+            "preferences": {
+                "layout_area": "bottomsheet",
+                "navigation.mode": "bottomsheet",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.bill-pay-form.show-review",
+                "order": "500.0",
+                "title": "Bill Pay Review",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/bill-pay-form-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Bill Pay Form Native Widget",
+                        "mode": "review",
+                        "native.view": "BillPayFormWidgetReviewView",
+                        "native.package": "com.backbase.model.view.widget.billpay.form.review",
+                        "order": "0.0",
+                        "native": "BillPayFormWidgetExtended"
+                    },
+                    "id": "93801f52-6bd5-4442-8353-082092b7e2bc",
+                    "name": "bill-pay-form-native-widget-2444131"
+                }
+            ],
+            "id": "9558ab0b-7cb4-43ed-b0dc-50db5cb9ac14",
+            "name": "page_1540303518090"
+        },
+        {
+            "id": "0237e727-be42-4e46-29b2-38c2ea53f2a9d",
+            "name": "page_1540303633624",
+            "preferences": {
+                "navigation": "bb.action.bill-pay.payees-search",
+                "title": "Add a payee",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "order": "500.0",
+                "layout_area": "main",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView",
+                "native.package": "com.backbase.model.view.widget.common.page"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "324db7ef-7dbd-3a9c-b157-cfc3e10fd4ab",
+                    "name": "bill-pay-native-widget-6392212",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "payees",
+                        "native.view": "BillPayWidgetSearchView",
+                        "native": "BillPayWidgetExtended",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/bill-pay-native-widget/index.html",
+                        "native.package": "com.backbase.model.view.widget.billpay.form.payeesearch",
+                        "title": "Bill Pay Native Widget",
+                        "layout_area": "main",
+                        "order": "0.0"
+                    }
+                }
+            ]
+        },
+        {
+            "preferences": {
+                "navigation": "bb.action.bill-pay.show-create-electronic-payee",
+                "title": "Account Details",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "order": "500.0",
+                "layout_area": "main",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView",
+                "native.package": "com.backbase.model.view.widget.common.page"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/transactions-native-widget/index.html",
+                        "title": "Account Details",
+                        "layout_area": "main",
+                        "area": "0",
+                        "searchDataSourcePackage": "",
+                        "native": "BillPayWidgetExtended",
+                        "mode": "createElectronicPayee",
+                        "native.package": "com.backbase.model.view.widget.billpay.form.addpayee",
+                        "order": "0.0",
+                        "native.view": "BillPayWidgetAddElectronicPayeeView"
+                    },
+                    "id": "8b1d94b0-b6f0-4983-bab7-7f8e20e15a34",
+                    "name": "bill-pay-native-widget-6392213"
+                }
+            ],
+            "id": "0237e727-be42-4e46-29b2-38c2ea53f2a9e",
+            "name": "page_1540303633625"
+        },
+        {
+            "preferences": {
+                "navigation": "bb.action.bill-pay.show-create-manual-payee",
+                "title": "Add Check Payee",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "order": "500.0",
+                "layout_area": "main",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView",
+                "native.package": "com.backbase.model.view.widget.common.page"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/transactions-native-widget/index.html",
+                        "title": "Add Check Payee",
+                        "layout_area": "main",
+                        "area": "0",
+                        "searchDataSourcePackage": "",
+                        "native": "BillPayWidgetExtended",
+                        "mode": "createElectronicPayee",
+                        "native.package": "com.backbase.model.view.widget.billpay.form.addpayee",
+                        "order": "0.0",
+                        "native.view": "BillPayWidgetAddPayeeView"
+                    },
+                    "id": "8b1d94b0-b6f0-4983-bab7-7f8e20e15a35",
+                    "name": "bill-pay-native-widget-6392214"
+                }
+            ],
+            "id": "0237e727-be42-4e46-29b2-38c2ea53f2a9f",
+            "name": "page_1540303633625"
+        },
+        {
+            "preferences": {
+                "layout_area": "main",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.event.bill-pay-form.select-schedule",
+                "order": "500.0",
+                "title": "Schedule payment",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView",
+                "title.type": "large"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/bill-pay-form-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Bill Pay Form Native Widget",
+                        "native.view": "BillPayScheduleWidgetView",
+                        "native.package": "com.backbase.model.view.widget.billpay.form.schedule",
+                        "order": "0.0",
+                        "native": "BillPayScheduleWidget"
+                    },
+                    "id": "95fc3ad8-6d4d-4a53-b760-89b1a3582f52",
+                    "name": "bill-pay-form-native-widget-5239444"
+                }
+            ],
+            "id": "19ff24ca-72be-44c7-9a93-bd664b8959a7",
+            "name": "page_1540303503768"
+        },
+        {
+            "preferences": {
+                "navigation": "bb.event.bill-pay-edit.select-payment-account",
+                "navigation.mode": "push",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "title": "Select your account",
+                "order": "752.5",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "title.type": "large"
+            },
+            "icons": [
+                
+            ],
+            "children": [
+                {
+                    "id": "37fbddee-b016-44f2-bcd6-8ae1weg8546",
+                    "name": "selector-native-widget-4648f608",
+                    "preferences": {
+                        "area": "0",
+                        "headers": "Accounts",
+                        "clients": "BillPayClient",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/selector-native-widget/index.html",
+                        "title": "Selector Native Widget",
+                        "packages": "com.backbase.android.client.billpay",
+                        "listViewKey": "0",
+                        "native.view": "SelectorWidgetProductsView",
+                        "size": "10",
+                        "navigation": "bb.event.bill-pay-edit.select-payment-account",
+                        "native": "SelectorWidgetExtended",
+                        "native.package": "com.backbase.model.view.widget.selector",
+                        "events": "bb.event.bill-pay-edit.selector-payment-account-selected",
+                        "order": "1.0"
+                    }
+                }
+            ],
+            "id": "sywzQEaI-rD41-IrQW-gdFc-LfQ2AH3Q",
+            "name": "page_15403454805"
+        },
+        {
+            "preferences": {
+                "layout_area": "main",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.bill-pay-form.edit-schedule-info",
+                "order": "500.0",
+                "title": "Schedule payment",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView",
+                "title.type": "large"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/bill-pay-form-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Bill Pay Form Native Widget",
+                        "native.view": "BillPayScheduleWidgetView",
+                        "native.package": "com.backbase.model.view.widget.billpay.form.schedule",
+                        "order": "0.0",
+                        "native": "BillPayScheduleWidget"
+                    },
+                    "id": "6ad127e6-bc4c-4691-aaad-70c2e247172b",
+                    "name": "widget_1542630011672"
+                }
+            ],
+            "id": "eb772215-acd3-4d46-92a2-ede70506ccdd",
+            "name": "page_1542630011640"
+        },
+        {
+            "preferences": {
+                "menu-icon": "ic_navigations_accounts",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.product-summary.open",
+                "order": "505.0",
+                "title": "Accounts",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView",
+                "title.type": "large"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/product-summary-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Product Summary Native Widget",
+                        "mode": "",
+                        "native.view": "ProductsOverviewWidgetView",
+                        "native.package": "com.backbase.model.view.widget.products.list",
+                        "order": "0.0",
+                        "native": "ProductsOverviewWidget",
+                        "currentaccount_icon":"bblogo"
+                    },
+                    "id": "d3ce8082-aa4a-47a5-8122-4ac335e873bd",
+                    "name": "product-summary-native-widget-4466538"
+                }
+            ],
+            "id": "8f09dc3a-11ce-4324-8168-3953ed73bca5",
+            "name": "page_1540301984336"
+        },
+        {
+            "preferences": {
+                "navigation.mode": "modal",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.categories.open",
+                "order": "505.0",
+                "title": "Change Category",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/categories-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Categories Native Widget",
+                        "mode": "details",
+                        "native.view": "CategoriesWidgetView",
+                        "native.package": "com.backbase.model.view.widget.categories",
+                        "order": "0.0",
+                        "native": "CategoriesWidgetExtended"
+                    },
+                    "id": "d74e9beb-0cf0-44b1-83da-cea5ec80e649",
+                    "name": "categories-native-widget-5025487"
+                }
+            ],
+            "id": "dd1cea47-bf85-47a7-83da-5ef31885a367",
+            "name": "page_1542795587888"
+        },
+        {
+            "preferences": {
+                "navigation.mode": "modal",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.budgets.create-budget",
+                "order": "505.0",
+                "title": "Select a Category",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/categories-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Categories Native Widget",
+                        "mode": "details",
+                        "native.view": "CategoriesWidgetView",
+                        "native.package": "com.backbase.model.view.widget.categories",
+                        "order": "0.0",
+                        "native": "CategoriesWidgetExtended"
+                    },
+                    "id": "d74e9beb-0cf0-44b1-83da-cea5ec80e649",
+                    "name": "categories-native-widget-5025487"
+                }
+            ],
+            "id": "dd1cea47-bf85-47a7-83da-5ef31885a367b",
+            "name": "page_1542795587888"
+        },
+        {
+            "id": "a4f90661-90f0-4b42-8d72-54b4c92c9751",
+            "name": "Transaction Check Troubleshooting",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.transaction-check-images-troubleshooting.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "194f3829-2ee2-44ac-95e9-2af631e9cd8c",
+                    "name": "universal-native-widget46b740f3-871c-4884-bfdd-ad97984595df",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionCheckTroubleshootingWidgetView",
+                        "native": "TransactionCheckTroubleshootingWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "native.package": "com.backbase.model.view.widget.transactions",
+                        "content": "{\"title\": \"Why are my check images not displaying? \", \"message\": \"Some images may not be available online if\", \"reasons\": [\"• Your check has been received or deposited within the past 48 hours.\", \"• The check has been deposited earlier than 12 months ago.\",\"• There is a scheduled maintenance in the FED Image Service.\"]}",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "preferences": {
+                "title": "Members",
+                "section": "Manage",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "menu-icon": "ic_person",
+                "navigation": "bb.action.contacts.open",
+                "order": "969.0625",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [{
+                "preferences": {
+                    "src": "$(contextRoot)/static/widgets/[BBHOST]/contacts-native-widget/index.html",
+                    "search": "contacts",
+                    "area": "0",
+                    "layout_area": "main",
+                    "title": "Contacts Native Widget",
+                    "mode": "",
+                    "native.view": "ContactsWidgetUSView",
+                    "native.package": "com.backbase.model.view.widget.contacts.list",
+                    "native": "ContactsWidgetExtended",
+                    "order": "0.0",
+                    "size": "10"
+                },
+                "id": "0815b0dc-925e-4e2a-8521-306f38380ef9",
+                "name": "contacts-native-widget-1178143"
+            }],
+            "id": "077cfa26-5eff-47a4-92da-b482ff4a8acd",
+            "name": "page_1540302267030"
+        },
+        {
+            "preferences": {
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.contacts.contact-selected, bb.event.contacts.contact-received",
+                "order": "984.53125",
+                "title": "",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [{
+                "preferences": {
+                    "src": "$(contextRoot)/static/widgets/[BBHOST]/contacts-native-widget/index.html",
+                    "search": "",
+                    "area": "0",
+                    "layout_area": "main",
+                    "title": "Contacts Native Widget",
+                    "mode": "details",
+                    "native.view": "ContactsWidgetDetailsUSView",
+                    "native.package": "com.backbase.model.view.widget.contacts.details",
+                    "native": "ContactsWidgetExtended",
+                    "order": "0.0",
+                    "size": ""
+                },
+                "id": "6b522561-82e6-4bbc-abd2-99b5517f7dae",
+                "name": "contacts-native-widget-2281278"
+            }],
+            "id": "29ca518d-031c-4b36-b81f-4b6d7acd46a8",
+            "name": "page_1540302273764"
+        },
+        {
+            "preferences": {
+                "title": "",
+                "ios.layout.extend": "true",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.event.enrollment.device-enrolled",
+                "order": "512.5",
+                "ios.statusBar": "white",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "digits": "5",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/passcode-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Passcode Native Widget",
+                        "mode": "authenticate",
+                        "native.view": "PasscodeWidgetAuthenticateView",
+                        "native.package": "com.backbase.model.view.widget.passcode",
+                        "order": "0.0",
+                        "native": "PasscodeWidget"
+                    },
+                    "id": "6e23b99e-7661-4ab4-8455-92d4514e363e",
+                    "name": "passcode-native-widget-8915900"
+                }
+            ],
+            "id": "f9b75a24-09a9-40d4-b9ad-9397a445c0e0",
+            "name": "page_1540458341287"
+        },
+        {
+            "id": "d67ce284-5537-4e77-9ce5-da6993844fa9",
+            "name": "page_1586962012068",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Check images",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.transaction-check-images.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "5d8c9997-0e88-480e-a9b3-7fa95ada02f0",
+                    "name": "universal-native-widgete0c686c5-2051-4ab0-bd82-eb4a08e3dc7e",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionCheckImagesWidgetView",
+                        "native": "TransactionCheckImagesWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Check images",
+                        "native.package": "com.backbase.model.view.widget.transactions.detail.check-images",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "preferences": {
+                "alternative-title": "Find us",
+                "title": "Find us",
+                "section": "Contact us",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "menu-icon": "ic_place",
+                "navigation": "bb.action.places.open",
+                "order": "625.0",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/places-native-widget/index.html",
+                        "search": "places",
+                        "title": "Places Native Widget",
+                        "filterPlacesDataSourceClass": "PlacesFilterDataSource",
+                        "layout_area": "main",
+                        "area": "0",
+                        "longitude": "4.927807",
+                        "filterPlacesDataSourcePackage": "com.backbase.model.view.widget.places",
+                        "radius": "1",
+                        "native.view": "PlacesWidgetView",
+                        "latitude": "52.371246",
+                        "native.package": "com.backbase.model.view.widget.places",
+                        "searchDataSourceClass": "PlacesWidgetView",
+                        "order": "0.0",
+                        "native": "PlacesWidget"
+                    },
+                    "id": "20e897bf-5ad9-4fe6-8191-aa453a28e61c",
+                    "name": "places-native-widget-5031026"
+                }
+            ],
+            "id": "a1ad5c9c-af58-4791-b49b-81883c222087",
+            "name": "page_1542210255745"
+        },
+        {
+            "id": "463fd382-cd41-46d4-a762-223c2ff92207",
+            "name": "page_1582538916550",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Filters",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.transactions.filter.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "423a41d7-4c34-4c37-9e88-7cb8799a1cbf",
+                    "name": "universal-native-widgetfe5566f8-6d8f-4fa0-8dd6-6d1e31342ea6",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionsFilterWidgetView",
+                        "native": "TransactionsFilterWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Filter transactions",
+                        "native.package": "com.backbase.model.view.widget.transactions",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "d0b17c06-88a1-4d6e-81b3-54026b610a4e",
+            "name": "page_1573120593885",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Branch Details",
+                "navigation.mode": "bottomsheet",
+                "navigation": "bb.action.places.show-details",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false",
+                "layout_area": "bottomsheet"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "9ee55ac7-90b4-4002-b608-6894f01218f3",
+                    "name": "universal-native-widgete841afd5-af29-4b1f-9faf-625a978a3f0e",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "PlaceDetailsWidgetView",
+                        "native": "PlaceDetailsWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Place Details Native Widget",
+                        "native.package": "com.backbase.model.view.widget.places.detail",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "preferences": {
+                "alternative-title": "Make a bill payment",
+                "navigation.mode": "push",
+                "title": "Payment details",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "menu-icon": "ic_description",
+                "navigation": "bb.action.bill-pay.pay-payee,bb.event.bill-pay-form.selector-payment-account-selected",
+                "order": "690.625",
+                "native": "UniformPageRenderer",
+                "native.view": "FormPageView",
+                "title.type": "large"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/selector-native-widget/index.html",
+                        "listViewKey": "0",
+                        "title": "Selector Native Widget",
+                        "layout_area": "header",
+                        "clients": "BillPayClient",
+                        "area": "0",
+                        "order": "0.0",
+                        "headers": "Accounts",
+                        "native": "SelectorWidgetExtended",
+                        "native.view": "SelectorWidgetBillPayView",
+                        "native.package": "com.backbase.model.view.widget.billpay.selector",
+                        "packages": "com.backbase.android.client.billpay",
+                        "events": "bb.event.bill-pay-form.product-selected",
+                        "size": "10"
+                    },
+                    "id": "8ddf2946-3ce3-407f-afb5-566816c0ac50",
+                    "name": "selector-native-widget-3366907"
+                },
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/bill-pay-form-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Bill Pay Form Native Widget",
+                        "mode": "initiate",
+                        "native.view": "BillPayFormWidgetView",
+                        "native.package": "com.backbase.model.view.widget.billpay.form",
+                        "order": "1.0",
+                        "native": "BillPayFormWidgetExtended"
+                    },
+                    "id": "96c015db-ce02-4c94-9d66-7a4a4b6201b1",
+                    "name": "bill-pay-form-native-widget-5730047"
+                }
+            ],
+            "id": "ed378f47-fa99-4415-9e44-cbcaec901375",
+            "name": "page_1540303245480"
+        },
+        {
+            "id": "ed378f47-fa99-4415-9e44-cbcaec1828372193",
+            "name": "page_1540303245481",
+            "preferences": {
+                "navigation": "bb.action.bill-pay.pay-payee-with-active-ebill,bb.event.bill-pay-form-ebill.selector-payment-account-selected",
+                "navigation.mode": "push",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "alternative-title": "Make an e-bill payment",
+                "title": "Payment details",
+                "title.type": "large",
+                "menu-icon": "ic_description",
+                "order": "690.625",
+                "native": "UniformPageRenderer",
+                "native.view": "FormPageView",
+                "native.package": "com.backbase.model.view.widget.common.page"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "8ddf2946-3ce3-407f-afb5-566816c0ac5434",
+                    "name": "selector-native-widget-3366907",
+                    "preferences": {
+                        "area": "0",
+                        "headers": "Accounts",
+                        "clients": "BillPayClient",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/selector-native-widget/index.html",
+                        "title": "Selector Native Widget",
+                        "packages": "com.backbase.android.client.billpay",
+                        "listViewKey": "0",
+                        "native.view": "SelectorWidgetBillPayEbillView",
+                        "size": "10",
+                        "native": "SelectorWidgetExtended",
+                        "native.package": "com.backbase.model.view.widget.billpay.selector",
+                        "events": "bb.event.bill-pay-form.product-selected",
+                        "layout_area": "header",
+                        "order": "0.0"
+                    }
+                },
+                {
+                    "id": "96c015db-ce02-4c94-9d66-7a4a4b6201b1",
+                    "name": "bill-pay-form-native-widget-5730047",
+                    "preferences": {
+                        "mode": "initiate",
+                        "area": "0",
+                        "native.view": "BillPayFormWidgetEbillView",
+                        "native": "BillPayFormWidgetExtended",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/bill-pay-form-native-widget/index.html",
+                        "native.package": "com.backbase.model.view.widget.billpay.form",
+                        "title": "Bill Pay Form Native Widget",
+                        "layout_area": "main",
+                        "order": "1.0"
+                    }
+                }
+            ]
+        },
+        {
+            "preferences": {
+                "navigation.mode": "modal",
+                "alternative-title": "Deposit a check",
+                "title": "Deposit a check",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "menu-icon": "ic_photo_camera",
+                "navigation": "bb.action.rdc-history.new-deposit,bb.action.rdc-form.deposit.try-again",
+                "order": "737.03125",
+                "native": "UniformPageRenderer",
+                "title.type": "large",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/selector-native-widget/index.html",
+                        "listViewKey": "0",
+                        "title": "Selector Native Widget",
+                        "layout_area": "header",
+                        "clients": "RDCClient",
+                        "area": "0",
+                        "order": "0.0",
+                        "headers": "Accounts",
+                        "native": "SelectorWidgetExtended",
+                        "native.view": "SelectorWidgetSliderView",
+                        "native.package": "com.backbase.model.view.widget.rdc.form.entry.selector",
+                        "packages": "com.backbase.android.client.rdc",
+                        "events": "bb.action.product-selector.component.rdc.product-selected",
+                        "size": "10"
+                    },
+                    "id": "bd80cafd-3741-448c-9b36-e39a8a0d209f",
+                    "name": "selector-native-widget-718502"
+                },
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/deposits-form-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Deposits Form Native Widget",
+                        "mode": "",
+                        "native.view": "RDCFormWidgetView",
+                        "native.package": "com.backbase.model.view.widget.rdc.form.entry",
+                        "order": "1.0",
+                        "native": "RDCFormWidgetExtended"
+                    },
+                    "id": "7aed5671-0639-4f99-98b8-08df45b2af87",
+                    "name": "deposits-form-native-widget-2088041"
+                }
+            ],
+            "id": "782953b0-0257-4003-9b36-81b9fae69450",
+            "name": "page_1540372946140"
+        },
+        {
+            "preferences": {
+                "navigation.mode": "modal",
+                "alternative-title": "Transfer money",
+                "title": "Transfer money",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "menu-icon": "ic_people",
+                "navigation": "bb.action.us.open,bb.event.payment-order.us.selector-product-selected,bb.event.payment-order.us.recipient-selected",
+                "order": "737.03125",
+                "native": "UniformPageRenderer",
+                "title.type": "large",
+                "native.view": "FormPageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "7aed5671-0639-4f99-98f4b8-08df45b2af882",
+                    "name": "selector us",
+                    "preferences": {
+                        "area": "0",
+                        "headers": "Internal accounts, External accounts",
+                        "clients": "ProductsClient,PaymentOrderClient",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/selector-native-widget/index.html",
+                        "title": "Selector Native Widget",
+                        "packages": "com.backbase.android.client.products,com.backbase.android.client.paymentorder",
+                        "listViewKey": "0,1",
+                        "native.view": "SelectorWidgetUSView",
+                        "size": "10",
+                        "native": "SelectorWidgetExtended",
+                        "native.package": "com.backbase.model.view.widget.paymentorder.us",
+                        "events": "bb.event.payment-order.us.product-selected,bb.event.payment-order.us.external-account-selected",
+                        "order": "1.0",
+                        "navigationInfix": "us"
+                    }
+                },
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/us-form-native-widget/index.html",
+                        "area": "1",
+                        "layout_area": "main",
+                        "title": "US Form Native Widget",
+                        "mode": "initiate",
+                        "native.view": "PaymentOrderWidgetUSFormView",
+                        "native.package": "com.backbase.model.view.widget.paymentorder.us",
+                        "order": "1.0",
+                        "native": "PaymentOrderWidget",
+                        "maxAmountDigits": "10",
+                        "navigationInfix": "us",
+                        "title.type": "large"
+                    },
+                    "id": "7b183d71-b404-435e-83a9-d56829aaf208",
+                    "name": "us-form-native-widget-8380225"
+                }
+            ],
+            "id": "782953b0-0257-4003-9b36-81b9fae69452",
+            "name": "page_1540372946142"
+        },
+        {
+            "preferences": {
+                "layout_area": "bottomsheet",
+                "navigation.mode": "bottomsheet",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.payment-order.us.review",
+                "order": "876.25",
+                "title": "Payment Review",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [{
+                "preferences": {
+                    "src": "$(contextRoot)/static/widgets/[BBHOST]/payments-native-widget/index.html",
+                    "area": "0",
+                    "title": "Payments Native Widget",
+                    "mode": "review",
+                    "native.view": "PaymentOrderWidgetUSReviewView",
+                    "native.package": "com.backbase.model.view.widget.payments.form.review",
+                    "order": "1.0",
+                    "native": "PaymentOrderWidget",
+                    "navigationInfix": "us"
+                },
+                "id": "2dbd54ec-1806-4a89-bd6e-36610ba38947",
+                "name": "payments-native-widget_1e2a3aef-6308-49c6-bf0f-8d73bf103e14-7088680"
+            }],
+            "id": "65a51ee7-7661-42b0-a1f2-5d916f0553c4",
+            "name": "page_1540302208689"
+        },
+        {
+            "preferences": {
+                "layout_area": "bottomsheet",
+                "navigation.mode": "bottomsheet",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.rdc-form.deposit.entered",
+                "order": "744.765625",
+                "title": "Review Deposit",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/deposits-form-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Deposits Form Native Widget",
+                        "mode": "review",
+                        "native.view": "RDCFormWidgetReviewView",
+                        "native.package": "com.backbase.model.view.widget.rdc.form.review",
+                        "order": "0.0",
+                        "native": "RDCFormWidgetExtended"
+                    },
+                    "id": "040e1059-469c-45ee-a34f-e94853623027",
+                    "name": "deposits-form-native-widget-6458781"
+                }
+            ],
+            "id": "726a4b47-9460-419e-bfd9-8505b3c2da32",
+            "name": "page_1540372970332"
+        },
+        {
+            "preferences": {
+                "alternative-title": "View deposits",
+                "title": "Deposits",
+                "section": "Payments",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "menu-icon": "ic_photo_camera",
+                "navigation": "bb.action.deposits.open",
+                "order": "748.6328125",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/deposits-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Deposits Native Widget",
+                        "mode": "",
+                        "native.view": "RDCHistoryWidgetView",
+                        "native.package": "com.backbase.model.view.widget.rdc.deposits",
+                        "native": "RDCHistoryWidget",
+                        "order": "1.0",
+                        "size": "20"
+                    },
+                    "id": "6eb83c53-d2f7-4276-82c2-42178e19e6ff",
+                    "name": "deposits-native-widget-7798966"
+                }
+            ],
+            "id": "5858b251-b94f-4624-a49c-e9bb13f3c2e8",
+            "name": "page_1540372977696"
+        },
+        {
+            "preferences": {
+                "navigation": "bb.event.passcode.set",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "ios.layout.extend": "true",
+                "order": "750.0",
+                "title": "",
+                "ios.statusBar": "white",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "digits": "5",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/passcode-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Passcode Native Widget",
+                        "mode": "confirm",
+                        "native.view": "PasscodeWidgetConfirmView",
+                        "native.package": "com.backbase.model.view.widget.passcode",
+                        "order": "0.0",
+                        "native": "PasscodeWidget"
+                    },
+                    "id": "6d21ce56-7f2e-4c95-95a6-28cb67ff9a16",
+                    "name": "passcode-native-widget-8976179"
+                }
+            ],
+            "id": "9fb730ac-3f78-46c7-8716-1b7d3039080f",
+            "name": "page_1540458375764"
+        },
+        {
+            "preferences": {
+                "navigation.mode": "modal",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.bill-pay.edit-payment,bb.event.bill-pay-edit.selector-payment-account-selected",
+                "order": "750.0",
+                "title": "Edit payment details",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView",
+                "title.type": "large"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/selector-native-widget/index.html",
+                        "listViewKey": "0",
+                        "title": "Selector Native Widget",
+                        "layout_area": "header",
+                        "clients": "BillPayClient",
+                        "area": "0",
+                        "order": "0.0",
+                        "headers": "Accounts",
+                        "native": "SelectorWidgetExtended",
+                        "native.view": "SelectorWidgetBillPayEditView",
+                        "native.package": "com.backbase.model.view.widget.billpay.selector",
+                        "packages": "com.backbase.android.client.billpay",
+                        "events": "bb.event.bill-pay-form.product-selected",
+                        "size": "10"
+                    },
+                    "id": "3481a08b-7312-4d52-822d-27c6d36d6a71",
+                    "name": "selector-native-widget-2859042"
+                },
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/bill-pay-form-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Bill Pay Form Native Widget",
+                        "mode": "edit",
+                        "native.view": "BillPayFormWidgetEditView",
+                        "native.package": "com.backbase.model.view.widget.billpay.form",
+                        "order": "1.0",
+                        "native": "BillPayFormWidgetExtended"
+                    },
+                    "id": "7b183d71-b404-435e-83a9-d56829aaf206",
+                    "name": "bill-pay-form-native-widget-8380224"
+                }
+            ],
+            "id": "3badb07e-c918-407e-bcd0-f1c8d93e73da",
+            "name": "page_1540303366585"
+        },
+        {
+            "preferences": {
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.products.select-product",
+                "order": "752.5",
+                "title": "Transactions",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/transactions-native-widget/index.html",
+                        "search": "transactions",
+                        "title": "Transactions Native Widget",
+                        "layout_area": "main",
+                        "area": "0",
+                        "searchDataSourcePackage": "com.backbase.model.view.widget.transactions",
+                        "native": "TransactionsWidgetExtended",
+                        "showPendingTransactions": "true",
+                        "mode": "overview",
+                        "native.package": "com.backbase.model.view.widget.transactions.list",
+                        "size": "20",
+                        "searchDataSourceClass": "LocalTransactionsSearchDataSource",
+                        "order": "0.0",
+                        "native.view": "TransactionsWidgetView"
+                    },
+                    "id": "2ceb4e83-a256-47df-bf0b-f8f5319cf93d",
+                    "name": "transactions-native-widget-7422956"
+                }
+            ],
+            "id": "2d3dde6b-2ef6-4003-b7ac-3e536e144353",
+            "name": "page_1540301991647"
+        },
+        {
+            "preferences": {
+                "menu-icon": "ic_navigations_insights",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.insights.open",
+                "order": "876.25",
+                "title": "Insights",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/placeholder-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "image": "/ic_placeholder_insights.png",
+                        "title": "Available soon",
+                        "native.view": "ComingSoonPlaceholderWidgetView",
+                        "native.package": "com.backbase.model.view.placeholder",
+                        "message": "Our insights dashboard will be available soon. You can add your own implementation here in the meantime.",
+                        "order": "0.0",
+                        "native": "PlaceholderWidget"
+                    },
+                    "id": "bcb49b05-0246-4e68-9b74-817f73e9332e",
+                    "name": "placeholder-native-widget-7891943"
+                }
+            ],
+            "id": "17eea0bb-b52a-41df-ba4e-30bd190a1ac5",
+            "name": "page_1540302247564"
+        },
+        {
+            "id": "2e645267-0c8c-4cc9-bc93-e2d937f1dfd0",
+            "name": "page_1555330353838",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "ios.layout.extend": "true",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.transactions.transaction-selected",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionDetailsWidgetView",
+                        "native": "TransactionDetailsWidget",
+                        "showCheckImage": "true",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/transactions-native-widget/index.html",
+                        "title": "Transactions Native Widget",
+                        "native.package": "com.backbase.model.view.widget.transactions.detail",
+                        "order": "0"
+                    },
+                    "id": "8b1d94b0-b6f0-4983-bab7-7f8e20e15a34",
+                    "name": "transactions-native-widget-6191403"
+                }
+            ]
+        },
+        {
+            "preferences": {
+                "menu-icon": "ic_navigations_more",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.more.open",
+                "order": "938.125",
+                "title": "More",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/more-menu-native-widget/index.html",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "More Menu Native Widget",
+                        "native.view": "MoreMenuWidgetView",
+                        "native.package": "com.backbase.model.view.widget.menu",
+                        "order": "0.0",
+                        "native": "MenuWidget"
+                    },
+                    "id": "e633133f-7134-4230-b3d2-7c8b7885e7ec",
+                    "name": "more-menu-native-widget-8432021"
+                }
+            ],
+            "id": "9a686fd1-4e72-4938-b9c2-1bfe60fe49a3",
+            "name": "page_1540302258650"
+        },
+        {
+            "preferences": {
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "",
+                "order": "961.328125",
+                "title": "Message Detail",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [],
+            "id": "cd262cbc-13d9-4b9a-bdbd-c614861db49a",
+            "name": "page_1540302334266"
+        },
+        {
+            "children": [
+                {
+                    "id": "4bdc422d-d48b-48f7-a7e7-c5709d2cad1f-child1",
+                    "name": "transactions-native-widget-7422956",
+                    "preferences": {
+                        "area": "0",
+                        "layout_area": "main",
+                        "mode": "overview",
+                        "native": "TransactionsWidgetExtended",
+                        "native.package": "com.backbase.model.view.widget.transactions.spending",
+                        "native.view": "TransactionsWidgetSpendingOverviewView",
+                        "order": "0.0",
+                        "search": "transactions",
+                        "searchDataSourceClass": "LocalTransactionsSearchDataSource",
+                        "searchDataSourcePackage": "com.backbase.model.view.widget.transactions",
+                        "size": "20",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/transactions-native-widget/index.html",
+                        "title": "Spending"
+                    }
+                }
+            ],
+            "id": "d8c5bd86-2435-4607-b08c-642e65cc0315",
+            "name": "page_1542210211259",
+            "preferences": {
+                "alternative-title": "Spending analysis",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "menu-icon": "ic_insert_chart_outlined",
+                "native.package": "com.backbase.model.view.widget.transactions.spending",
+                "navigation": "bb.action.spending-analysis.open",
+                "order": "750.0",
+                "section": "Insights",
+                "title": "Spending",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            }
+        },
+        {
+            "id": "126a3b7d-30bf-4cbe-8159-145a7a6c72eu40ff",
+            "name": "page_15422102765259",
+            "preferences": {
+                "navigation": "bb.action.spending-detail.open",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "section": "Insights",
+                "title": "",
+                "alternative-title": "Spending analysis",
+                "menu-icon": "ic_insert_chart_outlined",
+                "order": "750.0",
+                "native.package": "com.backbase.model.view.widget.transactions.spending",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "ca504276-12cf-42a7-8b42-91238j2j424j2",
+                    "name": "transactions-native-widget-750113323",
+                    "preferences": {
+                        "searchDataSourcePackage": "com.backbase.model.view.widget.transactions",
+                        "search": "",
+                        "searchDataSourceClass": "LocalTransactionsSearchDataSource",
+                        "size": "20",
+                        "mode": "overview",
+                        "area": "1",
+                        "native.view": "TransactionsWidgetSpendingDetailsView",
+                        "native": "TransactionsWidgetExtended",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/transactions-native-widget/index.html",
+                        "native.package": "com.backbase.model.view.widget.transactions.spending",
+                        "title": "Transactions Native Widget",
+                        
+                        "layout_area": "main",
+                        "order": "1.0"
+                    }
+                }
+            ]
+        },
+        {
+            "preferences": {
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.notifications.notification-selected",
+                "order": "992.265625",
+                "title": "",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/notifications-native-widget/index.html",
+                        "search": "",
+                        "area": "0",
+                        "layout_area": "main",
+                        "title": "Notifications Native Widget",
+                        "mode": "details",
+                        "native.view": "NotificationsWidgetDetailView",
+                        "native.package": "com.backbase.model.view.widget.notifications.detail",
+                        "native": "NotificationsWidgetExtended",
+                        "order": "0.0",
+                        "size": ""
+                    },
+                    "id": "f9755806-6c4b-4994-934b-1c6f0c05ee40",
+                    "name": "notifications-native-widget-9678680"
+                }
+            ],
+            "id": "d274060a-6cd4-4b6c-b2c7-5e5e36cb0cb0",
+            "name": "page_1540302421334"
+        },
+        {
+            "preferences": {
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.payment-order.us.select-product",
+                "ios.layout.extend": "true",
+                "order": "969.0625",
+                "title": "From account",
+                "native": "UniformPageRenderer",
+                "title.type": "large",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "navigation": "bb.action.payment-order.us.select-product",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/selector-native-widget/index.html",
+                        "listViewKey": "0,1",
+                        "title": "Selector Native Widget",
+                        "layout_area": "main",
+                        "clients": "ProductsClient,PaymentOrderClient",
+                        "area": "0",
+                        "order": "0.0",
+                        "headers": "Accounts, Connected Accounts",
+                        "native": "SelectorWidgetExtended",
+                        "native.view": "SelectorWidgetProductsView",
+                        "native.package": "com.backbase.model.view.widget.selector",
+                        "packages": "com.backbase.android.client.products,com.backbase.android.client.paymentorder",
+                        "events": "bb.event.payment-order.us.selector-product-selected,bb.event.payment-order.us.selector-product-selected",
+                        "size": "10"
+                    },
+                    "id": "eb934bb4-fde3-43ef-b4cf-ea6ba5357b1casd",
+                    "name": "selector-native-widget-4580698"
+                }
+            ],
+            "id": "e26a9133-a7d5-4365-b5d6-a7d7c9ad4e711",
+            "name": "page_1540302226111"
+        },
+        {
+            "preferences": {
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.event.bill-pay-form.select-payment-account",
+                "navigation.mode": "push",
+                "ios.layout.extend": "true",
+                "order": "969.0625",
+                "title": "Select your account",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView",
+                "title.type": "large"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "navigation": "bb.event.bill-pay-form.select-payment-account",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/selector-native-widget/index.html",
+                        "listViewKey": "0",
+                        "title": "Selector Native Widget",
+                        "layout_area": "main",
+                        "clients": "BillPayClient",
+                        "area": "0",
+                        "order": "0.0",
+                        "headers": "Accounts",
+                        "native": "SelectorWidgetExtended",
+                        "native.view": "SelectorWidgetProductsView",
+                        "native.package": "com.backbase.model.view.widget.selector",
+                        "packages": "com.backbase.android.client.products",
+                        "events": "bb.event.bill-pay-form.selector-payment-account-selected",
+                        "size": "10"
+                    },
+                    "id": "eb934bb4-fde3-43ef-b4cf-ea6ba5357b1casa",
+                    "name": "selector-native-widget-4580698"
+                }
+            ],
+            "id": "e26a9133-a7d5-4365-b5d6-a7d7c9ad4e7111",
+            "name": "page_1540302226111"
+        },
+        {
+            "preferences": {
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.event.bill-pay-form-ebill.select-payment-account",
+                "navigation.mode": "push",
+                "ios.layout.extend": "true",
+                "order": "969.0625",
+                "title": "Select your account",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView",
+                "title.type": "large"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "navigation": "bb.event.bill-pay-form-ebill.select-payment-account",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/selector-native-widget/index.html",
+                        "listViewKey": "0",
+                        "title": "Selector Native Widget",
+                        "layout_area": "main",
+                        "clients": "BillPayClient",
+                        "area": "0",
+                        "order": "0.0",
+                        "headers": "Accounts",
+                        "native": "SelectorWidgetExtended",
+                        "native.view": "SelectorWidgetProductsView",
+                        "native.package": "com.backbase.model.view.widget.selector",
+                        "packages": "com.backbase.android.client.products",
+                        "events": "bb.event.bill-pay-form-ebill.selector-payment-account-selected",
+                        "size": "10"
+                    },
+                    "id": "eb934bb4-fde3-43ef-b4cf-ea6ba5357b1casa",
+                    "name": "selector-native-widget-4580698"
+                }
+            ],
+            "id": "e26a9133-a7d5-4365-b5d6-a7d7c9ad4e7112",
+            "name": "page_1540302226111"
+        },
+        {
+            "preferences": {
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.payment-order.us.select-recipient",
+                "order": "969.0625",
+                "title": "Select recipient",
+                "native": "UniformPageRenderer",
+                "native.view": "SplitView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "preferences": {
+                        "navigation": "bb.action.payment-order.us.select-recipient",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/selector-native-widget/index.html",
+                        "listViewKey": "0",
+                        "title": "My accounts",
+                        "layout_area": "main",
+                        "clients": "ProductsClient,PaymentOrderClient",
+                        "area": "0",
+                        "order": "0.0",
+                        "headers": "Internal accounts, Connected accounts",
+                        "native": "SelectorWidgetExtended",
+                        "native.view": "SelectorWidgetAccountRecipientsUSView",
+                        "native.package": "com.backbase.model.view.widget.selector",
+                        "packages": "com.backbase.android.client.products, com.backbase.android.client.paymentorder",
+                        "events": "bb.event.payment-order.us.recipient-selected,bb.event.payment-order.us.recipient-selected",
+                        "size": "10"
+                    },
+                    "id": "eb934bb4-fde3-43ef-b4cf-ea6ba5357b1b",
+                    "name": "selector-native-widget-4580697"
+                },
+                {
+                    "preferences": {
+                        "navigation": "bb.action.payment-order.us.select-recipient",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/selector-native-widget/index.html",
+                        "listViewKey": "1",
+                        "title": "Contacts",
+                        "layout_area": "main",
+                        "clients": "ContactsClient",
+                        "area": "0",
+                        "order": "0.0",
+                        "headers": "Contacts",
+                        "native": "SelectorWidgetExtended",
+                        "native.view": "SelectorWidgetContactsRecipientsUSView",
+                        "native.package": "com.backbase.model.view.widget.selector",
+                        "packages": "com.backbase.android.client.contacts",
+                        "events": "bb.event.payment-order.us.recipient-selected",
+                        "size": "10"
+                    },
+                    "id": "4f768217-5e43-47c8-aeed-55436c8ab8bb",
+                    "name": "selector-native-widget-4580697"
+                }
+            ],
+            "id": "e26a9133-a7d5-4365-b5d6-a7d7c9ad4e70",
+            "name": "page_1540302226110"
+        },
+        
+        {
+            "id": "3dafab1a-4237-4b01-9aae-alslsk2346263",
+            "name": "page_15403454803",
+            "preferences": {
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.payment-order.us.select-internal-recipient",
+                "native": "UniformPageRenderer",
+                "title": "Select recipient",
+                "order": "752.5",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView",
+                "native.package": "com.backbase.model.view.widget.common.page"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "37fbddee-b016-44f2-bcd6-8ae1weg8544372732",
+                    "name": "selector-native-widget-4648f607",
+                    "preferences": {
+                        "area": "0",
+                        "clients": "ProductsClient",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/selector-native-widget/index.html",
+                        "title": "Select recipient",
+                        "packages": "com.backbase.android.client.products",
+                        "native.view": "SelectorWidgetProductsView",
+                        "navigation": "bb.action.payment-order.us.select-internal-recipient",
+                        "native": "SelectorWidgetExtended",
+                        "size": "10",
+                        "native.package": "com.backbase.model.view.widget.selector",
+                        "events": "bb.event.payment-order.us.recipient-selected",
+                        "order": "1.0"
+                    }
+                }
+            ]
+        },
+        {
+            "preferences": {
+                "layout_area": "bottomsheet",
+                "navigation.mode": "bottomsheet",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.payment-order.us.overview",
+                "order": "775.703125",
+                "title": "Payment Success",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [{
+                "preferences": {
+                    "src": "$(contextRoot)/static/widgets/[BBHOST]/payments-native-widget/index.html",
+                    "area": "0",
+                    "layout_area": "main",
+                    "title": "Payments Native Widget",
+                    "mode": "overview",
+                    "native.view": "PaymentOrderWidgetUSSuccessView",
+                    "native.package": "com.backbase.model.view.widget.payments.form.submit",
+                    "order": "0.0",
+                    "native": "PaymentOrderWidget",
+                    "navigationInfix": "us"
+                },
+                "id": "02287627-f3f5-4dbc-9ef4-82d4c8b3bf64",
+                "name": "payments-native-widget-5444297"
+            }],
+            "id": "3c81c2d6-2d1a-431f-b3a7-ef289182def6",
+            "name": "page_1542209275445"
+        },
+        {
+            "preferences": {
+                "layout_area": "bottomsheet",
+                "navigation.mode": "bottomsheet",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.event.payment-order.us.form.failed",
+                "order": "750.0",
+                "title": "Payment Failure",
+                "native": "UniformPageRenderer",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [{
+                "preferences": {
+                    "src": "$(contextRoot)/static/widgets/[BBHOST]/payments-native-widget/index.html",
+                    "area": "0",
+                    "layout_area": "main",
+                    "title": "Payments Native Widget",
+                    "mode": "",
+                    "native.view": "PaymentOrderWidgetUSFailedView",
+                    "native.package": "com.backbase.model.view.widget.payments.form.submit",
+                    "order": "0.0",
+                    "native": "PaymentOrderWidget",
+                    "navigationInfix": "us"
+                },
+                "id": "a8934cbd-aad9-4d69-950a-870b61116c05",
+                "name": "payments-native-widget-6561394"
+            }],
+            "id": "d302a9d9-3faf-41c0-a16b-4a77cd94db82",
+            "name": "page_1542209424148"
+        },
+        {
+            "id": "782953b0-0257-4003-9b36-81b9fae6345494514",
+            "name": "page_1540372946141",
+            "preferences": {
+                "navigation.mode": "modal",
+                "title": "Schedule payment",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "navigation": "bb.action.payment-order.us.select-schedule",
+                "order": "737.03125",
+                "native": "UniformPageRenderer",
+                "title.type": "large",
+                "native.view": "SimplePageView"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "7aed5671-0639-4f99-98b8-08df45b2agdf879",
+                    "name": "schedule-widget-2088041",
+                    "preferences": {
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/payments-native-widget/index.html",
+                        "area": "2",
+                        "title": "Schedule Form Native Widget",
+                        "native.view": "PaymentOrderWidgetUSScheduleView",
+                        "native.package": "com.backbase.model.view.widget.paymentorder.us",
+                        "order": "1.0",
+                        "native": "PaymentOrderScheduleWidget",
+                        "navigationInfix": "us"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2e178972-8453-41f1-b7b3-f03aac2a0159",
+            "name": "page_1572345362619",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Manage accounts",
+                "navigation.mode": "push",
+                "navigation": "bb.action.accounts.manage-requested",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "193d121a-7338-4165-9340-7f95fefffa99",
+                    "name": "universal-native-widgetd3446f35-5313-4948-8952-19af998005ad",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "ManageProductsWidgetView",
+                        "native": "ProductsOverviewWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Products Overview Native Widget",
+                        "native.package": "com.backbase.model.view.widget.products.manage",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "a1c52d8e-9ed0-d920-e0d9-3bedba231fa0",
+            "name": "page_1540303587053",
+            "preferences": {
+                "navigation": "bb.action.bill-pay.show-payees",
+                "navigation.mode": "push",
+                "menu-icon": "ic_description",
+                "title": "Pay a bill",
+                "title.type": "large",
+                "favicon": "static/dashboard/media/favicon.ico",
+                "order": "500.0",
+                "layout_area": "main",
+                "native": "UniformPageRenderer",
+                "native.view": "SplitView",
+                "native.package": "com.backbase.model.view.widget.common.page"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "9d8ed2de-01ce-ea3b-d4eb-bae5d2e69d26",
+                    "name": "bill-pay-native-widget-5985611",
+                    "preferences": {
+                        "area": "1",
+                        "mode": "payees",
+                        "native.view": "BillPayWidgetPayeesView",
+                        "native": "BillPayWidgetExtended",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/bill-pay-native-widget/index.html",
+                        "native.package": "com.backbase.model.view.widget.billpay.list",
+                        "title": "Payees",
+                        "layout_area": "main",
+                        "order": "0.0"
+                    }
+                },
+                {
+                    "id": "3fc20bec-9643-4a45-a569-a6ba8444fe04fd",
+                    "name": "bill-pay-native-widget-302177",
+                    "preferences": {
+                        "area": "2",
+                        "native.view": "BillPayWidgetView",
+                        "native": "BillPayWidgetExtended",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/bill-pay-native-widget/index.html",
+                        "native.package": "com.backbase.model.view.widget.billpay.list",
+                        "title": "History",
+                        "status": "HISTORICAL",
+                        "layout_area": "main",
+                        "order": "0.0"
+                    }
+                },
+                {
+                    "id": "3fc20bec-9643-4a45-a569-a6ba8445fe03",
+                    "name": "bill-pay-native-widget-302177",
+                    "preferences": {
+                        "area": "3",
+                        "native.view": "BillPayWidgetView",
+                        "native": "BillPayWidgetExtended",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/bill-pay-native-widget/index.html",
+                        "native.package": "com.backbase.model.view.widget.billpay.list",
+                        "title": "Scheduled",
+                        "status": "PENDING",
+                        "layout_area": "main",
+                        "order": "0.0"
+                    }
+                }
+            ]
+        }
+    ],
+    "preferences": {
+        "title": "retail-banking-mobile-us",
+        "publishChains": "Self - Direct",
+        "currentaccount_icon": "bblogo",
+        "LogoutPage": "retail-banking-mobile-us/login?error=logout",
+        "locales": "en-US",
+        "AuthenticationFailurePage": "retail-banking-mobile-us/login?error=failure"
+    },
+    "sitemap": [
+        {
+            "navPattern": null,
+            "children": [
+                {
+                    "href": "/retail-banking-mobile-us/welcome",
+                    "title": "Welcome",
+                    "children": [
+                        {
+                            "href": "/retail-banking-mobile-us/welcome/login",
+                            "title": "Login",
+                            "children": [
+                                {
+                                    "href": "/retail-banking-mobile-us/welcome/login/passcode",
+                                    "title": "Passcode",
+                                    "children": [
+                                        {
+                                            "href": "/retail-banking-mobile-us/welcome/login/passcode/passcode-confirm",
+                                            "title": "Passcode Confirm",
+                                            "children": [
+                                                {
+                                                    "href": "/retail-banking-mobile-us/welcome/login/passcode/passcode-confirm/setup-completed",
+                                                    "title": "Setup Completed",
+                                                    "children": [],
+                                                    "itemType": "page",
+                                                    "itemRef": "7c223978-b609-4412-ab48-16245d7772e8"
+                                                }
+                                            ],
+                                            "itemType": "page",
+                                            "itemRef": "9fb730ac-3f78-46c7-8716-1b7d3039080f"
+                                        }
+                                    ],
+                                    "itemType": "page",
+                                    "itemRef": "231a9de7-cf4c-4cce-ac3a-bc3c414f9d2c"
+                                }
+                            ],
+                            "itemType": "page",
+                            "itemRef": "a6288257-e106-4c6d-a650-e5f80ec46809"
+                        }
+                    ],
+                    "itemType": "page",
+                    "itemRef": "e1f5823b-9f06-40a9-bf6a-373d3fc44237"
+                },
+                {
+                    "href": "/retail-banking-mobile-us/more/inbox",
+                    "title": "Inbox",
+                    "itemType": "page",
+                    "itemRef": "27eea0bb-b52a-41df-ba4e-30bd190a1ac5",
+                    "children": [
+                        {
+                            "href": "/retail-banking-mobile-us/more/messages/",
+                            "title": "Messages",
+                            "itemType": "alias",
+                            "itemRef": "a3ad6435-0673-4d17-ae99-7ae2d522b01f",
+                            "children": [
+                                {
+                                    "itemRef": "cd262cbc-13d9-4b9a-bdbd-c614861db49a",
+                                    "title": "Message Detail",
+                                    "href": "/retail-banking-mobile-us/more/messages/message-detail",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "href": "/retail-banking-mobile-us/more/notifications/",
+                            "title": "Notifications",
+                            "itemType": "alias",
+                            "itemRef": "709b6fde-1a66-4286-ae0b-9e2b570748cf",
+                            "children": [
+                                {
+                                    "itemRef": "d274060a-6cd4-4b6c-b2c7-5e5e36cb0cb0",
+                                    "title": "Notification Detail",
+                                    "href": "/retail-banking-mobile-us/more/notifications/notification-detail",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "href": "/retail-banking-mobile-us/authenticate",
+                    "title": "Authenticate",
+                    "children": [],
+                    "itemType": "page",
+                    "itemRef": "f9b75a24-09a9-40d4-b9ad-9397a445c0e0"
+                }
+            ],
+            "name": "navroot_notinmenu",
+            "itemType": "LINK"
+        },
+        {
+            "navPattern": null,
+            "children": [
+                {
+                    "href": "/retail-banking-mobile-us/accounts",
+                    "title": "Accounts",
+                    "children": [
+                        {
+                            "itemRef": "2e178972-8453-41f1-b7b3-f03aac2a0159",
+                            "title": "Manage accounts",
+                            "href": "retail-banking-mobile-us/accounts/manage-accounts",
+                            "itemType": "page",
+                            "children": []
+                        },
+                        {
+                            "href": "/retail-banking-mobile-us/accounts/transactions",
+                            "title": "Transactions",
+                            "children": [
+                                {
+                                    "itemRef": "976059bf-9592-4573-8cb8-bcbca8da8f46",
+                                    "title": "Account details",
+                                    "href": "retail-banking-mobile-us/accounts/transactions/account-details",
+                                    "itemType": "page",
+                                    "children": []
+                                },
+                                {
+                                    "itemRef": "463fd382-cd41-46d4-a762-223c2ff92207",
+                                    "title": "Transactions-filters",
+                                    "href": "retail-banking-mobile-sepa/accounts/transactions/transactions-filters",
+                                    "itemType": "page",
+                                    "children": [
+                                        {
+                                            "itemRef": "2fd79d08-3d1d-4eb0-97db-0c2eab30abbd",
+                                            "title": "Transactions-filter-amount-range",
+                                            "href": "v4-retail-banking-mobile-sepa/accounts/transactions/transactions-filters/transactions-filter-amount-range",
+                                            "itemType": "page",
+                                            "children": []
+                                        },
+                                        {
+                                            "itemRef": "e87ddb4b-2019-4b43-873c-4994aef18018",
+                                            "title": "Transactions-filter-date-range",
+                                            "href": "v4-retail-banking-mobile-sepa/accounts/transactions/transactions-filters/transactions-filter-date-range",
+                                            "itemType": "page",
+                                            "children": []
+                                        },
+                                        {
+                                            "itemRef": "9c8eebb8-597f-4f9e-93a0-878be1eaaf19",
+                                            "title": "Transactions-filter-type",
+                                            "href": "v4-retail-banking-mobile-sepa/accounts/transactions/transactions-filters/transactions-filter-type",
+                                            "itemType": "page",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "href": "/retail-banking-mobile-us/accounts/transactions/transactionsdetail",
+                                    "title": "Transactions Detail",
+                                    "children": [
+                                        {
+                                            "itemRef": "a4f90661-90f0-4b42-8d72-54b4c92c9751",
+                                            "title": "Transaction Check Troubleshooting",
+                                            "href": "retail-banking-mobile-us/accounts/transactions/transactionsdetail/transaction-check-troubleshooting",
+                                            "itemType": "page",
+                                            "children": []
+                                        },
+                                        {
+                                            "itemRef": "d67ce284-5537-4e77-9ce5-da6993844fa9",
+                                            "title": "Transaction-check-images",
+                                            "href": "retail-banking-mobile-us/accounts/transactions/transactionsdetail/transaction-check-images",
+                                            "itemType": "page",
+                                            "children": []
+                                        },
+                                        {
+                                            "itemRef": "619b6992-51aa-45a4-bd13-450ad814ce4f",
+                                            "title": "Transaction Notes",
+                                            "href": "transaction-notes",
+                                            "itemType": "page",
+                                            "children": []
+                                        },
+                                        {
+                                            "href": "/retail-banking-mobile-us/accounts/transactions/transactionsdetail/categories",
+                                            "title": "Categories",
+                                            "children": [],
+                                            "itemType": "page",
+                                            "itemRef": "dd1cea47-bf85-47a7-83da-5ef31885a367"
+                                        }
+                                    ],
+                                    "itemType": "page",
+                                    "itemRef": "2e645267-0c8c-4cc9-bc93-e2d937f1dfd0"
+                                }
+                            ],
+                            "itemType": "page",
+                            "itemRef": "2d3dde6b-2ef6-4003-b7ac-3e536e144353"
+                        }
+                    ],
+                    "itemType": "page",
+                    "itemRef": "8f09dc3a-11ce-4324-8168-3953ed73bca5"
+                },
+                {
+                    "href": "/retail-banking-mobile-us/bill-pay",
+                    "title": "Move Money",
+                    "children": [
+                        {
+                            "href": "/retail-banking-mobile-us/bill-pay/split-view",
+                            "title": "Bill Pay",
+                            "children": [
+                                {
+                                    "href": "/retail-banking-mobile-us/bill-pay/split-view/payment-details",
+                                    "title": "Bill Pay",
+                                    "children": [
+                                        {
+                                            "href": "/retail-banking-mobile-us/bill-pay/split-view/payment-details/edit-bill-payment",
+                                            "title": "Edit Bill Payment",
+                                            "children": [
+                                                {
+                                                    "itemRef": "sywzQEaI-rD41-IrQW-gdFc-LfQ2AH3Q",
+                                                    "title": "From Accounts",
+                                                    "href": "/retail-banking-mobile-us/bill-pay/split-view/payment-details/edit-bill-payment/from-accounts",
+                                                    "itemType": "page",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "href": "/retail-banking-mobile-us/bill-pay/split-view/payment-details/edit-bill-payment/bill-pay-schedule",
+                                                    "title": "Schedule payment",
+                                                    "children": [
+                                                        {
+                                                            "href": "/retail-banking-mobile-us/bill-pay/split-view/payment-details/edit-bill-payment/bill-pay-schedule/bill-pay-review",
+                                                            "title": "Bill Pay Review",
+                                                            "children": [],
+                                                            "itemType": "alias",
+                                                            "itemRef": "9558ab0b-7cb4-43ed-b0dc-50db5cb9ac14"
+                                                        }
+                                                    ],
+                                                    "itemType": "alias",
+                                                    "itemRef": "19ff24ca-72be-44c7-9a93-bd664b8959a7"
+                                                }
+                                            ],
+                                            "itemType": "page",
+                                            "itemRef": "3badb07e-c918-407e-bcd0-f1c8d93e73da"
+                                        }
+                                    ],
+                                    "itemType": "page",
+                                    "itemRef": "0e9f01d6-784c-4695-a059-ffd45675cc31"
+                                },
+                                {
+                                    "href": "/retail-banking-mobile-us/bill-pay/split-view/bill-pay-payees",
+                                    "title": "Bill Pay",
+                                    "children": [
+                                        {
+                                            "href": "/retail-banking-mobile-us/bill-pay/split-view/bill-pay-payees/bill-pay",
+                                            "title": "Bill Payment",
+                                            "children": [
+                                                {
+                                                    "itemRef": "e26a9133-a7d5-4365-b5d6-a7d7c9ad4e7111",
+                                                    "title": "From Accounts",
+                                                    "href": "/retail-banking-mobile-us/bill-pay/split-view/bill-pay-payees/bill-pay/from-accounts",
+                                                    "itemType": "page",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "href": "/retail-banking-mobile-us/bill-pay/split-view/bill-pay-payees/bill-pay/bill-pay-schedule",
+                                                    "title": "Schedule payment",
+                                                    "children": [{
+                                                        "href": "/retail-banking-mobile-us/bill-pay/split-view/bill-pay-payees/bill-pay/bill-pay-schedule/bill-pay-review",
+                                                        "title": "Bill Pay Review",
+                                                        "children": [],
+                                                        "itemType": "page",
+                                                        "itemRef": "9558ab0b-7cb4-43ed-b0dc-50db5cb9ac14"
+                                                    }],
+                                                    "itemType": "page",
+                                                    "itemRef": "19ff24ca-72be-44c7-9a93-bd664b8959a7"
+                                                }
+                                            ],
+                                            "itemType": "page",
+                                            "itemRef": "ed378f47-fa99-4415-9e44-cbcaec901375"
+                                        },
+                                        {
+                                            "href": "/retail-banking-mobile-us/bill-pay/split-view/bill-pay-payees/ebill-payment",
+                                            "title": "E-Bill Payment",
+                                            "children": [
+                                                {
+                                                    "itemRef": "e26a9133-a7d5-4365-b5d6-a7d7c9ad4e7112",
+                                                    "title": "From Accounts",
+                                                    "href": "/retail-banking-mobile-us/bill-pay/split-view/bill-pay-payees/ebill-payment/from-accounts",
+                                                    "itemType": "page",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "href": "/retail-banking-mobile-us/bill-pay/split-view/bill-pay-payees/ebill-payment/bill-pay-schedule",
+                                                    "title": "Schedule payment",
+                                                    "children": [{
+                                                        "href": "/retail-banking-mobile-us/bill-pay/split-view/bill-pay-payees/ebill-payment/bill-pay-review",
+                                                        "title": "Bill Pay Review",
+                                                        "children": [],
+                                                        "itemType": "page",
+                                                        "itemRef": "9558ab0b-7cb4-43ed-b0dc-50db5cb9ac14"
+                                                    }],
+                                                    "itemType": "page",
+                                                    "itemRef": "19ff24ca-72be-44c7-9a93-bd664b8959a7"
+                                                }
+                                            ],
+                                            "itemType": "page",
+                                            "itemRef": "ed378f47-fa99-4415-9e44-cbcaec1828372193"
+                                        },
+                                        {
+                                            "itemRef": "0237e727-be42-4e46-29b2-38c2ea53f2a9d",
+                                            "title": "Bill Pay Search Payees",
+                                            "href": "/retail-banking-mobile-us/bill-pay/split-view/bill-pay-payees/bill-pay-search-payees",
+                                            "itemType": "page",
+                                            "children": [{
+                                                "itemRef": "0237e727-be42-4e46-29b2-38c2ea53f2a9e",
+                                                "title": "Account Details",
+                                                "href": "/retail-banking-mobile-us/bill-pay/split-view/bill-pay-payees/bill-pay-search-payees/create-electronic-payee",
+                                                "itemType": "page",
+                                                "children": []
+                                            },
+                                            {
+                                                "itemRef": "0237e727-be42-4e46-29b2-38c2ea53f2a9f",
+                                                "title": "Add Check Payee",
+                                                "href": "/retail-banking-mobile-us/bill-pay/split-view/bill-pay-payees/bill-pay-search-payees/create-payee",
+                                                "itemType": "page",
+                                                "children": []
+                                            }]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "itemType": "page",
+                            "itemRef": "a1c52d8e-9ed0-d920-e0d9-3bedba231fa0"
+                        },
+                        {
+                            "href": "/retail-banking-mobile-us/payments/new-deposit",
+                            "title": "New Deposit",
+                            "children": [],
+                            "itemType": "alias",
+                            "itemRef": "782953b0-0257-4003-9b36-81b9fae69450"
+                        },
+                        {
+                            "href": "/retail-banking-mobile-us/payments/transfer-money",
+                            "title": "Transfer Money",
+                            "children": [
+                                {
+                                    "itemRef": "e26a9133-a7d5-4365-b5d6-a7d7c9ad4e711",
+                                    "title": "Select your accounts",
+                                    "href": "/retail-banking-mobile-us/payments/transfer-money/from-accounts",
+                                    "itemType": "page",
+                                    "children": []
+                                },
+                                {
+                                    "itemRef": "e26a9133-a7d5-4365-b5d6-a7d7c9ad4e70",
+                                    "title": "Select recipient",
+                                    "href": "/retail-banking-mobile-us/payments/transfer-money/recipients",
+                                    "itemType": "page",
+                                    "children": []
+                                },
+                                {
+                                    "itemRef": "3dafab1a-4237-4b01-9aae-alslsk2346263",
+                                    "title": "Select internal recipient",
+                                    "href": "/retail-banking-mobile-us/payments/transfer-money/internal-recipient",
+                                    "itemType": "page",
+                                    "children": []
+                                },
+                                {
+                                    "itemRef": "65a51ee7-7661-42b0-a1f2-5d916f0553c4",
+                                    "title": "Review payment",
+                                    "href": "/retail-banking-mobile-us/payments/transfer-money/review",
+                                    "itemType": "page",
+                                    "children": []
+                                },
+                                {
+                                    "href": "/retail-banking-mobile-us/payments/transfer-money/payment-success",
+                                    "title": "Payment Success",
+                                    "children": [],
+                                    "itemType": "page",
+                                    "itemRef": "3c81c2d6-2d1a-431f-b3a7-ef289182def6"
+                                },
+                                {
+                                    "href": "/retail-banking-mobile-us/payments/transfer-money/payment-failure",
+                                    "title": "Payment Failure",
+                                    "children": [],
+                                    "itemType": "page",
+                                    "itemRef": "d302a9d9-3faf-41c0-a16b-4a77cd94db82"
+                                },
+                                {
+                                    "itemRef": "782953b0-0257-4003-9b36-81b9fae6345494514",
+                                    "title": "Payment Schedule",
+                                    "href": "/retail-banking-mobile-us/payments/transfer-money/payment-schedule",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ],
+                            "itemType": "alias",
+                            "itemRef": "782953b0-0257-4003-9b36-81b9fae69452"
+                        }],
+                    "itemType": "page",
+                    "itemRef": "6e8bdebc-011d-484d-8dca-148c61734cc9"
+                },
+                {
+                    "href": "/retail-banking-mobile-us/insights",
+                    "title": "Insights",
+                    "children": [],
+                    "itemType": "page",
+                    "itemRef": "17eea0bb-b52a-41df-ba4e-30bd190a1ac5"
+                },
+                {
+                    "itemRef": "df34cbec-bfaf-4b9c-9eb7-a67f820bde0b",
+                    "title": "Cards",
+                    "href": "retail-banking-mobile-us/cards",
+                    "itemType": "page",
+                    "children": [
+                        {
+                            "itemRef": "f1a882cc-32e2-4969-842e-5ecf4eb3b4ad",
+                            "title": "Pin Reset Token Validation",
+                            "href": "retail-banking-mobile-us/cards/pin-reset-token-validation",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "7c5a117d-fd2e-424c-a52e-543f49ab76bd",
+                                    "title": "Set Pin",
+                                    "href": "retail-banking-mobile-us/cards/pin-reset-token-validation/set-pin",
+                                    "itemType": "page",
+                                    "children": [
+                                        {
+                                            "itemRef": "6dfb9630-9c40-435b-a066-0f9b7936832f",
+                                            "title": "Confirm Pin",
+                                            "href": "retail-banking-mobile-us/cards/pin-reset-token-validation/set-pin/confirm-pin",
+                                            "itemType": "page",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "itemRef": "3ed95072-384a-43f2-b8dd-62d581199bc8",
+                            "title": "Pin Request Token Validation",
+                            "href": "retail-banking-mobile-us/cards/pin-request-token-validation",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "b6a8c962-21d0-453d-9cfa-c3ce626ea08e",
+                                    "title": "Pin Request Address Confirmation",
+                                    "href": "retail-banking-mobile-us/cards/pin-request-token-validation/pin-request-address-confirmation",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "itemRef": "7283c551-6c47-4ad0-86d3-b56a250edd4d",
+                            "title": "Set limits",
+                            "href": "retail-banking-mobile-us/cards/set-limits",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "556031bf-31d2-405c-bde7-6115267e523e",
+                                    "title": "Change limit",
+                                    "href": "retail-banking-mobile-us/cards/set-limits/change-limit",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "itemRef": "2e81002b-c17b-4f23-b3bc-019388c70a44",
+                            "title": "Activate card",
+                            "href": "retail-banking-mobile-us/cards/activate-card",
+                            "itemType": "page",
+                            "children": []
+                        },
+                        {
+                            "itemRef": "a0804553-4f87-4e02-8f06-5467235c3982",
+                            "title": "Replace card",
+                            "href": "retail-banking-mobile-us/cards/replace-card",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "7b1ffdaf-896c-45e1-ae80-d5d6a4f31230",
+                                    "title": "Confirm Card Replacement",
+                                    "href": "retail-banking-mobile-us/cards/replace-card/confirm-card-replacement",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "href": "/retail-banking-mobile-us/more",
+                    "title": "More",
+                    "children": [
+                        {
+                            "href": "/retail-banking-mobile-us/more/deposits",
+                            "title": "Deposits",
+                            "children": [
+                                {
+                                    "href": "/retail-banking-mobile-us/more/deposits/new-deposit",
+                                    "title": "New Deposit",
+                                    "children": [
+                                        {
+                                            "href": "/retail-banking-mobile-us/more/deposits/new-deposit/review-deposit",
+                                            "title": "Review Deposit",
+                                            "children": [],
+                                            "itemType": "page",
+                                            "itemRef": "726a4b47-9460-419e-bfd9-8505b3c2da32"
+                                        }
+                                    ],
+                                    "itemType": "page",
+                                    "itemRef": "782953b0-0257-4003-9b36-81b9fae69450"
+                                }
+                            ],
+                            "itemType": "page",
+                            "itemRef": "5858b251-b94f-4624-a49c-e9bb13f3c2e8"
+                        },
+                        {
+                            "href": "/retail-banking-mobile-us/more/budgets",
+                            "title": "Budgets",
+                            "children": [
+                                {
+                                    "href": "/retail-banking-mobile-us/more/budgets/category",
+                                    "title": "Category",
+                                    "children": [
+                                        {
+                                            "href": "/retail-banking-mobile-us/more/budgets/category/set-budget",
+                                            "title": "Set Budget",
+                                            "children": [],
+                                            "itemType": "page",
+                                            "itemRef": "d3a1b0ea-316e-4ccc-aa6c-7ff4aa38316a"
+                                        }
+                                    ],
+                                    "itemType": "page",
+                                    "itemRef": "dd1cea47-bf85-47a7-83da-5ef31885a367b"
+                                },
+                                {
+                                    "href": "/retail-banking-mobile-us/more/budgets/budget-detail",
+                                    "title": "Budget Detail",
+                                    "children": [
+                                        {
+                                            "href": "/retail-banking-mobile-us/more/budgets/budget-detail/category",
+                                            "title": "Category",
+                                            "children": [
+                                                {
+                                                    "href": "/retail-banking-mobile-us/more/budgets/budget-detail/category/set-budget",
+                                                    "title": "Edit",
+                                                    "children": [],
+                                                    "itemType": "alias",
+                                                    "itemRef": "d3a1b0ea-316e-4ccc-aa6c-7ff4aa38316b"
+                                                }
+                                            ],
+                                            "itemType": "alias",
+                                            "itemRef": "dd1cea47-bf85-47a7-83da-5ef31885a367"
+                                        },
+                                        {
+                                            "href": "/retail-banking-mobile-us/more/budgets/budget-detail/transaction-details",
+                                            "title": "Transaction Details",
+                                            "children": [],
+                                            "itemType": "alias",
+                                            "itemRef": "2e645267-0c8c-4cc9-bc93-e2d937f1dfd0"
+                                        }
+                                    ],
+                                    "itemType": "page",
+                                    "itemRef": "dbabae2c-86b3-4f8d-818c-4a77ee90cc5a"
+                                }
+                            ],
+                            "itemType": "page",
+                            "itemRef": "4a13d96e-474e-4d94-838f-eaee9b2da9b3"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "href": "/retail-banking-mobile-us/more/spending-analysis/details",
+                                    "itemRef": "126a3b7d-30bf-4cbe-8159-145a7a6c72eu40ff",
+                                    "itemType": "page",
+                                    "title": ""
+                                }
+                            ],
+                            "href": "/retail-banking-mobile-us/more/spending-analysis",
+                            "itemRef": "d8c5bd86-2435-4607-b08c-642e65cc0315",
+                            "itemType": "page",
+                            "title": "Spending analysis"
+                        },
+                        {
+                            "itemRef": "19b2ed43-dfe3-4de4-b5cc-28f30c1338a0",
+                            "title": "Travel Notice List",
+                            "href": "retail-banking-mobile-us/more/travel-notice-list",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "75aaa9fc-1a62-4146-bc21-5a0d0fe1a71c",
+                                    "title": "New Travel Notice Details",
+                                    "href": "retail-banking-mobile-us/more/travel-notice-list/new-travel-notice-details",
+                                    "itemType": "page",
+                                    "children": [
+                                        {
+                                            "itemRef": "b3bc0b2c-556a-4e28-ba93-3cb84dfd12c2",
+                                            "title": "New Travel Notice Card Selection",
+                                            "href": "retail-banking-mobile-us/more/travel-notice-list/new-travel-notice-details/new-travel-notice-card-selection",
+                                            "itemType": "page",
+                                            "children": [
+                                                {
+                                                    "itemRef": "33fe8230-e9c1-4787-990a-0b5ea30d065f",
+                                                    "title": "New Travel Notice Summary",
+                                                    "href": "retail-banking-mobile-us/more/travel-notice-list/new-travel-notice-details/new-travel-notice-card-selection/new-travel-notice-summary",
+                                                    "itemType": "page",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "itemRef": "b2df7a76-4110-4a4d-b4ce-333d97c4c262",
+                                    "title": "Edit Travel Notice Summary",
+                                    "href": "retail-banking-mobile-us/more/travel-notice-list/edit-travel-notice-summary",
+                                    "itemType": "page",
+                                    "children": [
+                                        {
+                                            "itemRef": "4792e4c3-fdda-46e3-92b6-98758d6ba7e1",
+                                            "title": "Edit Travel Notice Details",
+                                            "href": "retail-banking-mobile-us/more/travel-notice-list/edit-travel-notice-summary/edit-travel-notice-details",
+                                            "itemType": "page",
+                                            "children": []
+                                        },
+                                        {
+                                            "itemRef": "b8195760-be5b-495c-a46b-774e200ab411",
+                                            "title": "Edit Travel Notice Card Selection",
+                                            "href": "retail-banking-mobile-us/more/travel-notice-list/edit-travel-notice-summary/edit-travel-notice-card-selection",
+                                            "itemType": "page",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "href": "/retail-banking-mobile-us/more/contacts",
+                            "title": "Contacts",
+                            "children": [{
+                                "href": "/retail-banking-mobile-us/more/contacts/contact-detail",
+                                "title": "Contact Detail",
+                                "children": [],
+                                "itemType": "page",
+                                "itemRef": "29ca518d-031c-4b36-b81f-4b6d7acd46a8"
+                            }],
+                            "itemType": "page",
+                            "itemRef": "077cfa26-5eff-47a4-92da-b482ff4a8acd"
+                        },
+                        {
+                            "itemRef": "1e26b748-fb58-4edf-a324-fc3238944ccf",
+                            "title": "My profile",
+                            "href": "retail-banking-mobile-us/more/my-profile",
+                            "itemType": "page",
+                            "children": []
+                        },
+                        {
+                            "itemRef": "5bcde135-4b5c-3230-e7ed-e2ff1b2a4600",
+                            "title": "Two Step Verification",
+                            "href": "/retail-banking-mobile-us/more/two-step-verification",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "29ca518d-031c-4138-b91f-4b6d7acd46e9",
+                                    "title": "Scan QR",
+                                    "href": "/retail-banking-mobile-us/more/two-step-verification/scan-qr",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "href": "/retail-banking-mobile-us/more/nearby-atms",
+                            "title": "Find us",
+                            "children": [
+                                {
+                                    "itemRef": "d0b17c06-88a1-4d6e-81b3-54026b610a4e",
+                                    "title": "Branch Details",
+                                    "href": "retail-banking-mobile-us/more/nearby-services/branch-details",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ],
+                            "itemType": "page",
+                            "itemRef": "a1ad5c9c-af58-4791-b49b-81883c222087"
+                        },
+                        {
+                            "href": "/retail-banking-mobile-us/more/new-message",
+                            "title": "New Message",
+                            "children": [],
+                            "itemType": "page",
+                            "itemRef": "eff86263-80b8-4c14-9176-85e3f8df7101"
+                        },
+                        {
+                            "href": "/retail-banking-mobile-us/more/logout",
+                            "title": "Logout",
+                            "children": [],
+                            "itemType": "page",
+                            "itemRef": "4929c5fc-ecbf-4a1b-ad54-8074400ab23a"
+                        }
+                    ],
+                    "itemType": "page",
+                    "itemRef": "9a686fd1-4e72-4938-b9c2-1bfe60fe49a3"
+                }
+            ],
+            "name": "navroot_mainmenu",
+            "itemType": "LINK"
+        }
+    ],
+    "name": "retail-banking-mobile-us"
+}

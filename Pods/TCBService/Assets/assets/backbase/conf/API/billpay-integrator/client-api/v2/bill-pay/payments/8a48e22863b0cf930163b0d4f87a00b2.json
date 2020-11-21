@@ -1,0 +1,18 @@
+{
+  "payment": {
+    "payeeID" : "0955e686-d31e-4216-b3dd-5d66161d536e",
+    "paymentAccount": {
+      "accountNumber":"123912941241",
+      "routingNumber":"031302997",
+      "accountType":"CHECKING_ACCOUNT",
+      "accountNickName": "Mrs. S. Williams"
+    },
+    "amount": {
+        "amount": "56.23",
+        "currencyCode": "USD"
+    },
+    "paymentDate": "2019-12-30",
+    "paymentMemo" : "Here is some money",
+    "ebillID": "20141219140239655590"
+  }
+}

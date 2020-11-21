@@ -1,0 +1,6 @@
+framework module NotificationsClient {
+  umbrella header "NotificationsClient.h"
+
+  export *
+  module * { export * }
+}

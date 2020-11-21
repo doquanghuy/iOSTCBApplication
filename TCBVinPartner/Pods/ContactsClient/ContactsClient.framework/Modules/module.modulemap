@@ -1,0 +1,6 @@
+framework module ContactsClient {
+  umbrella header "ContactsClient.h"
+
+  export *
+  module * { export * }
+}

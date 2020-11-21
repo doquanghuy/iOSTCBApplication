@@ -1,0 +1,252 @@
+[
+  {
+    "id": "f76c2eff-d5e3-421c-aea6-02d3cc8b682e",
+    "name": "Ahmed Bassyouni",
+    "accounts": [
+      {
+        "IBAN": "FO1464600009692713",
+        "accountNumber": "307070115"
+      }
+    ],
+    "accessContextScope": "USER",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/contacts/contact-ahmed.png"
+    }
+  },
+  {
+    "id": "09c2a8f1-aff7-4958-b4fb-14579b3a27a1",
+    "name": "Alberto Russo",
+    "accounts": [
+      {
+        "IBAN": "FO1564600009692713",
+        "accountNumber": "075000022"
+      },
+      {
+        "IBAN": "NL1464600009692713",
+        "accountNumber": "125000105"
+      }
+    ],
+    "accessContextScope": "USER",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/contacts/contact-alberto.png"
+    }
+  },
+  {
+    "id": "08f76fc9-8623-4194-ad47-3f4b335281c5",
+    "name": "Amatus Samiu Binte Awal",
+    "accounts": [
+      {
+        "IBAN": "FO1664600009692713",
+        "accountNumber": "091000019"
+      }
+    ],
+    "accessContextScope": "USER"
+  },
+  {
+    "id": "241dfe3c-3b48-4f6e-b21a-e7117abc95bf",
+    "name": "Arthur Alves",
+    "accounts": [
+      {
+        "IBAN": "FO1464600009692713",
+        "accountNumber": "124302150"
+      }
+    ],
+    "accessContextScope": "USER",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/contacts/contact-arthur.png"
+    }
+  },
+  {
+    "id": "221c6564-a52f-45cc-b6d3-c8dd64fda736",
+    "name": "Balazs Toth",
+    "accounts": [
+      {
+        "IBAN": "FO1464600009692713",
+        "accountNumber": "021000021"
+      }
+    ],
+    "accessContextScope": "USER",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/contacts/contact-balazs.png"
+    }
+  },
+  {
+    "id": "12a8aff5-0aaa-41cc-9f80-8583f2c76785",
+    "name": "Bart Burg",
+    "accounts": [
+      {
+        "IBAN": "FO1464600009692713",
+        "accountNumber": "011401533"
+      }
+    ],
+    "accessContextScope": "USER",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/contacts/contact-bart.png"
+    }
+  },
+  {
+    "id": "82a18f05-6274-4928-8a56-8fc86886b407",
+    "name": "Beatrix Toth",
+    "accounts": [
+      {
+        "IBAN": "FO1464600009692713",
+        "accountNumber": "121122676"
+      }
+    ],
+    "accessContextScope": "USER"
+  },
+  {
+    "id": "89290654-b324-4902-90d3-2393a851165b",
+    "name": "Claude Botes",
+    "accounts": [
+      {
+        "IBAN": "FO1464600009692713",
+        "accountNumber": "102000021"
+      }
+    ],
+    "accessContextScope": "USER"
+  },
+  {
+    "id": "c9a777bf-6dba-4649-85a3-ef7a51c3963f",
+    "name": "Ebru Gungor",
+    "accounts": [
+      {
+        "IBAN": "FO1464600009692713",
+        "accountNumber": "071904779"
+      }
+    ],
+    "accessContextScope": "USER",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/contacts/contact-ebru.png"
+    }
+  },
+  {
+    "id": "59223092-9f1a-4924-af7b-db49c9c5ba72",
+    "name": "Guilherme Assis",
+    "accounts": [
+      {
+        "IBAN": "FO1564600009692713",
+        "accountNumber": "064000059"
+      },
+      {
+        "IBAN": "NL1464600009692713",
+        "accountNumber": "12345667"
+      }
+    ],
+    "accessContextScope": "USER",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/contacts/contact-alberto.png"
+    }
+  },
+  {
+    "id": "bc616835-ccdb-42cb-91b4-ff7530403d03",
+    "name": "Harneek Singh",
+    "accounts": [
+      {
+        "IBAN": "FI2112345600000785",
+        "accountNumber": "074900783"
+      }
+    ],
+    "accessContextScope": "USER"
+  },
+  {
+    "id": "7ff9855b-e15e-429d-818e-c3d8aa3d5ad9",
+    "name": "Jasper Sinkeldam",
+    "accounts": [
+      {
+        "IBAN": "FO1564600009692713",
+        "accountNumber": "091408501"
+      },
+      {
+        "IBAN": "NL1464600009692713",
+        "accountNumber": "123000220"
+      }
+    ],
+    "accessContextScope": "USER",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/contacts/contact-alberto.png"
+    }
+  },
+  {
+    "id": "cf9e357e-2bcf-4c15-9b49-9977546bc845",
+    "name": "Ka Ping Wan",
+    "accounts": [
+      {
+        "IBAN": "FO1464600009692713",
+        "accountNumber": "104000029"
+      }
+    ],
+    "accessContextScope": "USER",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/contacts/contact-ping.png"
+    }
+  },
+  {
+    "id": "b8e82c01-fda3-4bf4-8ed4-928f5226aad2",
+    "name": "Neha Singh",
+    "accounts": [
+      {
+        "IBAN": "FO1464600009692713",
+        "accountNumber": "042100175"
+      }
+    ],
+    "accessContextScope": "USER"
+  },
+  {
+    "id": "4fff485a-7266-4757-b5dd-5a401b10a686",
+    "name": "Priscila Mazala",
+    "accounts": [
+      {
+        "IBAN": "FO1464600009692713",
+        "accountNumber": "081000210"
+      }
+    ],
+    "accessContextScope": "USER"
+  },
+  {
+    "id": "c15e38f9-f047-4536-b53f-ef946218ebfa",
+    "name": "Vladimir Abramichev",
+    "accounts": [
+      {
+        "IBAN": "FO1464600009692713",
+        "accountNumber": "104000029"
+      }
+    ],
+    "accessContextScope": "USER",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/contacts/contact-vladimir.png"
+    }
+  },
+  {
+    "id": "5562ce40-33d4-4956-9ae4-340d076e5292",
+    "name": "Wolfgang Schreurs",
+    "accounts": [
+      {
+        "IBAN": "NL97ABNA0565007033",
+        "accountNumber": "121201694"
+      },
+      {
+        "IBAN": "NL97INGB0565007034",
+        "accountNumber": "107002312"
+      }
+    ],
+    "accessContextScope": "USER",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/contacts/contact-wolfgang.png"
+    }
+  },
+  {
+    "id": "881ee6b5-4f96-4d6d-bc64-758e775a238c",
+    "name": "Zeki Gulzer",
+    "accounts": [
+      {
+        "IBAN": "FO1464600009692713",
+        "accountNumber": "123000220"
+      }
+    ],
+    "accessContextScope": "USER",
+    "additions": {
+      "imageUri": "file:///android_asset/backbase/images/contacts/contact-zeki.png"
+    }
+  }
+]

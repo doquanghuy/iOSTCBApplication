@@ -1,0 +1,92 @@
+[
+    {
+        "id": "d45cdfc1-441e-499e-86c2-ef332fe191ff",
+        "title": "The mobile app will be down for maintainance on Saturday 11 Nov",
+        "message": "The users will not be able to access the mobile banking application, however the web application can be used for all banking services",
+        "level": "INFO",
+        "createdOn": "2018-11-05T07:27:44.581Z",
+        "link": "http://www.anita-steuber.co",
+        "read": false,
+        "origin": "3p7dk6fpyk"
+    },
+    {
+        "id": "1d24ce91-353c-4005-9e51-c58b59b439e8",
+        "title": "Mobile banking pin has been changed",
+        "message": "The mobile banking app pin has been changed recently, If this activity was not performed by you please report the issue to support@mybank.com",
+        "level": "ALERT",
+        "createdOn": "2018-11-05T07:27:44.581Z",
+        "link": "http://www.francisco-oreilly.net",
+        "read": false,
+        "origin": "2vcl142kun"
+    },
+    {
+        "id": "546dacee-d0cf-40e0-baeb-01828814c0b8",
+        "title": "Did you get what you wanted from our support associate?",
+        "message": "Please provid us feedback regarding your recent call to our bank's support regarding card block, your feedback is valuable for us to improve our services. You can write to feedback@supportmybank.com",
+        "level": "INFO",
+        "createdOn": "2018-11-04T07:27:44.358Z",
+        "link": "http://www.jonathon-goldner.io",
+        "read": false,
+        "origin": "weshrhzp5x"
+    },
+    {
+        "id": "d93d485f-091c-4213-81a7-4eea223b75ae",
+        "title": "You are approaching your daily contactless payment limit",
+        "message": "Dear customer you are approaching your daily limit for contactless payments. For seamless experiance please swipe the card at point of sale",
+        "level": "WARNING",
+        "createdOn": "2018-11-03T07:27:44.337Z",
+        "link": "http://www.merle-dicki.io",
+        "read": true,
+        "origin": "46j9pkuiwi"
+    },
+    {
+        "id": "853099fb-5633-462f-b94d-4a98d67e43f1",
+        "title": "Your Credit card limit has been increased",
+        "message": "Dear customer, we are glad to inform that your credit card limit has been increased as requested by you. You can enjoy the increased spending limit",
+        "level": "SUCCESS",
+        "createdOn": "2018-11-02T07:27:44.153Z",
+        "link": "http://www.olaf-terry.co",
+        "read": false,
+        "origin": "62q5dlsgw0"
+    },
+    {
+        "id": "3ab82890-bd09-4ede-bc8b-a5f75c90fd62",
+        "title": "We are waiting to hear from you",
+        "message": "We are waiting for your response on request of providing additional docuemnts for your insurance claim. Please log in to the internet banking and attach the documents.",
+        "level": "ALERT",
+        "createdOn": "2018-11-03T07:27:44.147Z",
+        "link": "http://www.cayla-becker.biz",
+        "read": false,
+        "origin": "chpdfxdsxn"
+    },
+    {
+        "id": "c31661bb-b576-4d97-97d5-87ed51f9da2c",
+        "title": "Clara has just completed your payment request",
+        "message": "Clara has just paid your payment request Lunch at Korean Place",
+        "level": "SUCCESS",
+        "createdOn": "2018-11-01T07:27:43.935Z",
+        "link": "http://www.jordi-green.co",
+        "read": false,
+        "origin": "zsxy282xyo"
+    },
+    {
+        "id": "35e4b279-95cc-4466-8b3d-407e746ff3a5",
+        "title": "New Automatic Payment set",
+        "message": "Dear Customer, there is a new automatic payment set by Water Department. Please contact the payee in case of any questions",
+        "level": "ALERT",
+        "createdOn": "2018-10-28T07:27:43.924Z",
+        "link": "http://www.hannah-sauer.org",
+        "read": false,
+        "origin": "5ft0k1wbd7"
+    },
+    {
+        "id": "f4b243ae-2c89-488a-90f5-00f0be842c13",
+        "title": "This Friday 26 Oct is the last day to register for a free add-on credit card",
+        "message": "Hi Sara, this friday is the last day to register for a free add-on credit card. Avail the offer before it is gone",
+        "level": "INFO",
+        "createdOn": "2018-10-23T07:27:43.688Z",
+        "link": "http://www.abdiel-kuvalis.co",
+        "read": false,
+        "origin": "mmn1vb3knv"
+    }
+]

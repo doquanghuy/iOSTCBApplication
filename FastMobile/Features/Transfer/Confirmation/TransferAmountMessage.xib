@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TransferAmountMessage" customModule="FastMobile" customModuleProvider="target">
+            <connections>
+                <outlet property="amountLabel" destination="Agh-Pf-isl" id="5yr-bL-uID"/>
+                <outlet property="feeLabel" destination="M8q-MI-K2C" id="nqO-c4-rim"/>
+                <outlet property="messageLabel" destination="UzD-DY-Uld" id="bDk-dD-qei"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fee: 0đ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8q-MI-K2C">
+                    <rect key="frame" x="0.0" y="40" width="414" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="Uvq-02-sgA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E Chung gui tien an trua" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UzD-DY-Uld">
+                    <rect key="frame" x="0.0" y="80" width="414" height="816"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500,000 đ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Agh-Pf-isl">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="OAl-YA-4gY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="M8q-MI-K2C" secondAttribute="trailing" id="7Ox-EB-yPo"/>
+                <constraint firstAttribute="bottom" secondItem="UzD-DY-Uld" secondAttribute="bottom" id="7Sn-SZ-LOy"/>
+                <constraint firstItem="M8q-MI-K2C" firstAttribute="top" secondItem="Agh-Pf-isl" secondAttribute="bottom" id="FnI-ug-kui"/>
+                <constraint firstAttribute="trailing" secondItem="UzD-DY-Uld" secondAttribute="trailing" id="JjJ-qo-Z1Y"/>
+                <constraint firstItem="UzD-DY-Uld" firstAttribute="top" secondItem="M8q-MI-K2C" secondAttribute="bottom" constant="16" id="PvI-ZE-uby"/>
+                <constraint firstAttribute="trailing" secondItem="Agh-Pf-isl" secondAttribute="trailing" id="Wno-o6-lCB"/>
+                <constraint firstItem="M8q-MI-K2C" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XMf-Pn-cfI"/>
+                <constraint firstItem="Agh-Pf-isl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Zif-7W-1OW"/>
+                <constraint firstItem="Agh-Pf-isl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="baQ-Da-S0u"/>
+                <constraint firstItem="UzD-DY-Uld" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="t1K-ds-87Z"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137.59999999999999" y="128.57142857142858"/>
+        </view>
+    </objects>
+</document>

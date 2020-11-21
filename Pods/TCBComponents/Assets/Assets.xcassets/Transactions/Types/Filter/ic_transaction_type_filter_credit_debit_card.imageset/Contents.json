@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_transaction_type_filter_credit_debit_card.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

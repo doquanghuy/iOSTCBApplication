@@ -1,0 +1,25 @@
+platform :ios, '12.0'
+
+plugin 'cocoapods-art', sources: %w[
+  backbase-pods3
+  backbase-pods-retail3
+]
+
+install! 'cocoapods', deterministic_uuids: false
+source 'https://cdn.cocoapods.org/'
+
+use_frameworks!
+
+$retailVersion = '7.0.0'
+
+target 'TCBService' do
+  pod 'Backbase', '7.1'
+  pod 'CommonUtils', $retailVersion
+  pod 'ProductsClient', $retailVersion
+  pod 'PaymentOrderClient', $retailVersion
+  pod 'TransactionsClient', $retailVersion
+  pod 'NotificationsClient', $retailVersion
+  pod 'Domain', :path => '../Domain'
+  pod 'AccessControlClient', $retailVersion
+  pod 'UserProfileClient', $retailVersion
+end

@@ -1,0 +1,268 @@
+{
+  "aggregatedBalance": {
+    "value": "3750.00",
+    "currency": "EUR"
+  },
+  "currentAccounts": {
+    "name": "Current Accounts",
+    "products": [
+      {
+        "id": "1cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+        "name": "Current Account",
+        "bankAlias": "Current Account",
+        "bookedBalance": "1500.00",
+        "availableBalance": "1500.00",
+        "creditLimit": "500.00",
+        "currency": "EUR",
+        "IBAN": "NL25TRIO0253844320",
+        "creditAccount": true,
+        "debitAccount": true,
+        "productKindName": "Current Account",
+        "productTypeName": "Flex Limited Account",
+        "BBAN": "280680451",
+        "externalTransferAllowed": true,
+        "urgentTransferAllowed": true,
+        "crossCurrencyAllowed": true,
+        "accountInterestRate": 8.5,
+        "accruedInterest": 0.54,
+        "creditLimitUsage": 100.3,
+        "creditLimitInterestRate": 100.4,
+        "creditLimitExpiryDate": "2019-09-28T16:41:41.090Z",
+        "accountOpeningDate": "2016-01-28T16:41:41.090Z",
+        "lastUpdateDate":"2016-01-28T16:41:41.090Z",
+        "additions": {
+          "icon": "productIconShared"
+        }
+      },
+      {
+        "id": "1cdb2224-8926-4b4d-a99f-1c9dfbbb4689",
+        "name": "Joint Account",
+        "bankAlias": "Joint Account",
+        "bookedBalance": "1000.00",
+        "availableBalance": "1000.00",
+        "creditLimit": "500.00",
+        "currency": "EUR",
+        "IBAN": "NL25TRIO0269844560",
+        "BBAN": "280680451",
+        "creditAccount": true,
+        "debitAccount": true,
+        "productKindName": "Current Account",
+        "productTypeName": "Flex Limited Account",
+        "externalTransferAllowed": true,
+        "urgentTransferAllowed": true,
+        "crossCurrencyAllowed": true,
+        "accountInterestRate": 8.5,
+        "accruedInterest": 0.54,
+        "creditLimitUsage": 100.3,
+        "creditLimitInterestRate": 10.4,
+        "creditLimitExpiryDate": "2019-09-28T16:41:41.090Z",
+        "accountOpeningDate": "2016-01-28T16:41:41.090Z",
+        "lastUpdateDate":"2016-01-28T16:41:41.090Z"
+      }
+    ],
+    "aggregatedBalance": {
+      "value": "2500.00",
+      "currency": "EUR"
+    }
+  },
+  "savingsAccounts": {
+    "name": "Savings Accounts",
+    "products": [{
+      "id": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4649",
+      "name": "Savings Account",
+      "bankAlias": "Savings Account",
+      "productKindName": "Savings Account",
+      "bookedBalance": "0",
+      "accruedInterest": 36.16,
+      "currency": "EUR",
+      "creditAccount": true,
+      "debitAccount": true,
+      "BBAN": "280680451",
+      "IBAN": "NL81TRIO0212471066",
+      "externalTransferAllowed": false,
+      "crossCurrencyAllowed": true,
+      "accountInterestRate": 8.5,
+      "minimumRequiredBalance": 80.4,
+      "creditLimitUsage": 100.3,
+      "creditLimitInterestRate": 10.4,
+      "creditLimitExpiryDate": "2019-09-28T16:41:41.090Z",
+      "accountOpeningDate": "2016-01-28T16:41:41.090Z",
+      "lastUpdateDate":"2016-01-28T16:41:41.090Z",
+      "additions": {
+        "icon": "productIconSavings"
+      }
+    }],
+    "aggregatedBalance": {
+      "value": "0",
+      "currency": "EUR"
+    }
+  },
+  "termDeposits": {
+    "name": "Term Deposits",
+    "products": [
+      {
+        "id": "4cdb2224-8926-4b4d-a99f-1c9dfbbb4697",
+        "name": "3 Month Deposit",
+        "externalTransferAllowed": false,
+        "crossCurrencyAllowed": false,
+        "productKindName": "Term Deposit",
+        "productTypeName": "My Term Deposit",
+        "bankAlias": "My Term Deposit",
+        "sourceId": "LJBASI2XXXX",
+        "visible": true,
+        "accountOpeningDate":"2016-01-28T16:41:41.090Z",
+        "lastUpdateDate":"2016-01-28T16:41:41.090Z",
+        "bookedBalance": "13210.11",
+        "principalAmount": 13210.11,
+        "accruedInterest": 12.32,
+        "IBAN": "NL81TRIO0212471066",
+        "currency": "EUR",
+        "urgentTransferAllowed": true,
+        "productNumber": "ffdd939c-ac4a-4441-ae47-70a7259899e7",
+        "accountInterestRate": 13.2,
+        "startDate": "2016-02-28T16:41:41.090Z",
+        "termUnit": "Y",
+        "termNumber": 50,
+        "maturityDate": "2017-02-28T16:41:41.090Z",
+        "maturityAmount": 99.5,
+        "autoRenewalIndicator": true,
+        "interestPaymentFrequencyUnit":"M",
+        "interestPaymentFrequencyNumber": 15,
+        "interestSettlementAccount": "interestSettlementAccount1",
+        "valueDateBalance": 100.1,
+        "accountHolderName": "Terms Account",
+        "outstandingPrincipalAmount": 100.2,
+        "creditAccount": true,
+        "debitAccount": false,
+        "parentId": "externalParentId100",
+        "userPreferences": {
+          "alias": "My Term Deposit",
+          "visible": true,
+          "favorite": false
+        }
+      }
+    ],
+    "aggregatedBalance": {
+      "value": "10000.00",
+      "currency": "EUR"
+    }
+  },
+  "loans": {
+    "name": "Loans",
+    "products": [
+      {
+        "id": "5cdb2224-8926-4b4d-a99f-1c9dfbbb4696",
+        "name": "House Loan",
+        "IBAN": "FR188388353832IH3CAWFYXAA36",
+        "BBAN": "FR596129172765GE6UQ2U8TYD56",
+        "externalTransferAllowed": false,
+        "crossCurrencyAllowed": false,
+        "productKindName": "Loan",
+        "productTypeName": "House Loan",
+        "bankAlias": "Our home loan",
+        "sourceId": "LJBASI2XXXX",
+        "visible": true,
+        "accountOpeningDate": "2016-01-28T16:41:41.090Z",
+        "lastUpdateDate": "2016-01-28T16:41:41.090Z",
+        "bookedBalance": "150000.00",
+        "principalAmount": 200000,
+        "currency": "EUR",
+        "urgentTransferAllowed": true,
+        "productNumber": "ffdd939c-ac4a-4441-ae47-70a7259899e7",
+        "accountInterestRate": 10.2,
+        "termUnit": "Y",
+        "termNumber": 50,
+        "outstandingPrincipalAmount": 100.2,
+        "monthlyInstalmentAmount": 100.1,
+        "amountInArrear": 100.3,
+        "interestSettlementAccount": "interestSettlementAccount1",
+        "accruedInterest": 0.54,
+        "accountHolderName": "Jason Smith",
+        "accountHolderNames": "Jason Smith,Okuneva Spencer",
+        "maturityDate": "2017-02-28T16:41:41.090Z",
+        "valueDateBalance": 100.1,
+        "creditAccount": true,
+        "debitAccount": true,
+        "parentId": "externalParentId100",
+        "userPreferences": {
+          "alias": "Our home loan",
+          "visible": true,
+          "favorite": false
+        }
+      }
+    ],
+    "aggregatedBalance": {
+      "value": "150000.00",
+      "currency": "EUR"
+    }
+  },
+  "creditCards": {
+    "name": "Credit Cards",
+    "products": [{
+      "id": "6cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+      "name": "Mastercard",
+      "bankAlias": "Mastercard",
+      "externalTransferAllowed": false,
+      "crossCurrencyAllowed": true,
+      "productKindName": "Credit Card",
+      "productTypeName": "productTypeName",
+      "currency": "EUR",
+      "bookedBalance": "1250.00",
+      "availableBalance": "1250.00",
+      "creditLimit": "5000.00",
+      "creditLimitUsage": 1000.00,
+      "number": "************4444",
+      "creditCardAccountNumber": "NL25TRIO0269844560",
+      "cardNumber": 4444,
+      "urgentTransferAllowed": true,
+      "minimumPayment": 200,
+      "validThru": "2020-02-28T16:41:41.090Z",
+      "minimumPaymentDueDate": "2019-10-28T16:41:41.090Z",
+      "accountInterestRate": 3.2,
+      "accountOpeningDate": "2016-01-28T16:41:41.090Z",
+      "lastUpdateDate": "2016-01-28T16:41:41.090Z",
+      "additions": {
+        "icon": "productIconCard"
+      }
+    }],
+    "aggregatedBalance": {
+      "value": "1250.00",
+      "currency": "EUR"
+    }
+  },
+  "investmentAccounts": {
+    "name": "Investment Accounts",
+    "products": [
+      {
+        "id": "8cdb2224-8926-4b4d-a99f-1c9dfbbb4695",
+        "name": "Mr J. Smith Execution only portfolio",
+        "externalTransferAllowed": false,
+        "crossCurrencyAllowed": false,
+        "productKindName":"Investment Account",
+        "IBAN": "FR188388353832IH3CAWFYXAA36",
+        "BBAN": "FR596129172765GE6UQ2U8TYD56",
+        "productTypeName":"productTypeName",
+        "bankAlias": "Mr J. Investment Account",
+        "sourceId": "LJBASI2XXXX",
+        "visible": true,
+        "accountOpeningDate":"2016-01-28T16:41:41.090Z",
+        "lastUpdateDate":"2016-01-28T16:41:41.090Z",
+        "currentInvestmentValue": "75789.00",
+        "currency": "EUR",
+        "urgentTransferAllowed": true,
+        "productNumber": "ffdd939c-ac4a-4441-ae47-70a7259899e7",
+        "userPreferences": {
+          "alias": "Mr J. Investment Account",
+          "visible": true,
+          "favorite": false
+        }
+      }
+    ],
+    "aggregatedBalance": {
+      "value": "164289",
+      "currency": "EUR"
+    }
+  },
+  "debitCards": {},
+  "customProductKinds": []
+}

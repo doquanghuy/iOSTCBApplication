@@ -1,0 +1,36 @@
+{
+    "id": "9991",
+    "name": "Council Tax",
+    "electronic": true,
+    "hasRecurringPayments": false,
+    "paymentServices": [{
+        "cutoffTime": "2019-12-18T14:00:39.830Z",
+        "earliestPaymentDate": "2019-12-23",
+        "nextPaymentDate": "2019-12-24",
+        "paymentServiceType": "REGULAR_PAYMENT"
+    }],
+    "ebill": {
+        "capable": true,
+        "enabled": true,
+        "status": "ACTIVE",
+        "latestBill": {
+            "id": "ef1da81f-9400-45f7-9550-a69e32a7a0f3",
+            "paymentDate": "2020-01-01",
+            "amount": {
+                "amount": "145.22",
+                "currencyCode": "USD"
+            },
+            "minAmountDue": {
+                "amount": "45.22",
+                "currencyCode": "USD"
+            },
+            "outstandingBalance": {
+                "amount": "1164.56",
+                "currencyCode": "USD"
+            },
+            "status": "UNPAID",
+            "url": "http://latestebill.com",
+            "statementAvailable": false
+        }
+    }
+}

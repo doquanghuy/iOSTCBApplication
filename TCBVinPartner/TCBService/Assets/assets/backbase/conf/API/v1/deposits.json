@@ -1,0 +1,234 @@
+[
+    {
+        "status": "Success",
+        "referenceNumber": "2984-9898-010",
+        "createdAt": "2018-11-01T10:20:00.090Z",
+        "depositAmount": {
+            "amount": "289.30",
+            "currencyCode": "USD"
+        },
+        "product": {
+            "id": "121",
+            "productRefId": "1cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+            "number": "1239 1294 1241",
+            "name": "Mrs. S. Williams",
+            "productBalance": {
+                "amount": "1356.28",
+                "currencyCode": "USD"
+            },
+            "productAvailableBalance": {
+                "amount": "1356.28",
+                "currencyCode": "USD"
+            }
+        }
+    },
+    {
+        "status": "Pending",
+        "referenceNumber": "2984-9898-009",
+        "createdAt": "2018-10-25T09:20:00.090Z",
+        "depositAmount": {
+            "amount": "100.00",
+            "currencyCode": "USD"
+        },
+        "product": {
+            "id": "122",
+            "productRefId": "6cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+            "number": "6123 1892 1212",
+            "name": "Shared Account",
+            "productBalance": {
+                "amount": "512.33",
+                "currencyCode": "USD"
+            },
+            "productAvailableBalance": {
+                "amount": "512.33",
+                "currencyCode": "USD"
+            }
+        }
+    },
+    {
+        "status": "Pending",
+        "amount": "50.00",
+        "referenceNumber": "2984-9898-008",
+        "createdAt": "2018-10-15T07:00:00.090Z",
+        "depositAmount": {
+            "amount": "50.00",
+            "currencyCode": "USD"
+        },
+        "product": {
+            "id": "122",
+            "productRefId": "6cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+            "number": "6123 1892 1212",
+            "name": "Shared Account",
+            "productBalance": {
+                "amount": "512.33",
+                "currencyCode": "USD"
+            },
+            "productAvailableBalance": {
+                "amount": "512.33",
+                "currencyCode": "USD"
+            }
+        }
+    },
+    {
+        "status": "Pending",
+        "referenceNumber": "2984-9898-007",
+        "createdAt": "2018-09-28T14:24:17.090Z",
+        "depositAmount": {
+            "amount": "50.00",
+            "currencyCode": "USD"
+        },
+        "product": {
+            "id": "122",
+            "productRefId": "6cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+            "number": "6123 1892 1212",
+            "name": "Shared Account",
+            "productBalance": {
+                "amount": "512.33",
+                "currencyCode": "USD"
+            },
+            "productAvailableBalance": {
+                "amount": "512.33",
+                "currencyCode": "USD"
+            }
+        }
+    },
+    {
+        "status": "Pending",
+        "referenceNumber": "2984-9898-006",
+        "createdAt": "2018-09-15T13:04:53.090Z",
+        "depositAmount": {
+            "amount": "150.00",
+            "currencyCode": "USD"
+        },
+        "product": {
+            "id": "122",
+            "productRefId": "6cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+            "number": "6123 1892 1212",
+            "name": "Shared Account",
+            "productBalance": {
+                "amount": "512.33",
+                "currencyCode": "USD"
+            },
+            "productAvailableBalance": {
+                "amount": "512.33",
+                "currencyCode": "USD"
+            }
+        }
+    },
+    {
+        "status": "Rejected",
+        "referenceNumber": "2984-9898-005",
+        "createdAt": "2018-01-13T10:23:00.090Z",
+        "depositAmount": {
+            "amount": "10.00",
+            "currencyCode": "USD"
+        },
+        "product": {
+            "id": "123",
+            "productRefId": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+            "number": "1234 5678 10",
+            "name": "Mrs. S. Williams Savings Account",
+            "productBalance": {
+                "amount": "5156.22",
+                "currencyCode": "USD"
+            },
+            "productAvailableBalance": {
+                "amount": "5156.22",
+                "currencyCode": "USD"
+            }
+        }
+    },
+    {
+        "status": "Success",
+        "referenceNumber": "2984-9898-004",
+        "createdAt": "2018-01-13T10:00:00.090Z",
+        "depositAmount": {
+            "amount": "60.00",
+            "currencyCode": "USD"
+        },
+        "product": {
+            "id": "122",
+            "productRefId": "6cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+            "number": "6123 1892 1212",
+            "name": "Shared Account",
+            "productBalance": {
+                "amount": "512.33",
+                "currencyCode": "USD"
+            },
+            "productAvailableBalance": {
+                "amount": "512.33",
+                "currencyCode": "USD"
+            }
+        }
+    },
+    {
+        "status": "Rejected",
+        "referenceNumber": "2984-9898-003",
+        "createdAt": "2017-09-27T14:20:00.090Z",
+        "depositAmount": {
+            "amount": "300.00",
+            "currencyCode": "USD"
+        },
+        "product": {
+            "id": "121",
+            "productRefId": "1cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+            "number": "1239 1294 1241",
+            "name": "Mrs. S. Williams",
+            "productBalance": {
+                "amount": "1356.28",
+                "currencyCode": "USD"
+            },
+            "productAvailableBalance": {
+                "amount": "1356.28",
+                "currencyCode": "USD"
+            }
+        }
+    },
+    {
+        "status": "Success",
+        "referenceNumber": "2984-9898-002",
+        "createdAt": "2017-09-27T11:40:00.090Z",
+        "depositAmount": {
+            "amount": "200.00",
+            "currencyCode": "USD"
+        },
+        "product": {
+            "id": "122",
+            "productRefId": "6cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+            "number": "6123 1892 1212",
+            "name": "Shared Account",
+            "productBalance": {
+                "amount": "512.33",
+                "currencyCode": "USD"
+            },
+            "productAvailableBalance": {
+                "amount": "512.33",
+                "currencyCode": "USD"
+            }
+        }
+    },
+    {
+        "status": "Success",
+        "referenceNumber": "2984-9898-001",
+        "createdAt": "2017-09-27T10:20:00.090Z",
+        "currency": "USD",
+        "depositAmount": {
+            "amount": "110.00",
+            "currencyCode": "USD"
+        },
+        "product": {
+            "id": "123",
+            "productRefId": "3cdb2224-8926-4b4d-a99f-1c9dfbbb4699",
+            "number": "1234 5678 10",
+            "name": "Mrs. S. Williams Savings Account",
+            "productBalance": {
+                "amount": "5156.22",
+                "currencyCode": "USD"
+            },
+            "productAvailableBalance": {
+                "amount": "5156.22",
+                "currencyCode": "USD"
+            }
+        }
+    }
+]

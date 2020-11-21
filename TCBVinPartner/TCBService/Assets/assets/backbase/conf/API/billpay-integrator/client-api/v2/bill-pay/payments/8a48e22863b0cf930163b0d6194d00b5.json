@@ -1,0 +1,17 @@
+{
+  "payment": {
+    "payeeID" : "0955e686-d31e-4216-b3dd-5d66161d536e",
+    "paymentAccount": {
+      "accountNumber":"612318921212",
+      "routingNumber":"031302997",
+      "accountType":"CHECKING_ACCOUNT"
+    },
+    "amount": {
+        "amount": "56.23",
+        "currencyCode": "USD"
+    },
+    "paymentDate": "2020-01-06",
+    "paymentMemo" : "Here is some money",
+    "ebillID": "20141219140239655590"
+  }
+}

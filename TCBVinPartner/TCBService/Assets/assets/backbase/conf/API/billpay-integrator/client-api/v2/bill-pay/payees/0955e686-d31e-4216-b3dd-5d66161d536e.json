@@ -1,0 +1,49 @@
+{
+    "payee": {
+        "id": "0955e686-d31e-4216-b3dd-5d66161d536e",
+        "name": "Gas",
+        "accountNumber": "60314820",
+        "electronic": true,
+        "hasRecurringPayments": false,
+        "paymentServices": [{
+            "cutoffTime": "2019-12-18T14:00:39.830Z",
+            "earliestPaymentDate": "2019-12-25",
+            "nextPaymentDate": "2019-12-26",
+            "paymentServiceType": "REGULAR_PAYMENT"
+        }, {
+            "cutoffTime": "2019-12-18T14:00:39.830Z",
+            "earliestPaymentDate": "2019-12-19",
+            "nextPaymentDate": "2019-12-20",
+            "paymentServiceType": "EXPEDITED_PAYMENT",
+            "deliveryDays": 3,
+            "fee": {
+                "amount": "9.99",
+                "currencyCode": "USD"
+            }
+        }],
+        "ebill": {
+            "capable": true,
+            "enabled": true,
+            "status": "ACTIVE",
+            "latestBill": {
+                "id": "a794a1f8-e4f4-4466-9252-117ee428a114",
+                "paymentDate": "2020-01-04",
+                "amount": {
+                    "amount": "50.00",
+                    "currencyCode": "USD"
+                },
+                "minAmountDue": {
+                    "amount": "15.00",
+                    "currencyCode": "USD"
+                },
+                "outstandingBalance": {
+                    "amount": "300.00",
+                    "currencyCode": "USD"
+                },
+                "status": "UNPAID",
+                "url": "http://latestebill.com",
+                "statementAvailable": false
+            }
+        }
+    }
+}

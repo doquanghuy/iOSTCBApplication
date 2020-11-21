@@ -1,0 +1,14 @@
+platform :ios, '11.0'
+
+plugin 'cocoapods-art', sources: %w[
+  backbase-pods3
+]
+
+install! 'cocoapods', deterministic_uuids: false
+source 'https://cdn.cocoapods.org/'
+
+use_frameworks!
+
+target 'Theme' do
+  pod 'ThemeEngine'
+end

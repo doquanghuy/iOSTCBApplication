@@ -1,0 +1,56 @@
+[
+    {
+        "accountName": "Hoa Pham",
+        "bankName": "ING BANK N.V.",
+        "accountId": "19021234567899",
+        "isFavorited": true,
+        "bankIcon": "group",
+        "receiver" : {
+            "receiverName": "Hoa Pham",
+            "receiverIdentification": "cefc18f0-c2c7-4b0f-b1fa-1382c820f013",
+            "receiverScheme": "ID",
+            "receiverId": "61425aed-5d5c-4292-8f60-e2f3efc9b66a",
+            "receiverBankCode": "111000025",
+            "receiverBankBIC": "INGBNL2A",
+            "receiverBankName": "ING BANK N.V.",
+            "receiverBankAddress": "FINANCIAL PLAZA BIJLMERDREEF 109 1102 BW AMSTERDAM",
+            "receiverBankCountry": "NL"
+        }
+    },
+    {
+        "accountName": "Huy Do",
+        "bankName": "ING BANK N.V.",
+        "accountId": "19021234567899",
+        "isFavorited": true,
+        "bankIcon": "group",
+        "receiver" : {
+            "receiverName": "Hoa Pham",
+            "receiverIdentification": "cefc18f0-c2c7-4b0f-b1fa-1382c820f013",
+            "receiverScheme": "ID",
+            "receiverId": "61425aed-5d5c-4292-8f60-e2f3efc9b66a",
+            "receiverBankCode": "111000025",
+            "receiverBankBIC": "INGBNL2A",
+            "receiverBankName": "ING BANK N.V.",
+            "receiverBankAddress": "FINANCIAL PLAZA BIJLMERDREEF 109 1102 BW AMSTERDAM",
+            "receiverBankCountry": "NL"
+        }
+    },
+    {
+        "accountName": "Vuong Pham",
+        "bankName": "ING BANK N.V.",
+        "accountId": "19021234567899",
+        "isFavorited": false,
+        "bankIcon": "group",
+        "receiver" : {
+            "receiverName": "Hoa Pham",
+            "receiverIdentification": "cefc18f0-c2c7-4b0f-b1fa-1382c820f013",
+            "receiverScheme": "ID",
+            "receiverId": "61425aed-5d5c-4292-8f60-e2f3efc9b66a",
+            "receiverBankCode": "111000025",
+            "receiverBankBIC": "INGBNL2A",
+            "receiverBankName": "ING BANK N.V.",
+            "receiverBankAddress": "FINANCIAL PLAZA BIJLMERDREEF 109 1102 BW AMSTERDAM",
+            "receiverBankCountry": "NL"
+        }
+    }
+]

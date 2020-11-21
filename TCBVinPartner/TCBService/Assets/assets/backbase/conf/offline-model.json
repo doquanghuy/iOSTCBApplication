@@ -1,0 +1,2608 @@
+{
+    "id": "74217bc7-cd56-4cb6-941b-ee7227fc34b9",
+    "version": "3.4",
+    "name": "retail-banking-mobile-sepa",
+    "sitemap": [
+        {
+            "name": "navroot_mainmenu",
+            "itemType": "LINK",
+            "children": [
+                {
+                    "itemRef": "5e08fc34-f0cc-4cde-98fa-212e59d3ffbe",
+                    "title": "Accounts",
+                    "href": "retail-banking-mobile-sepa/accounts",
+                    "itemType": "page",
+                    "children": [
+                        {
+                            "itemRef": "2e178972-8453-41f1-b7b3-f03aac2a0159",
+                            "title": "Manage accounts",
+                            "href": "retail-banking-mobile-sepa/accounts/manage-accounts",
+                            "itemType": "page",
+                            "children": []
+                        },
+                        {
+                            "itemRef": "79074423-4bb8-41bf-bff1-a954594f5bf6",
+                            "title": "Transactions",
+                            "href": "retail-banking-mobile-sepa/accounts/transactions",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "976059bf-9592-4573-8cb8-bcbca8da8f46",
+                                    "title": "Account details",
+                                    "href": "retail-banking-mobile-sepa/accounts/transactions/account-details",
+                                    "itemType": "page",
+                                    "children": []
+                                },
+                                {
+                                    "itemRef": "463fd382-cd41-46d4-a762-223c2ff92207",
+                                    "title": "Transactions-filters",
+                                    "href": "retail-banking-mobile-sepa/accounts/transactions/transactions-filters",
+                                    "itemType": "page",
+                                    "children": [
+                                        {
+                                            "itemRef": "2fd79d08-3d1d-4eb0-97db-0c2eab30abbd",
+                                            "title": "Transactions-filter-amount-range",
+                                            "href": "retail-banking-mobile-sepa/accounts/transactions/transactions-filters/transactions-filter-amount-range",
+                                            "itemType": "page",
+                                            "children": []
+                                        },
+                                        {
+                                            "itemRef": "3046d66a-b6ea-499e-8839-a08f1ffeb733",
+                                            "title": "Transactions-filter-date-range",
+                                            "href": "retail-banking-mobile-sepa/accounts/transactions/transactions-filters/transactions-filter-date-range",
+                                            "itemType": "page",
+                                            "children": []
+                                        },
+                                        {
+                                            "itemRef": "3c8253de-84b2-4505-89ea-2bbc3c8b9243",
+                                            "title": "Transactions-filter-type",
+                                            "href": "retail-banking-mobile-sepa/accounts/transactions/transactions-filters/transactions-filter-type",
+                                            "itemType": "page",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "itemRef": "c8b5c2c6-7562-4bb6-b3cb-72462ae10a10",
+                                    "title": "Transactions Detail",
+                                    "href": "retail-banking-mobile-sepa/accounts/transactions/transactionsdetail",
+                                    "itemType": "page",
+                                    "children": [
+                                        {
+                                            "itemRef": "a4f90661-90f0-4b42-8d72-54b4c92c9751",
+                                            "title": "Transaction Check Troubleshooting",
+                                            "href": "retail-banking-mobile-sepa/accounts/transactions/transactionsdetail/transaction-check-troubleshooting",
+                                            "itemType": "page",
+                                            "children": []
+                                        },
+                                        {
+                                            "itemRef": "d67ce284-5537-4e77-9ce5-da6993844fa9",
+                                            "title": "Transaction-check-images",
+                                            "href": "retail-banking-mobile-sepa/accounts/transactions/transactionsdetail/transaction-check-images",
+                                            "itemType": "page",
+                                            "children": []
+                                        },
+                                        {
+                                            "itemRef": "619b6992-51aa-45a4-bd13-450ad814ce4f",
+                                            "title": "Transaction Notes",
+                                            "href": "transaction-notes",
+                                            "itemType": "page",
+                                            "children": []
+                                        },
+                                        {
+                                            "itemRef": "6eb009a6-1b0d-4f10-a5e3-9369d44973cd",
+                                            "title": "Categories",
+                                            "href": "retail-banking-mobile-sepa/accounts/transactions/transactionsdetail/categories",
+                                            "itemType": "page",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "itemRef": "d5f34a2c-c55f-47da-a20e-2d8459d9bdff",
+                    "title": "Payment",
+                    "href": "retail-banking-mobile-sepa/payment",
+                    "itemType": "page",
+                    "children": [
+                        {
+                            "itemRef": "f269ccba-973f-463b-ad9f-43680f4bc2f8",
+                            "title": "Schedule payment",
+                            "href": "retail-banking-mobile-sepa/payment/schedule-payment",
+                            "itemType": "page",
+                            "children": []
+                        },
+                        {
+                            "itemRef": "d000ab18-25f4-4b3e-b57f-d7c76d18dbb1",
+                            "title": "Payment Failure",
+                            "href": "retail-banking-mobile-sepa/payment/payment-failure",
+                            "itemType": "page",
+                            "children": []
+                        },
+                        {
+                            "itemRef": "e5a4f209-7e2c-4c87-988e-0d033736ba1b",
+                            "title": "Payment success",
+                            "href": "retail-banking-mobile-sepa/payment/payment-success",
+                            "itemType": "page",
+                            "children": []
+                        },
+                        {
+                            "itemRef": "7df0416b-cbd9-40a1-83c9-2ea9d5857afe",
+                            "title": "Select recipient",
+                            "href": "retail-banking-mobile-sepa/payment/select-recipient",
+                            "itemType": "page",
+                            "children": []
+                        },
+                        {
+                            "itemRef": "096c3ad8-6204-46eb-b5b5-380282ef5fdd",
+                            "title": "Review payment",
+                            "href": "retail-banking-mobile-sepa/payment/review-payment",
+                            "itemType": "page",
+                            "children": []
+                        },
+                        {
+                            "itemRef": "46a0964a-e561-4330-9b76-0d8f1f8a1b54",
+                            "title": "Select account",
+                            "href": "retail-banking-mobile-sepa/payment/select-account",
+                            "itemType": "page",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "itemRef": "16003f3f-7b45-4ec0-9aa9-914600cd272a",
+                    "title": "Insights",
+                    "href": "retail-banking-mobile-sepa/insights",
+                    "itemType": "page",
+                    "children": []
+                },
+                {
+                    "itemRef": "df34cbec-bfaf-4b9c-9eb7-a67f820bde0b",
+                    "title": "Cards",
+                    "href": "retail-banking-mobile-sepa/cards",
+                    "itemType": "page",
+                    "children": [
+                        {
+                            "itemRef": "f1a882cc-32e2-4969-842e-5ecf4eb3b4ad",
+                            "title": "Pin Reset Token Validation",
+                            "href": "retail-banking-mobile-sepa/cards/pin-reset-token-validation",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "7c5a117d-fd2e-424c-a52e-543f49ab76bd",
+                                    "title": "Set Pin",
+                                    "href": "retail-banking-mobile-sepa/cards/pin-reset-token-validation/set-pin",
+                                    "itemType": "page",
+                                    "children": [
+                                        {
+                                            "itemRef": "6dfb9630-9c40-435b-a066-0f9b7936832f",
+                                            "title": "Confirm Pin",
+                                            "href": "retail-banking-mobile-sepa/cards/pin-reset-token-validation/set-pin/confirm-pin",
+                                            "itemType": "page",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "itemRef": "3ed95072-384a-43f2-b8dd-62d581199bc8",
+                            "title": "Pin Request Token Validation",
+                            "href": "retail-banking-mobile-sepa/cards/pin-request-token-validation",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "b6a8c962-21d0-453d-9cfa-c3ce626ea08e",
+                                    "title": "Pin Request Address Confirmation",
+                                    "href": "retail-banking-mobile-sepa/cards/pin-request-token-validation/pin-request-address-confirmation",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "itemRef": "7283c551-6c47-4ad0-86d3-b56a250edd4d",
+                            "title": "Set limits",
+                            "href": "retail-banking-mobile-sepa/cards/set-limits",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "556031bf-31d2-405c-bde7-6115267e523e",
+                                    "title": "Change limit",
+                                    "href": "retail-banking-mobile-sepa/cards/set-limits/change-limit",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "itemRef": "2e81002b-c17b-4f23-b3bc-019388c70a44",
+                            "title": "Activate card",
+                            "href": "retail-banking-mobile-sepa/cards/activate-card",
+                            "itemType": "page",
+                            "children": []
+                        },
+                        {
+                            "itemRef": "a0804553-4f87-4e02-8f06-5467235c3982",
+                            "title": "Replace card",
+                            "href": "retail-banking-mobile-sepa/cards/replace-card",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "7b1ffdaf-896c-45e1-ae80-d5d6a4f31230",
+                                    "title": "Confirm Card Replacement",
+                                    "href": "retail-banking-mobile-sepa/cards/replace-card/confirm-card-replacement",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "itemRef": "fa825afc-5e95-4438-89dc-4a582414af5d",
+                    "title": "More",
+                    "href": "retail-banking-mobile-sepa/more",
+                    "itemType": "page",
+                    "children": [
+                        {
+                            "itemRef": "cd855327-0811-40a4-9043-800879582440",
+                            "title": "Budgets",
+                            "href": "retail-banking-mobile-sepa/more/budgets",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "88aebe5a-0a35-4c9a-b19d-a095d670329b",
+                                    "title": "Category",
+                                    "href": "retail-banking-mobile-sepa/more/budgets/category",
+                                    "itemType": "page",
+                                    "children": [
+                                        {
+                                            "itemRef": "013ff2a3-9742-46bb-97c3-f41ff2f4916c",
+                                            "title": "Set budget",
+                                            "href": "retail-banking-mobile-sepa/more/budgets/category/set-budget",
+                                            "itemType": "page",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "itemRef": "a5b2c0f8-3b93-4037-af98-381f66c581fa",
+                                    "title": "Budget Details",
+                                    "href": "retail-banking-mobile-sepa/more/budgets/budget-details",
+                                    "itemType": "page",
+                                    "children": [
+                                        {
+                                            "itemRef": "2e645267-0c8c-4cc9-bc93-e2d937f1dfd0",
+                                            "title": "Transaction Details",
+                                            "href": "retail-banking-mobile-sepa/more/budgets/budget-details/transaction-details",
+                                            "itemType": "page",
+                                            "children": []
+                                        },
+                                        {
+                                            "itemRef": "e636fe04-03ac-45b6-ae8b-a1402d3d832c",
+                                            "title": "Category",
+                                            "href": "retail-banking-mobile-sepa/more/budgets/budget-details/category",
+                                            "itemType": "page",
+                                            "children": [
+                                                {
+                                                    "itemRef": "90005cb1-3cc6-4c83-8fd8-e524f9b3b6d9",
+                                                    "title": "Edit",
+                                                    "href": "retail-banking-mobile-sepa/more/budgets/budget-details/category/set-budget",
+                                                    "itemType": "page",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "itemRef": "edca0b18-e810-436b-8a3e-e8fc418b3268",
+                            "title": "Spending analysis",
+                            "href": "retail-banking-mobile-sepa/more/spending-analysis",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "42deebba-5330-48c7-9f50-19057be20d3c",
+                                    "title": "Details",
+                                    "href": "retail-banking-mobile-sepa/more/spending-analysis/details",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "itemRef": "9955d859-1352-420b-9278-897b2b60f66a",
+                            "title": "Contacts",
+                            "href": "retail-banking-mobile-sepa/more/contacts",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "7cf77b84-8cfa-457b-aaee-6eaada2bc61d",
+                                    "title": "Contact detail",
+                                    "href": "retail-banking-mobile-sepa/more/contacts/contact-detail",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "itemRef": "1e26b748-fb58-4edf-a324-fc3238944ccf",
+                            "title": "My profile",
+                            "href": "retail-banking-mobile-sepa/more/my-profile",
+                            "itemType": "page",
+                            "children": []
+                        },
+                        {
+                            "itemRef": "e2e7102b-6147-4328-8798-52350ccdac13",
+                            "title": "Two Step Verification",
+                            "href": "retail-banking-mobile-sepa/more/two-step-verification",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "6b5c2659-42f3-4dbb-a5dc-82447a0be4c8",
+                                    "title": "Scan QR",
+                                    "href": "retail-banking-mobile-sepa/more/two-step-verification/scan-qr",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "itemRef": "dbd7ef74-8d59-4055-a77d-e735b4f923ea",
+                            "title": "Nearby Services",
+                            "href": "retail-banking-mobile-sepa/more/nearby-services",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "d0b17c06-88a1-4d6e-81b3-54026b610a4e",
+                                    "title": "Branch Details",
+                                    "href": "retail-banking-mobile-sepa/more/nearby-services/branch-details",
+                                    "itemType": "page",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "itemRef": "7c99f084-2b67-43e3-a4e9-98564ac29fd6",
+                            "title": "New Message",
+                            "href": "retail-banking-mobile-sepa/more/new-message",
+                            "itemType": "page",
+                            "children": []
+                        },
+                        {
+                            "itemRef": "275fd27e-4eae-40cf-94ea-24f824e46b5e",
+                            "title": "Logout",
+                            "href": "retail-banking-mobile-sepa/more/logout",
+                            "itemType": "page",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "navroot_notinmenu",
+            "itemType": "LINK",
+            "children": [
+                {
+                    "itemRef": "87630c5a-e2ca-454e-ba80-70f97170de97",
+                    "title": "Welcome",
+                    "href": "retail-banking-mobile-sepa/welcome",
+                    "itemType": "page",
+                    "children": [
+                        {
+                            "itemRef": "943e2132-8abf-4bde-adc3-b2fcf443c60b",
+                            "title": "Login",
+                            "href": "retail-banking-mobile-sepa/welcome/login",
+                            "itemType": "page",
+                            "children": [
+                                {
+                                    "itemRef": "58bcb221-0eb2-4726-93e0-2572678a4c2b",
+                                    "title": "Passcode",
+                                    "href": "retail-banking-mobile-sepa/welcome/login/passcode",
+                                    "itemType": "page",
+                                    "children": [
+                                        {
+                                            "itemRef": "d4116d04-4c8a-40e5-a0b3-8bb10f99c146",
+                                            "title": "Passcode Confirm",
+                                            "href": "retail-banking-mobile-sepa/welcome/login/passcode/passcode-confirm",
+                                            "itemType": "page",
+                                            "children": [
+                                                {
+                                                    "itemRef": "ee10c0cd-d85e-48b6-bdeb-3b8d36ec0d1c",
+                                                    "title": "Setup Completed",
+                                                    "href": "retail-banking-mobile-sepa/welcome/login/passcode/passcode-confirm/setup-completed",
+                                                    "itemType": "page",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "itemRef": "e296b3f7-a396-4784-93b2-8bdf301f5853",
+                    "title": "Authenticate",
+                    "href": "retail-banking-mobile-sepa/authenticate",
+                    "itemType": "page",
+                    "children": []
+                },
+                {
+                    "itemRef": "ae2dce01-35ee-4918-975e-7cf85cd776bb",
+                    "title": "Inbox",
+                    "href": "retail-banking-mobile-sepa/inbox",
+                    "itemType": "page",
+                    "children": [
+                        {
+                            "itemRef": "7e6fcd86-ddc5-4815-9ddb-470cf1bcdf0a",
+                            "title": "Notification detail",
+                            "href": "retail-banking-mobile-sepa/inbox/notification-detail",
+                            "itemType": "page",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "preferences": {
+        "loans_icon": "/rbc_icon.png",
+        "investmentaccounts_icon": "/rbc_icon.png",
+        "publishChains": "Self - Direct",
+        "currentaccount_icon": "/bblogo_icon.png",
+        "title": "Retail Banking Mobile SEPA",
+        "LogoutPage": "retail-banking-mobile-sepa/login?error=logout",
+        "debitcards_icon": "/citibank_icon.png",
+        "creditcards_icon": "/ing_icon.png",
+        "locales": "en-US",
+        "AuthenticationFailurePage": "retail-banking-mobile-sepa/login?error=failure",
+        "savingsaccount_icon": "/bank_of_america_icon.png",
+        "termdeposits_icon": "/abn_icon.png"
+    },
+    "pages": [
+        {
+            "id": "7c5a117d-fd2e-424c-a52e-543f49ab76bd",
+            "name": "page_1566908028458",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Set Pin",
+                "navigation.mode": "push",
+                "navigation": "bb.action.card-management.pin-reset-token-validated",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "e4d571ba-565d-421a-b3ee-8a881e9fd1ec",
+                    "name": "universal-native-widgetc5369bbd-a6df-42b8-b795-b4f94199a6e0",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "CardPinResetPinSelectView",
+                        "native": "PinResetWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "943e2132-8abf-4bde-adc3-b2fcf443c60b",
+            "name": "page_1555323691402",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "ios.layout.extend": "true",
+                "ios.statusBar": "white",
+                "navigation": "bb.event.welcome.getting-started",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "b5515a99-b130-4ccb-860a-200d98f606e5",
+                    "name": "universal-native-widget314ddcc4-2cdd-4a64-aadc-c7f5479eceb2",
+                    "preferences": {
+                        "area": "0",
+                        "navigation.mode": "push",
+                        "native.view": "PasswordWidgetView",
+                        "native": "PasswordWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Password Native Widget",
+                        "native.package": "com.backbase.model.view.widget.password",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "dbd7ef74-8d59-4055-a77d-e735b4f923ea",
+            "name": "page_1555330935040",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "section": "Contact us",
+                "title": "Find us",
+                "navigation.mode": "push",
+                "navigation": "bb.action.places.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "alternative-title": "Find us",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "menu-icon": "ic_place"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "22ebf5de-9e4f-4991-9cf3-e7b0887c34f8",
+                    "name": "universal-native-widgetc797a033-40af-42b3-8927-eb046f16f980",
+                    "preferences": {
+                        "area": "0",
+                        "filterPlacesDataSourceClass": "PlacesFilterDataSource",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/places-native-widget/index.html",
+                        "latitude": "52.371246",
+                        "filterPlacesDataSourcePackage": "com.backbase.model.view.widget.places",
+                        "title": "Places Native Widget",
+                        "native.view": "PlacesWidgetView",
+                        "search": "places",
+                        "searchDataSourceClass": "PlacesWidgetView",
+                        "native": "PlacesWidget",
+                        "native.package": "com.backbase.model.view.widget.places",
+                        "radius": "1",
+                        "order": "0",
+                        "longitude": "4.927807"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "463fd382-cd41-46d4-a762-223c2ff92207",
+            "name": "page_1582538916550",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Filters",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.transactions.filter.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "423a41d7-4c34-4c37-9e88-7cb8799a1cbf",
+                    "name": "universal-native-widgetfe5566f8-6d8f-4fa0-8dd6-6d1e31342ea6",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionsFilterWidgetView",
+                        "native": "TransactionsFilterWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Filter transactions",
+                        "native.package": "com.backbase.model.view.widget.transactions.filter",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "9955d859-1352-420b-9278-897b2b60f66a",
+            "name": "page_1565272087680",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "section": "Manage",
+                "title": "Contacts",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.contacts.open",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "menu-icon": "ic_address_book"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "9aaca1d8-5ca5-4f81-8b0f-9ffb1cffba6a",
+                    "name": "universal-native-widgetb3237894-5596-4648-af40-cda4cf9a928b",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "ContactsWidgetSepaView",
+                        "search": "contacts",
+                        "size": "10",
+                        "native": "ContactsWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.contacts.list",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2e81002b-c17b-4f23-b3bc-019388c70a44",
+            "name": "page_1565255904772",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Activate card",
+                "navigation.mode": "modal",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.card-activation-requested",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "0470de22-8143-4852-b20c-8340d41183bb",
+                    "name": "universal-native-widget43d6e723-346e-4039-be5b-878509e0c0b9",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "tokenVerification",
+                        "native.view": "CardActivationView",
+                        "native": "CardManagementWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2e178972-8453-41f1-b7b3-f03aac2a0159",
+            "name": "page_1572345362619",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Manage accounts",
+                "navigation.mode": "push",
+                "navigation": "bb.action.accounts.manage-requested",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "193d121a-7338-4165-9340-7f95fefffa99",
+                    "name": "universal-native-widgetd3446f35-5313-4948-8952-19af998005ad",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "ManageProductsWidgetView",
+                        "native": "ProductsOverviewWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Products Overview Native Widget",
+                        "native.package": "com.backbase.model.view.widget.products.manage",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "c8b5c2c6-7562-4bb6-b3cb-72462ae10a10",
+            "name": "page_1555329667538",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "ios.layout.extend": "true",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "09ca4a3f-2712-42a8-8654-4b4565b0e278",
+                    "name": "universal-native-widget4b6263a3-f059-4e98-87a6-837f43cbca46",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "details",
+                        "searchDataSourceClass": "size",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/transactions-native-widget/index.html",
+                        "title": "Universal Native Widget",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "5e08fc34-f0cc-4cde-98fa-212e59d3ffbe",
+            "name": "page_1555329639606",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title.type": "large",
+                "title": "Accounts",
+                "navigation": "bb.action.product-summary.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "menu-icon": "ic_navigations_accounts"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "6a75badc-96ec-46e3-92eb-a8273dc3b7b0",
+                    "name": "universal-native-widgetdbe3b15b-d7dd-4d03-9049-68b08f23d674",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "ProductsOverviewWidgetView",
+                        "native": "ProductsOverviewWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Products Overview Native Widget",
+                        "native.package": "com.backbase.model.view.widget.products.list",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "013ff2a3-9742-46bb-97c3-f41ff2f4916c",
+            "name": "page_1555330279070",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Set budget",
+                "navigation": "bb.action.budgets.create",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "f95c5876-8133-4440-b94f-b29befaadefa",
+                    "name": "universal-native-widgetdc2774bc-c1e0-41a2-b415-69e4e8ab23b2",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "edit",
+                        "native.view": "BudgetsWidgetFormView",
+                        "native": "BudgetsWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Budgets Native Widget",
+                        "native.package": "com.backbase.model.view.widget.budgets.create",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "a0804553-4f87-4e02-8f06-5467235c3982",
+            "name": "page_1559897203865",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Replace card",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.card-management.card-replacement-requested",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "e4fad3f2-2753-4d29-a047-0286ff6062c9",
+                    "name": "universal-native-widget40bf19d6-dc2e-483d-b947-6d37a125e0db",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "replacementReason",
+                        "native.view": "CardReplacementReasonSelectionView",
+                        "native": "CardManagementWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "42deebba-5330-48c7-9f50-19057be20d3c",
+            "name": "page_1555330759082",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "section": "Insights",
+                "navigation.mode": "push",
+                "navigation": "bb.action.spending-detail.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "menu-icon": "ic_insert_chart_outlined"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "ce10a65d-b2c2-42bd-9ddb-17beef8be59f",
+                    "name": "universal-native-widget143eef3b-8e7a-4219-9d5a-2a4d829c9315",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "overview",
+                        "searchDataSourcePackage": "com.backbase.model.view.widget.transactions",
+                        "native.view": "TransactionsWidgetSpendingDetailsView",
+                        "searchDataSourceClass": "LocalTransactionsSearchDataSource",
+                        "size": "10",
+                        "native": "TransactionsWidgetExtended",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/transactions-native-widget/index.html",
+                        "title": "Transactions Native Widget",
+                        "native.package": "com.backbase.model.view.widget.transactions.spending",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "edca0b18-e810-436b-8a3e-e8fc418b3268",
+            "name": "page_1555330738515",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "section": "Insights",
+                "title": "Spending",
+                "navigation.mode": "push",
+                "navigation": "bb.action.spending-analysis.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "alternative-title": "Spending analysis",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "menu-icon": "ic_insert_chart_outlined"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "54ea3791-4aeb-4e7c-8d76-08164231955e",
+                    "name": "universal-native-widget4c1eefb7-b579-49b6-829d-68a05730be3d",
+                    "preferences": {
+                        "area": "0",
+                        "searchDataSourcePackage": "com.backbase.model.view.widget.transactions",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Spending",
+                        "mode": "overview",
+                        "native.view": "TransactionsWidgetSpendingOverviewView",
+                        "search": "transactions",
+                        "searchDataSourceClass": "LocalTransactionsSearchDataSource",
+                        "size": "20",
+                        "native": "TransactionsWidgetExtended",
+                        "native.package": "com.backbase.model.view.widget.transactions.spending",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "90005cb1-3cc6-4c83-8fd8-e524f9b3b6d9",
+            "name": "page_1555330677377",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Edit",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.budgets.edit-budget",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "1e2b85bc-6e27-466c-a044-975302afba6f",
+                    "name": "universal-native-widget82175a6c-ed07-4a21-99f1-24a0f1ce26f8",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "edit",
+                        "native.view": "BudgetsWidgetFormView",
+                        "native": "BudgetsWidgetExtended",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/budgets-native-widget/index.html",
+                        "title": "Budgets Native Widget",
+                        "native.package": "com.backbase.model.view.widget.budgets.create",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "b6a8c962-21d0-453d-9cfa-c3ce626ea08e",
+            "name": "page_1570008749700",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Request PIN",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.pin-request-token-validated",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "88d176e0-eb93-43c1-ba34-09670a66d111",
+                    "name": "universal-native-widget955c1f0d-2b4a-4c6a-9443-47cddc811f49",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "CardPinRequestAddressConfirmationView",
+                        "native": "PinRequestWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "096c3ad8-6204-46eb-b5b5-380282ef5fdd",
+            "name": "page_1565275151536",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Review payment",
+                "navigation.mode": "bottomsheet",
+                "navigation": "bb.action.payment-order.sepa.review",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "24316844-f4e2-4c74-8418-06867f51363e",
+                    "name": "universal-native-widgetd2285ec5-fd4c-4adb-9ef4-a5512038fc9a",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "review",
+                        "native.view": "PaymentOrderWidgetSepaReviewView",
+                        "native": "PaymentOrderWidget",
+                        "navigationInfix": "sepa",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.paymentorder.sepa.review",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6dfb9630-9c40-435b-a066-0f9b7936832f",
+            "name": "page_1566908041182",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Confirm Pin",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.pin-set",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "58aa6f93-2b0a-4876-9c4f-2374b35c0107",
+                    "name": "universal-native-widget09f281be-171f-47d9-9927-fbea7c0a870d",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "CardPinResetPinConfirmView",
+                        "native": "PinResetWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cd855327-0811-40a4-9043-800879582440",
+            "name": "page_1555330177440",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "section": "Insights",
+                "title": "Budgets",
+                "navigation.mode": "push",
+                "navigation": "bb.action.budgets.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "menu-icon": "ic_piechart"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "600a1c04-a46b-4d36-8e8a-b9a57860345e",
+                    "name": "universal-native-widget36ff15f8-3519-4728-89ae-a29597ade976",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "details",
+                        "native.view": "BudgetsWidgetListView",
+                        "native": "BudgetsWidgetExtended",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/budgets-native-widget/index.html",
+                        "title": "Budgets Native Widget",
+                        "native.package": "com.backbase.model.view.widget.budgets",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "f1a882cc-32e2-4969-842e-5ecf4eb3b4ad",
+            "name": "page_1566908010716",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Confirm",
+                "navigation.mode": "modal",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.start-pin-reset",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "839abd90-92aa-448c-98c9-f7fa2b3fcb49",
+                    "name": "universal-native-widgeted1c6bf9-0a7b-4e3f-bd7a-95b941cfb026",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "CardPinResetTokenValidationView",
+                        "native": "PinResetWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "f269ccba-973f-463b-ad9f-43680f4bc2f8",
+            "name": "page_1565275179413",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title.type": "large",
+                "title": "Schedule payment",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.payment-order.sepa.select-schedule",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "d2167535-5e1f-4d79-aa2d-e9744eeda5de",
+                    "name": "universal-native-widgetc9bfee39-7966-467f-9b3b-1b8845674355",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "PaymentOrderWidgetSepaScheduleView",
+                        "native": "PaymentOrderScheduleWidget",
+                        "navigationInfix": "sepa",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.paymentorder.sepa",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7c99f084-2b67-43e3-a4e9-98564ac29fd6",
+            "name": "page_1555330953320",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "section": "Contact us",
+                "title": "New Message",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.message-center.new-conversation",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "alternative-title": "Send us a message",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "menu-icon": "ic_message"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "30651a67-8663-422d-b7e7-2b1de6c707b8",
+                    "name": "universal-native-widgeteffbbcef-2f1e-4258-b37a-5caec50eb194",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "createconversation",
+                        "native.view": "NewMessageWidgetView",
+                        "native": "MessageCenterWidget",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/message-center-native-widget/index.html",
+                        "title": "Message Center Native Widget",
+                        "native.package": "com.backbase.model.view.widget.messages.form",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1e26b748-fb58-4edf-a324-fc3238944ccf",
+            "name": "page_1565274142196",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "section": "Manage",
+                "title": "My profile",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.userprofile.open",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "menu-icon": "ic_profile"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "bf833a67-f930-48c1-99be-731af115d8cd",
+                    "name": "universal-native-widget04b134fa-d5d6-4d73-a64f-6b7a5bc36ea7",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "UserProfileOverviewWidgetView",
+                        "native": "UserProfileOverviewWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.userprofile.overview",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7283c551-6c47-4ad0-86d3-b56a250edd4d",
+            "name": "page_1566907718606",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Set limits",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.open-card-limits,bb.action.card-management.card-limits-updated",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "05fb5a10-d7e2-4f5d-ae89-8be44df41d56",
+                    "name": "universal-native-widgetbf343419-619c-4fb4-aa2a-63d899c507a0",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "limitsList",
+                        "native.view": "LimitsListView",
+                        "native": "CardManagementWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ae2dce01-35ee-4918-975e-7cf85cd776bb",
+            "name": "page_1560359942686",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Inbox",
+                "navigation.mode": "push",
+                "native.view": "InboxPageView",
+                "navigation": "bb.action.inbox.open",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page.inbox",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "6bb24017-b329-4d1c-9364-b8d72618b372",
+                    "name": "universal-native-widget8a6ca8c6-41a9-437e-8944-0f6ee45815b8",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "MessagesWidgetView",
+                        "native": "MessageCenterWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Messages",
+                        "native.package": "com.backbase.model.view.widget.messages.list",
+                        "order": "0"
+                    }
+                },
+                {
+                    "id": "239f1c3a-92a3-44a0-a636-adddcc3d95ae",
+                    "name": "universal-native-widgetee39eec6-bb91-434c-8f12-a793b1b60db0",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "NotificationsWidgetView",
+                        "native": "NotificationsWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Notifications",
+                        "native.package": "com.backbase.model.view.widget.notifications.list",
+                        "order": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3c8253de-84b2-4505-89ea-2bbc3c8b9243",
+            "name": "page_1586877087363",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Transaction type",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.transactions-filter-by-type.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "25e3583f-9204-4072-9e81-b4cc2d34a7a1",
+                    "name": "universal-native-widget41b7b11a-c05b-4b80-ab86-bac485f091d9",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionsFilterTypeWidgetView",
+                        "native": "TransactionsFilterTypeWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Transaction type",
+                        "native.package": "com.backbase.model.view.widget.transactions.filter",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "619b6992-51aa-45a4-bd13-450ad814ce4f",
+            "name": "page_1580917024451",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Notes",
+                "navigation": "bb.action.transaction-add-note",
+                "collectors": "csc-tag-counter",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "1a4bc1e3-c6c6-44fe-a59e-92262f811987",
+                    "name": "universal-native-widgetcf06351f-2982-4fe4-b09f-0c43c58be345",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionNotesWidgetView",
+                        "native": "TransactionNotesWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.transactions.detail.notes",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3046d66a-b6ea-499e-8839-a08f1ffeb733",
+            "name": "page_1585306173508",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Date range",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.transactions-filter-date-range.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "48dd9fea-f268-4ce7-99e6-be86499133a4",
+                    "name": "universal-native-widgetfb9e30e5-99d3-4698-a7cb-47e958c9f0dd",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionsFilterDateRangeWidgetView",
+                        "native": "TransactionsFilterDateRangeWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Date range",
+                        "native.package": "com.backbase.model.view.widget.transactions.filter",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6eb009a6-1b0d-4f10-a5e3-9369d44973cd",
+            "name": "page_1555329695496",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Change category",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.categories.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "0468a5c0-6ce4-43b9-b155-22f294a68de5",
+                    "name": "universal-native-widget4c03815b-4886-4dc6-a8c5-de4922c8429e",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "details",
+                        "native.view": "CategoriesWidgetView",
+                        "native": "CategoriesWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Categories Native Widget",
+                        "native.package": "com.backbase.model.view.widget.categories",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "46a0964a-e561-4330-9b76-0d8f1f8a1b54",
+            "name": "page_1565275132378",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title.type": "large",
+                "title": "Select your Account",
+                "navigation.mode": "push",
+                "navigation": "bb.action.payment-order.sepa.select-product",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "780482c5-52e7-4ba1-800e-7c31b10938ee",
+                    "name": "universal-native-widgete80dcd13-fb44-4c39-a333-61d8a4046ab3",
+                    "preferences": {
+                        "area": "0",
+                        "headers": "Accounts",
+                        "clients": "ProductsClient",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "packages": "com.backbase.android.client.products",
+                        "listViewKey": "0",
+                        "native.view": "SelectorWidgetProductsView",
+                        "navigation": "bb.action.payment-order.sepa.select-product",
+                        "size": "10",
+                        "native": "SelectorWidgetExtended",
+                        "native.package": "com.backbase.model.view.widget.selector",
+                        "events": "bb.event.payment-order.sepa.selector-product-selected",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7b1ffdaf-896c-45e1-ae80-d5d6a4f31230",
+            "name": "page_1559897390155",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Confirm Card Replacement",
+                "navigation.mode": "push",
+                "navigation": "bb.action.card-management.card-replacement-reason-selected",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "d6394fca-00fd-4e59-b7a0-101c82b8984b",
+                    "name": "universal-native-widgetd934deca-9484-4713-9480-b3f38fb470a8",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "replacementConfirm",
+                        "native.view": "CardReplacementConfirmView",
+                        "native": "CardManagementWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7cf77b84-8cfa-457b-aaee-6eaada2bc61d",
+            "name": "page_1565272106846",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Contact detail",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.contacts.contact-selected, bb.event.contacts.contact-received",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "57d9cb44-9ad8-4d2f-8de1-8dd77b4b0925",
+                    "name": "universal-native-widgetdcc0d0ee-a37a-4422-b955-df10940c3a78",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "details",
+                        "native.view": "ContactsWidgetDetailsSepaView",
+                        "native": "ContactsWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.contacts.details",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "e2e7102b-6147-4328-8798-52350ccdac13",
+            "name": "page_1565272627416",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "section": "Security",
+                "title": "Two Step Verification",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.otp-overview,bb.event.qr-data.received",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "menu-icon": "ic_security"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "7c9fa6a2-2dc3-46c5-80c3-5d5d9c64bfb9",
+                    "name": "universal-native-widget4acfbc41-ecb3-4fff-aae7-e90b624095c5",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "overview",
+                        "native.view": "TotpGeneratorWidgetView",
+                        "native": "TOTPGeneratorWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "OTP overview",
+                        "native.package": "com.backbase.model.view.widget.totp",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ee10c0cd-d85e-48b6-bdeb-3b8d36ec0d1c",
+            "name": "page_1555323774028",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "ios.statusBar": "white",
+                "navigation": "bb.event.enrollment.setup-completed",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "c8927341-f29e-4028-8a59-336257083b1c",
+                    "name": "universal-native-widgeta91afdca-6af4-41b8-ae6a-9d65ad6e588b",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "SetupCompletedWidgetView",
+                        "native": "SetupCompletedWidget",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/setup-completed-native-widget/index.html",
+                        "title": "Setup Completed Native Widget",
+                        "native.package": "com.backbase.model.view.widget.setupcompleted",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "556031bf-31d2-405c-bde7-6115267e523e",
+            "name": "page_1566907764149",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Change limit",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.card-management.open-card-limits-update",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "5da20274-1a20-4256-8649-16e2b579282c",
+                    "name": "universal-native-widget4bded256-c063-409e-9275-42611516ebf4",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "limitUpdate",
+                        "native.view": "LimitUpdateView",
+                        "native": "CardManagementWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "d5f34a2c-c55f-47da-a20e-2d8459d9bdff",
+            "name": "page_1565275065678",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title.type": "large",
+                "title": "New Payment",
+                "navigation.mode": "modal",
+                "native.view": "FormPageView",
+                "navigation": "bb.action.sepa.open,bb.event.payment-order.sepa.selector-product-selected,bb.event.payment-order.sepa.recipient-selected,bb.event.payment-order.sepa.schedule-changed",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "alternative-title": "Payment",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "menu-icon": "ic_navigations_payments"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "e7d436af-66b9-4844-b640-f0d502fb7361",
+                    "name": "universal-native-widget7d0005b9-d5e7-44b1-989b-d4e4b75b488e",
+                    "preferences": {
+                        "area": "0",
+                        "headers": "Accounts",
+                        "clients": "ProductsClient",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "packages": "com.backbase.android.client.products",
+                        "listViewKey": "0",
+                        "native.view": "SelectorWidgetSepaView",
+                        "size": "2",
+                        "native": "SelectorWidgetExtended",
+                        "native.package": "com.backbase.model.view.widget.paymentorder.sepa.selector",
+                        "events": "bb.event.payment-order.sepa.product-selected",
+                        "order": "0"
+                    }
+                },
+                {
+                    "id": "631d4c05-d213-4cc3-8450-04d0ca8840dc",
+                    "name": "universal-native-widgetecc963fb-f1a3-479b-9638-0d0b2c0b3406",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "initiate",
+                        "native.view": "PaymentOrderWidgetSepaFormView",
+                        "native": "PaymentOrderWidget",
+                        "navigationInfix": "sepa",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.paymentorder.sepa",
+                        "order": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "87630c5a-e2ca-454e-ba80-70f97170de97",
+            "name": "page_1555323559383",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "ios.layout.extend": "true",
+                "ios.statusBar": "white",
+                "navigation": "bb.action.enrollment.start",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "04947194-5418-4794-b811-0e932b6bdf26",
+                    "name": "universal-native-widget88b9c179-c79c-44df-8f3c-d2ee39844c2d",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "WelcomeWidgetView",
+                        "native": "WelcomeWidget",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/welcome-native-widget/index.html",
+                        "title": "Welcome Native Widget",
+                        "native.package": "com.backbase.model.view.widget.welcome",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7e6fcd86-ddc5-4815-9ddb-470cf1bcdf0a",
+            "name": "page_1565255543013",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.notifications.notification-selected",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "5eb714f4-638f-468b-a084-d79c7e28295d",
+                    "name": "universal-native-widget585d2ab0-cf09-4542-9458-69b8eb7c4a8f",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "details",
+                        "native.view": "NotificationsWidgetDetailView",
+                        "native": "NotificationsWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.notifications.detail",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "fa825afc-5e95-4438-89dc-4a582414af5d",
+            "name": "page_1555330168899",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title.type": "large",
+                "title": "More",
+                "navigation": "bb.action.more.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "menu-icon": "ic_navigations_more"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "638be457-3c2f-4e1a-9f8f-ab8719cb1c98",
+                    "name": "universal-native-widget7cc45eaf-8702-4f38-8cc9-e23102588608",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "MoreMenuWidgetView",
+                        "native": "MenuWidget",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/more-menu-native-widget/index.html",
+                        "title": "More",
+                        "native.package": "com.backbase.model.view.widget.menu",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "d4116d04-4c8a-40e5-a0b3-8bb10f99c146",
+            "name": "page_1555323760339",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "ios.layout.extend": "true",
+                "ios.statusBar": "white",
+                "navigation": "bb.event.passcode.set",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "76e0f05d-361b-43e6-950c-4d6bb2238c22",
+                    "name": "universal-native-widget4bf16657-5016-449c-9a86-598648ed87be",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "confirm",
+                        "native.view": "PasscodeWidgetConfirmView",
+                        "native": "PasscodeWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "digits": "5",
+                        "title": "Passcode Native Widget",
+                        "native.package": "com.backbase.model.view.widget.passcode",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "df34cbec-bfaf-4b9c-9eb7-a67f820bde0b",
+            "name": "page_1555330160689",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "section": "Manage",
+                "title.type": "large",
+                "title": "Cards",
+                "navigation": "bb.action.cards.open,bb.action.card-management.pin-reset-confirmed,bb.action.card-management.pin-request-address-confirmed",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "menu-icon": "ic_credit_card"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "1c955787-1333-49b7-bbb4-c31d47070359",
+                    "name": "universal-native-widget693b90aa-77ce-4e7d-8b45-f6717aa8c831",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "overview",
+                        "native.view": "CardManagementWidgetView",
+                        "native": "CardManagementWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Cards",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3ed95072-384a-43f2-b8dd-62d581199bc8",
+            "name": "page_1570008699586",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Confirm",
+                "navigation.mode": "modal",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.card-management.start-pin-request",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "4f114ac2-4598-4c14-820d-2e06a8c668ae",
+                    "name": "universal-native-widget33c74cbe-2fc2-4147-a5de-b4eaa48d0c7f",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "CardPinRequestTokenValidationView",
+                        "native": "PinRequestWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.card",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "d0b17c06-88a1-4d6e-81b3-54026b610a4e",
+            "name": "page_1573120593885",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Branch Details",
+                "navigation.mode": "bottomsheet",
+                "navigation": "bb.action.places.show-details",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false",
+                "layout_area": "bottomsheet"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "9ee55ac7-90b4-4002-b608-6894f01218f3",
+                    "name": "universal-native-widgete841afd5-af29-4b1f-9faf-625a978a3f0e",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "PlaceDetailsWidgetView",
+                        "native": "PlaceDetailsWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Place Details Native Widget",
+                        "native.package": "com.backbase.model.view.widget.places",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2e645267-0c8c-4cc9-bc93-e2d937f1dfd0",
+            "name": "page_1555330353838",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "ios.layout.extend": "true",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.transactions.transaction-selected",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "04cbbf0b-4405-4bdd-9c82-76c2b968318c",
+                    "name": "universal-native-widget2ffe9298-13dc-490c-8bd2-bbd1b438f687",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionDetailsWidgetView",
+                        "native": "TransactionDetailsWidget",
+                        "showCheckImage": "true",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/transactions-native-widget/index.html",
+                        "title": "Transactions Native Widget",
+                        "native.package": "com.backbase.model.view.widget.transactions.detail",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "d000ab18-25f4-4b3e-b57f-d7c76d18dbb1",
+            "name": "page_1565275169401",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Payment Failure",
+                "navigation.mode": "bottomsheet",
+                "navigation": "bb.event.payment-order.sepa.form.failed",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "bc19d78b-eac6-4f9d-8b30-5fcfed46b850",
+                    "name": "universal-native-widget59295150-270f-479e-b500-02f5905778a3",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "PaymentOrderWidgetSepaFailedView",
+                        "native": "PaymentOrderWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.paymentorder.sepa.submit",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6b5c2659-42f3-4dbb-a5dc-82447a0be4c8",
+            "name": "page_1565272701711",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Scan QR",
+                "navigation.mode": "modal",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.scan-qr",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "5934bd12-c034-43cb-8cc4-4c31cfa55df2",
+                    "name": "universal-native-widgetb13d90b0-16b7-4a7e-8034-53eea359ac41",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "scanner",
+                        "native.view": "TotpGeneratorWidgetScannerView",
+                        "native": "TOTPGeneratorWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.totp",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7df0416b-cbd9-40a1-83c9-2ea9d5857afe",
+            "name": "page_1565275141905",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title.type": "large",
+                "title": "Select recipient",
+                "navigation.mode": "push",
+                "navigation": "bb.action.payment-order.sepa.select-recipient",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "535a751e-6603-4027-afe8-4b4cc148ab8c",
+                    "name": "universal-native-widget620305d2-0e6b-4c7f-8d61-5e2b1a8cb459",
+                    "preferences": {
+                        "area": "0",
+                        "headers": "Products, Contacts",
+                        "clients": "ProductsClient, ContactsClient",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "packages": "com.backbase.android.client.products, com.backbase.android.client.contacts",
+                        "native.view": "SelectorWidgetRecipientsSepaView",
+                        "navigation": "bb.action.payment-order.sepa.select-recipient",
+                        "size": "10",
+                        "native": "SelectorWidgetExtended",
+                        "native.package": "com.backbase.model.view.widget.selector",
+                        "events": "bb.event.payment-order.sepa.recipient-selected, bb.event.payment-order.sepa.recipient-selected",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "e296b3f7-a396-4784-93b2-8bdf301f5853",
+            "name": "page_1555323920131",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "ios.layout.extend": "true",
+                "ios.statusBar": "white",
+                "navigation": "bb.event.enrollment.device-enrolled",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "3ec50f1c-14c8-4f92-96df-fb222cdf18ea",
+                    "name": "universal-native-widget2b0274dc-954b-42e5-969a-eb1270feafcf",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "authenticate",
+                        "native.view": "PasscodeWidgetAuthenticateView",
+                        "native": "PasscodeWidget",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/passcode-native-widget/index.html",
+                        "digits": "5",
+                        "title": "Passcode Native Widget",
+                        "native.package": "com.backbase.model.view.widget.passcode",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "d67ce284-5537-4e77-9ce5-da6993844fa9",
+            "name": "page_1586962012068",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Check images",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.transaction-check-images.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "5d8c9997-0e88-480e-a9b3-7fa95ada02f0",
+                    "name": "universal-native-widgete0c686c5-2051-4ab0-bd82-eb4a08e3dc7e",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionCheckImagesWidgetView",
+                        "native": "TransactionCheckImagesWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Check images",
+                        "native.package": "com.backbase.model.view.widget.transactions.detail.checkimages",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "e636fe04-03ac-45b6-ae8b-a1402d3d832c",
+            "name": "page_1555330394651",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Category",
+                "collectors": "csc-tag-counter",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "5470c145-8cc6-4fa7-ad13-e59ced420812",
+                    "name": "universal-native-widgetb69db711-cd30-41fc-b070-8fb5a86d579d",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "CategoriesWidgetView",
+                        "native": "CategoriesWidgetExtended",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.categories",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "a4f90661-90f0-4b42-8d72-54b4c92c9751",
+            "name": "Transaction Check Troubleshooting",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.transaction-check-images-troubleshooting.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "194f3829-2ee2-44ac-95e9-2af631e9cd8c",
+                    "name": "universal-native-widget46b740f3-871c-4884-bfdd-ad97984595df",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionCheckTroubleshootingWidgetView",
+                        "native": "TransactionCheckTroubleshootingWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "native.package": "com.backbase.model.view.widget.transactions",
+                        "content": "{\"title\": \"Why are my check images not displaying? \", \"message\": \"Some images may not be available online if\", \"reasons\": [\"• Your check has been received or deposited within the past 48 hours.\", \"• The check has been deposited earlier than 12 months ago.\",\"• There is a scheduled maintenance in the FED Image Service.\"]}",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "275fd27e-4eae-40cf-94ea-24f824e46b5e",
+            "name": "page_1555330969121",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Logout",
+                "navigation": "bb.action.logout",
+                "collectors": "csc-tag-counter",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "compatibility": "false",
+                "menu-icon": "ic_exit_to_app"
+            },
+            "icons": [],
+            "children": []
+        },
+        {
+            "id": "a5b2c0f8-3b93-4037-af98-381f66c581fa",
+            "name": "page_1555330328153",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Budget Details",
+                "navigation.mode": "push",
+                "native.view": "SimplePageView",
+                "navigation": "bb.action.budgets.budget-selected",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.budgets.detail",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "59a23cf1-f04c-47c2-b4d9-4a2f6daa341d",
+                    "name": "universal-native-widgetef75ca36-8de3-4c97-a00c-b4d1930b598c",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "details",
+                        "native.view": "BudgetsWidgetDetailsView",
+                        "native": "BudgetsWidgetExtended",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/budgets-native-widget/index.html",
+                        "title": "Budgets Native Widget",
+                        "native.package": "com.backbase.model.view.widget.budgets.detail",
+                        "order": "0"
+                    }
+                },
+                {
+                    "id": "b1014ba6-ba91-417a-bf89-fc93f96bc654",
+                    "name": "universal-native-widgetff27c546-1b0a-4381-86a4-e3c4e93516b0",
+                    "preferences": {
+                        "area": "1",
+                        "searchDataSourcePackage": "com.backbase.model.view.widget.transactions",
+                        "mode": "overview",
+                        "native.view": "TransactionsWidgetView",
+                        "searchDataSourceClass": "LocalTransactionsSearchDataSource",
+                        "size": "20",
+                        "native": "TransactionsWidgetExtended",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/transactions-native-widget/index.html",
+                        "title": "Transactions Native Widget",
+                        "native.package": "com.backbase.model.view.widget.transactions.list",
+                        "order": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "976059bf-9592-4573-8cb8-bcbca8da8f46",
+            "name": "page_1572350375574",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "ios.layout.extend": "true",
+                "title": "Account details",
+                "navigation.mode": "push",
+                "navigation": "bb.action.products.show-product-details",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "546a7ca5-0167-4bea-8c42-e0fc30d89362",
+                    "name": "universal-native-widget8bfe9c8e-9ec0-4a86-89ab-f53fb6f17f09",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "ProductDetailsWidgetView",
+                        "native": "ProductDetailsWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Product Details Native Widget",
+                        "native.package": "com.backbase.model.view.widget.products.detail",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "16003f3f-7b45-4ec0-9aa9-914600cd272a",
+            "name": "page_1555330151372",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Insights",
+                "navigation": "bb.action.insights.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false",
+                "menu-icon": "ic_navigations_insights"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "0b0e326d-98b5-40bb-8d40-04c35cf9fa23",
+                    "name": "universal-native-widgetcb61a41c-f762-4ff7-9c5e-1ac53c5e2d2c",
+                    "preferences": {
+                        "area": "0",
+                        "image": "/ic_placeholder_insights.png",
+                        "native.view": "ComingSoonPlaceholderWidgetView",
+                        "native": "PlaceholderWidget",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/placeholder-native-widget/index.html",
+                        "title": "Available soon",
+                        "native.package": "com.backbase.model.view.placeholder",
+                        "message": "Our insights dashboard will be available soon. You can add your own implementation here in the meantime.",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "79074423-4bb8-41bf-bff1-a954594f5bf6",
+            "name": "page_1555329650811",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Transactions",
+                "navigation": "bb.action.products.select-product",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "bf62f175-ddce-42f0-b508-d4bd16cf41fb",
+                    "name": "universal-native-widget3d87181e-53d6-4973-b58d-33f6701bca3d",
+                    "preferences": {
+                        "area": "0",
+                        "searchDataSourcePackage": "com.backbase.model.view.widget.transactions",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Transactions Native Widget",
+                        "mode": "overview",
+                        "native.view": "TransactionsWidgetView",
+                        "search": "transactions",
+                        "searchDataSourceClass": "LocalTransactionsSearchDataSource",
+                        "size": "20",
+                        "native": "TransactionsWidgetExtended",
+                        "showPendingTransactions": "true",
+                        "native.package": "com.backbase.model.view.widget.transactions.list",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "58bcb221-0eb2-4726-93e0-2572678a4c2b",
+            "name": "page_1555323731696",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "ios.layout.extend": "true",
+                "ios.statusBar": "white",
+                "navigation": "bb.event.password.authenticated",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "4ebc27bb-f18f-40d7-863f-e88c23befe8d",
+                    "name": "universal-native-widgetd4bbb0ba-deb9-4859-9471-7a69298c1d24",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "setup",
+                        "native.view": "PasscodeWidgetSetupView",
+                        "native": "PasscodeWidget",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/passcode-native-widget/index.html",
+                        "digits": "5",
+                        "title": "Passcode Native Widget",
+                        "native.package": "com.backbase.model.view.widget.passcode",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2fd79d08-3d1d-4eb0-97db-0c2eab30abbd",
+            "name": "page_1584712008784",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Amount range",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.transactions-filter-amount-range.open",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "d8c2a8bd-1eb6-467a-a149-863cb1fb119a",
+                    "name": "universal-native-widget6cdffdbc-fe8e-49e1-8433-27bff5f367a5",
+                    "preferences": {
+                        "area": "0",
+                        "native.view": "TransactionsFilterAmountRangeWidgetView",
+                        "native": "TransactionsFilterAmountRangeWidget",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Amount range",
+                        "native.package": "com.backbase.model.view.widget.transactions.filter",
+                        "order": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "88aebe5a-0a35-4c9a-b19d-a095d670329b",
+            "name": "page_1555330250168",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Select a category",
+                "navigation.mode": "modal",
+                "navigation": "bb.action.budgets.create-budget",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "58412927-88f1-479e-a078-03f70ff1345e",
+                    "name": "universal-native-widget1419a630-3955-4eba-93f6-45a31f5eee16",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "details",
+                        "native.view": "CategoriesWidgetView",
+                        "native": "CategoriesWidgetExtended",
+                        "src": "$(contextRoot)/static/widgets/[BBHOST]/categories-native-widget/index.html",
+                        "title": "Categories Native Widget",
+                        "native.package": "com.backbase.model.view.widget.categories",
+                        "order": "0",
+                        "layout_area": "main"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "e5a4f209-7e2c-4c87-988e-0d033736ba1b",
+            "name": "page_1565275161773",
+            "preferences": {
+                "favicon": "$(contextRoot)/static/items/HandlebarsBlankPage/favicon.ico",
+                "src": "$(contextRoot)/static/items/HandlebarsBlankPage/index.hbs",
+                "title": "Payment success",
+                "navigation.mode": "bottomsheet",
+                "navigation": "bb.action.payment-order.sepa.overview",
+                "native.view": "SimplePageView",
+                "collectors": "csc-tag-counter",
+                "native": "UniformPageRenderer",
+                "options": "$(contextRoot)/static/items/HandlebarsBlankPage/options.json",
+                "chromeSrc": "$(contextRoot)/static/items/portal-client-web/chrome/default-chrome.hbs",
+                "native.package": "com.backbase.model.view.widget.common.page",
+                "compatibility": "false"
+            },
+            "icons": [],
+            "children": [
+                {
+                    "id": "ad011be0-616f-4ed7-9cfa-fca7e9471a07",
+                    "name": "universal-native-widgetb7de1b0c-1ee5-4333-8e4b-fcb829435d1f",
+                    "preferences": {
+                        "area": "0",
+                        "mode": "overview",
+                        "native.view": "PaymentOrderWidgetSepaSuccessView",
+                        "native": "PaymentOrderWidget",
+                        "navigationInfix": "sepa",
+                        "src": "$(contextRoot)/static/items/universal-native-widget/index.hbs",
+                        "title": "Universal Native Widget",
+                        "native.package": "com.backbase.model.view.widget.paymentorder.sepa.submit",
+                        "order": "0"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+framework module TCBService {
+  umbrella header "TCBService-umbrella.h"
+
+  export *
+  module * { export * }
+}
