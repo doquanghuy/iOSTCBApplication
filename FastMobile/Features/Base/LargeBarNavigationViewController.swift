@@ -22,18 +22,6 @@ class LargeBarNavigationViewController: UINavigationController {
                                  height: image?.size.height ?? 0)
         imageView.contentMode = .scaleAspectFill
         
-        let label = UILabel(frame: .zero)
-//        label.text = "Enjoy the faster and more \nconvenient way"
-        label.textColor = UIColor.black.withAlphaComponent(0.6)
-        label.font = .mediumFont(16)
-        label.numberOfLines = 0
-        label.translatesAutoresizingMaskIntoConstraints = false
-        
-        imageView.addSubview(label)
-        label.bottomAnchor(to: imageView.bottomAnchor, constant: -280)
-        label.trailingAnchor(to: imageView.trailingAnchor, constant: -16)
-        label.leadingAnchor(to: imageView.leadingAnchor, constant: 16)
-        
         return imageView
     }()
     
@@ -42,19 +30,30 @@ class LargeBarNavigationViewController: UINavigationController {
         
         navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationBar.shadowImage = UIImage()
-        navigationBar.isTranslucent = true
+        navigationBar.isTranslucent = false
         
         view.backgroundColor = .white
         view.addSubview(backgrounBar)
         view.sendSubviewToBack(backgrounBar)
     }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        let frame = backgrounBar.frame
+        backgrounBar.frame = CGRect(x: frame.origin.x,
+                                    y: frame.origin.y,
+                                    width: UIScreen.main.bounds.size.width,
+                                    height: frame.height)
+    }
+    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        let height = 0 - scrollView.contentOffset.y
+        let y = 432 - (scrollView.contentOffset.y + 166)
+        let h = max(60, y)
         let frame = backgrounBar.frame
         backgrounBar.frame = CGRect(x: 0,
-                                    y: max(min(height - 432, 0), -170) - 100,
+                                    y: -100,
                                     width: frame.width,
-                                    height: max(432, height))
+                                    height: h)
     }
 }

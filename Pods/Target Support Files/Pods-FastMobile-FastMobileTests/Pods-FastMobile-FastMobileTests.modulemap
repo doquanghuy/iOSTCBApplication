@@ -1,6 +1,0 @@
-framework module Pods_FastMobile_FastMobileTests {
-  umbrella header "Pods-FastMobile-FastMobileTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

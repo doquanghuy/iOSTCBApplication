@@ -8,7 +8,7 @@
 
 import UIKit
 import TCBService
-import Domain
+import TCBDomain
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,7 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let enviroment = TCBEnvironmentManager.shared.getEnviroment()
         TCBEnvironmentManager.shared.switchEnviroment(into: enviroment ?? .aws, isLaunchApp: true)
         
-        // test only
         autoLogin()
         
         return true
@@ -29,21 +28,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // test only
     private func autoLogin() {
-        let user = UserCredentials(email: "hoa6", password: "1")
+        
+        let userCredentials = UserCredentials(email: "hoa6", password: "1")
         let useCase = TCBUseCasesProvider().makeLoginUseCase()
         
-        useCase.adminLogin { result in
+        useCase.login(credentials: userCredentials) { [weak self] result in
             switch result {
-            case .success:
-                useCase.login(credentials: user) { [weak self] result in
-                    switch result {
-                    case let .success(user):
-                        let dashboardVC = DashboardViewController(user: user)
-                        self?.window?.rootViewController = LargeBarNavigationViewController(rootViewController: dashboardVC)
-                        self?.window?.makeKeyAndVisible()
-                    case .error: break
-                    }
-                }
+            case let .success(user):
+                
+                // fix user's type
+                let type: User.UserType =
+                    (user?.email?.contains("hoa") ?? false) ? .vinPartner : .default
+                var cloneUser = user
+                cloneUser?.type = type
+                
+                let dashboardVC = DashboardViewController(user: cloneUser)
+                self?.window?.rootViewController = LargeBarNavigationViewController(rootViewController: dashboardVC)
+                self?.window?.makeKeyAndVisible()
             case .error: break
             }
         }

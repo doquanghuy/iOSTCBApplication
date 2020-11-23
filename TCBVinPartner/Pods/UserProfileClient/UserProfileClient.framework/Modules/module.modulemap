@@ -1,6 +1,0 @@
-framework module UserProfileClient {
-  umbrella header "UserProfileClient.h"
-
-  export *
-  module * { export * }
-}

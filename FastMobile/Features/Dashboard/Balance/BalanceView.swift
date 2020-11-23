@@ -13,13 +13,14 @@ import SnapKit
 import RxSwift
 import TCBService
 import RxCocoa
-import Domain
+import TCBDomain
 
 final class BalanceView: UIView {
     
     private let disposeBag = DisposeBag()
     private var viewModel: BalanceViewModel!
     private weak var containerViewController: UIViewController?
+    private var viewWillAppear: Observable<Void> = .never()
     
     private lazy var accountPanel: TCBAccountPanel = {
         let panel = TCBAccountPanel(viewModel: nil)
@@ -32,10 +33,13 @@ final class BalanceView: UIView {
     }
     
     convenience init(viewModel: BalanceViewModel,
-                     containerViewController: UIViewController?) {
+                     containerViewController: UIViewController?,
+                     viewWillAppear: Observable<Void>) {
         self.init(frame: .zero)
         self.viewModel = viewModel
         self.containerViewController = containerViewController
+        self.viewWillAppear = viewWillAppear
+        
         bindViewModel()
     }
     
@@ -83,6 +87,10 @@ final class BalanceView: UIView {
                                                 description: account.accountNumber,
                                                 icon: UIImage(named: "ic_ac_type_current"))
             self.accountPanel.viewModel = viewModel
+        }).disposed(by: disposeBag)
+        
+        viewWillAppear.bind(onNext: { [weak self] in
+            self?.viewModel.loadProducts()
         }).disposed(by: disposeBag)
     }
     

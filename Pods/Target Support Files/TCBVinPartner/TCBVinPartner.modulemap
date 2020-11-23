@@ -1,6 +1,0 @@
-framework module TCBVinPartner {
-  umbrella header "TCBVinPartner-umbrella.h"
-
-  export *
-  module * { export * }
-}

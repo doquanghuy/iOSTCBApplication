@@ -8,11 +8,11 @@
 
 import Foundation
 import RxSwift
-import Domain
+import TCBDomain
 
 protocol AccountOptionsViewModeling {
     var title: String { get }
-    var productUseCase: Domain.ProductUseCase { get }
+    var productUseCase: TCBDomain.ProductUseCase { get }
     var accountOptions: [AccountOption] { get }
     var selectedCellIndexPath: IndexPath { get set }
     var selectedAccountOption: PublishSubject<AccountOption> { get }
@@ -29,9 +29,9 @@ class AccountOptionsViewModel: AccountOptionsViewModeling {
     
     var accountOptions: [AccountOption] = []
     
-    let productUseCase: Domain.ProductUseCase
+    let productUseCase: TCBDomain.ProductUseCase
     
-    init(productUseCase: Domain.ProductUseCase) {
+    init(productUseCase: TCBDomain.ProductUseCase) {
         self.productUseCase = productUseCase
     }
     

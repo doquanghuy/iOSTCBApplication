@@ -10,19 +10,23 @@ import Foundation
 import RxSwift
 import RxRelay
 import TCBService
-import Domain
+import TCBDomain
 
 class BalanceViewModel {
     
     private(set) var products = BehaviorRelay<[Product]>(value: [])
     
-    let productUseCase: Domain.ProductUseCase
+    let productUseCase: TCBDomain.ProductUseCase
     
-    init(productUseCase: Domain.ProductUseCase) {
+    init(productUseCase: TCBDomain.ProductUseCase) {
         self.productUseCase = productUseCase
     }
     
     func loadProducts() {
+        guard products.value.isEmpty else {
+            return
+        }
+        
         productUseCase.getProducts { [weak self] result in
             guard let self = self else { return }
             

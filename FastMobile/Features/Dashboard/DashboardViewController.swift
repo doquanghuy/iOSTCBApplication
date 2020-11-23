@@ -10,28 +10,42 @@ import Foundation
 import UIKit
 import SnapKit
 import TCBService
-import Domain
+import TCBDomain
 import TCBVinPartner
 import RxSwift
+import TCBComponents
 
 final class DashboardViewController: UIViewController {
     private let user: User?
     private let disposeBag = DisposeBag()
     
     private let scrollView = UIScrollView(frame: .zero)
+    private let containerView = UIView()
     
     private lazy var balanceView: BalanceView = {
         let useCase = TCBUseCasesProvider().makeProductUseCase()
         let viewModel = BalanceViewModel(productUseCase: useCase)
         
         return BalanceView(viewModel: viewModel,
-                           containerViewController: self)
+                           containerViewController: self,
+                           viewWillAppear: rx.sentMessage(#selector(viewWillAppear(_:)))
+                            .mapToVoid())
     }()
     
     private lazy var vinPartnerView: TCBVinPartnerView = {
         let viewModel = TCBVinPartnerViewModel()
         
-        return TCBVinPartnerView(user: user, viewModel: viewModel)
+        return TCBVinPartnerView(user: user,
+                                 viewModel: viewModel,
+                                 viewWillAppear: rx.sentMessage(#selector(viewWillAppear(_:)))
+                                    .mapToVoid())
+    }()
+    
+    private lazy var loginButton: TCBButton = {
+        let button = TCBButton(state: .active, title: "Log in")
+        button.setFontFamily(fontPath: .boldFont(16))
+        button.setCornerRadius(radius: 15)
+        return button
     }()
     
     init(user: User?) {
@@ -46,29 +60,53 @@ final class DashboardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Hello, \(user?.email ?? "")"
+        title = "Hello, \(user?.email ?? "User")"
         view.accessibilityIdentifier = "DashboardViewController"
         navigationController?.navigationBar.prefersLargeTitles = true
-        additionalSafeAreaInsets.top = 432 - 64 - 76
+        additionalSafeAreaInsets.top = 50
+        extendedLayoutIncludesOpaqueBars = true
         
         setupLayouts()
         bindViewModels()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        title = "Hello, \(user?.email ?? "User")"
+        loginButton.isHidden = !(user?.email?.isEmpty ?? true)
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        containerView.snp.updateConstraints { make in
+            make.width.equalTo(view.bounds.width)
+            make.height.equalTo(view.bounds.height)
+        }
+    }
+    
     private func setupLayouts() {
+        
         scrollView.delegate = self
         view.addSubview(scrollView)
-
+        
+        scrollView.contentOffset = .zero
         scrollView.snp.makeConstraints { make in
-            make.bottom.leading.trailing.equalToSuperview()
-            make.top.equalToSuperview().inset(-150)
+            make.top.bottom.leading.trailing.equalToSuperview()
         }
-
-        let containerView = UIView()
-
+        
+        scrollView.addSubview(loginButton)
+        loginButton.snp.makeConstraints { make in
+            make.top.leading.equalToSuperview().inset(16)
+            make.width.equalTo(80)
+            make.height.equalTo(30)
+        }
+        
         scrollView.addSubview(containerView)
         containerView.snp.makeConstraints { make in
-            make.leading.trailing.top.bottom.equalTo(scrollView.contentLayoutGuide)
+            make.leading.trailing.bottom.equalTo(scrollView.contentLayoutGuide)
+            make.top.equalTo(loginButton.snp.bottom).offset(70)
             make.width.equalTo(view.bounds.width)
             make.height.equalTo(view.bounds.height)
         }
@@ -79,7 +117,7 @@ final class DashboardViewController: UIViewController {
         containerView.addSubview(bgView)
         bgView.snp.makeConstraints { make in
             make.leading.trailing.bottom.equalToSuperview()
-            make.top.equalToSuperview().inset(48)
+            make.top.equalToSuperview().inset(50)
         }
         
         containerView.addSubview(balanceView)
@@ -100,6 +138,11 @@ final class DashboardViewController: UIViewController {
             .drive(onNext: { [weak self] type in
                 self?.didSelectQuickAction(type: type)
             }).disposed(by: disposeBag)
+        
+        loginButton.rx.tap.asDriver().drive(onNext: {
+            // TODO: show login screen
+        }).disposed(by: disposeBag)
+        
     }
     
     private func didSelectQuickAction(type: TCBQuickActionModel.ActionType) {

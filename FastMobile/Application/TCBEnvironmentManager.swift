@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-import Domain
+import TCBDomain
 import TCBService
 
 public class TCBEnvironmentManager {
